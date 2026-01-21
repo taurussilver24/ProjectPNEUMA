@@ -1,0 +1,1011 @@
+/dataset.zip
+/models
+/models/qwen2.5-3b-instruct-q4_k_m.gguf
+/test_gpu
+/test_gpu.cpp
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/ProjectPNEUMA.iml
+/.idea/vcs.xml
+/dataset/2601.07192v1_Relink Constructing Query-Driven Evidence Graph On.pdf
+/dataset/2601.07197v1_Beyond Variance Knowledge-Aware LLM Compression vi.pdf
+/dataset/2601.07199v1_Forward versus Backward Comparing Reasoning Object.pdf
+/dataset/2601.07200v1_Safeguarding LLM Fine-tuning via Push-Pull Distrib.pdf
+/dataset/2601.07201v1_CalPro Prior-Aware Evidential--Conformal Predictio.pdf
+/dataset/2601.07206v1_LLMRouterBench A Massive Benchmark and Unified Fra.pdf
+/dataset/2601.07209v1_SIRR-LMM Single-image Reflection Removal via Large.pdf
+/dataset/2601.07214v1_BlindU Blind Machine Unlearning without Revealing .pdf
+/dataset/2601.07224v1_Consolidation or Adaptation PRISM Disentangling SF.pdf
+/dataset/2601.07226v1_Lost in the Noise How Reasoning Models Fail with C.pdf
+/dataset/2601.07229v2_DiSCo Making Absence Visible in Intelligent Summar.pdf
+/dataset/2601.07232v1_Yes FLoReNce I Will Do Better Next Time Agentic Fe.pdf
+/dataset/2601.07233v1_From Thinking to Justifying Aligning High-Stakes E.pdf
+/dataset/2601.07238v1_Group Pattern Selection Optimization Let LRMs Pick.pdf
+/dataset/2601.07239v1_Stochastic CHAOS Why Deterministic Inference Kills.pdf
+/dataset/2601.07245v1_Learning to Trust the Crowd A Multi-Model Consensu.pdf
+/dataset/2601.07250v1_DDT A Dual-Masking Dual-Expert Transformer for Ene.pdf
+/dataset/2601.07261v1_Pseudodata-guided Invariant Representation Learnin.pdf
+/dataset/2601.07263v1_When Bots Take the Bait Exposing and Mitigating th.pdf
+/dataset/2601.07291v1_A Visual Semantic Adaptive Watermark grounded by P.pdf
+/dataset/2601.07292v1_Photometric Redshift Estimation Using Scaled Ensem.pdf
+/dataset/2601.07296v1_LRAS Advanced Legal Reasoning with Agentic Search.pdf
+/dataset/2601.07304v1_Heterogeneous Multi-Expert Reinforcement Learning .pdf
+/dataset/2601.07309v1_ARM Role-Conditioned Neuron Transplantation for Tr.pdf
+/dataset/2601.07313v1_Explaining Machine Learning Predictive Models thro.pdf
+/dataset/2601.07315v1_VLM-CAD VLM-Optimized Collaborative Agent Design W.pdf
+/dataset/2601.07316v1_BEAT-Net Injecting Biomimetic Spatio-Temporal Prio.pdf
+/dataset/2601.07320v1_Segmental Advantage Estimation Enhancing PPO for L.pdf
+/dataset/2601.07342v1_Agentic Diagnostic Reasoning over Telecom and Data.pdf
+/dataset/2601.07344v1_PulseMind A Multi-Modal Medical Model for Real-Wor.pdf
+/dataset/2601.07348v4_Controlled Self-Evolution for Algorithmic Code Opt.pdf
+/dataset/2601.07351v2_Beyond Hard Masks Progressive Token Evolution for .pdf
+/dataset/2601.07356v1_Efficient Convolutional Forward Model for Passive .pdf
+/dataset/2601.07359v1_Seeing Right but Saying Wrong Inter- and Intra-Lay.pdf
+/dataset/2601.07364v1_On the universal definition of intelligence.pdf
+/dataset/2601.07372v1_Conditional Memory via Scalable Lookup A New Axis .pdf
+/dataset/2601.07376v1_OpenTinker Separating Concerns in Agentic Reinforc.pdf
+/dataset/2601.07377v1_Learning Dynamic Collaborative Network for Semi-su.pdf
+/dataset/2601.07389v1_On the Non-decoupling of Supervised Fine-tuning an.pdf
+/dataset/2601.07392v1_OceanSAR-2 A Universal Feature Extractor for SAR O.pdf
+/dataset/2601.07393v1_Software-Hardware Co-optimization for Modular E2E .pdf
+/dataset/2601.07395v1_MCP-ITP An Automated Framework for Implicit Tool P.pdf
+/dataset/2601.07397v1_Layerwise goal-oriented adaptivity for neural ODEs.pdf
+/dataset/2601.07411v1_SCALPEL Selective Capability Ablation via Low-rank.pdf
+/dataset/2601.07422v1_Two Pathways to Truthfulness On the Intrinsic Enco.pdf
+/dataset/2601.07430v1_KALE Enhancing Knowledge Manipulation in Large Lan.pdf
+/dataset/2601.07449v1_RLPO Residual Listwise Preference Optimization for.pdf
+/dataset/2601.07463v1_Puzzle it Out Local-to-Global World Model for Offl.pdf
+/dataset/2601.07464v1_IFDNS An Iterative Feedback-Driven Neuro-Symbolic .pdf
+/dataset/2601.07468v1_Beyond Dialogue Time Temporal Semantic Memory for .pdf
+/dataset/2601.07469v1_Knowledge Distillation for LLM-Based Human Activit.pdf
+/dataset/2601.07470v1_Learning How to Remember A Meta-Cognitive Manageme.pdf
+/dataset/2601.07474v1_Task Prototype-Based Knowledge Retrieval for Multi.pdf
+/dataset/2601.07475v1_ARCQuant Boosting NVFP4 Quantization with Augmente.pdf
+/dataset/2601.07477v1_JudgeFlow Agentic Workflow Optimization via Block .pdf
+/dataset/2601.07496v1_Graph Inference Towards ICD Coding.pdf
+/dataset/2601.07514v1_Data-Driven Stochastic VRP Integration of Forecast.pdf
+/dataset/2601.07516v1_Controlling Multimodal Conversational Agents with .pdf
+/dataset/2601.07518v1_Mon3tr Monocular 3D Telepresence with Pre-built Ga.pdf
+/dataset/2601.07525v1_Thinking Before Constraining A Unified Decoding Fr.pdf
+/dataset/2601.07528v1_From RAG to Agentic RAG for Faithful Islamic Quest.pdf
+/dataset/2601.07553v1_VirtualEnv A Platform for Embodied AI Research.pdf
+/dataset/2601.07556v1_Backpropagation-Free Test-Time Adaptation for Ligh.pdf
+/dataset/2601.07565v1_A Unified Framework for Emotion Recognition and Se.pdf
+/dataset/2601.07568v1_d3LLM Ultra-Fast Diffusion LLM using Pseudo-Trajec.pdf
+/dataset/2601.07573v1_A Model of Artificial Jagged Intelligence.pdf
+/dataset/2601.07577v1_Beyond Entangled Planning Task-Decoupled Planning .pdf
+/dataset/2601.07580v1_Large Language Models for Physics Instrument Desig.pdf
+/dataset/2601.07582v2_ES-Mem Event Segmentation-Based Memory for Long-Te.pdf
+/dataset/2601.07597v1_Pheromone-Focused Ant Colony Optimization algorith.pdf
+/dataset/2601.07606v1_Proof of Time A Benchmark for Evaluating Scientifi.pdf
+/dataset/2601.07611v1_DIAGPaper Diagnosing Valid and Specific Weaknesses.pdf
+/dataset/2601.07618v1_Neural Architecture for Fast and Reliable Coagulat.pdf
+/dataset/2601.07632v2_GeoMotionGPT Geometry-Aligned Motion Understanding.pdf
+/dataset/2601.07635v2_Learning About Learning A Physics Path from Spin G.pdf
+/dataset/2601.07638v1_SALT-KG A Benchmark for Semantics-Aware Learning o.pdf
+/dataset/2601.07641v1_Beyond Static Tools Test-Time Tool Evolution for S.pdf
+/dataset/2601.07651v1_Active Evaluation of General Agents Problem Defini.pdf
+/dataset/2601.07654v1_Towards Automating Blockchain Consensus Verificati.pdf
+/dataset/2601.07663v2_Reasoning Models Will Blatantly Lie About Their Re.pdf
+/dataset/2601.07666v1_Variational Contrastive Learning for Skeleton-base.pdf
+/dataset/2601.07667v1_Adaptive Layer Selection for Layer-Wise Token Prun.pdf
+/dataset/2601.07685v1_Predictive Analytics for Dementia Machine Learning.pdf
+/dataset/2601.07701v1_Deep Whole-body Parkour.pdf
+/dataset/2601.07718v1_Hiking in the Wild A Scalable Perceptive Parkour F.pdf
+/dataset/2601.07737v1_Evaluating the encoding competence of visual langu.pdf
+/dataset/2601.07748v1_Improving Domain Generalization in Contrastive Lea.pdf
+/dataset/2601.07778v1_DT-ICU Towards Explainable Digital Twins for ICU P.pdf
+/dataset/2601.07779v1_OS-Symphony A Holistic Framework for Robust and Ge.pdf
+/dataset/2601.07782v1_Beyond Single-Shot Multi-step Tool Retrieval via Q.pdf
+/dataset/2601.07790v1_Benchmarking Small Language Models and Small Reaso.pdf
+/dataset/2601.07794v1_Kinship Data Benchmark for Multi-hop Reasoning.pdf
+/dataset/2601.07821v1_Failure-Aware RL Reliable Offline-to-Online Reinfo.pdf
+/dataset/2601.07832v2_MHLA Restoring Expressivity of Linear Attention vi.pdf
+/dataset/2601.07885v1_Small Symbols Big Risks Exploring Emoticon Semanti.pdf
+/dataset/2601.07891v1_KVzap Fast Adaptive and Faithful KV Cache Pruning.pdf
+/dataset/2601.07892v1_Sherry Hardware-Efficient 1.25-Bit Ternary Quantiz.pdf
+/dataset/2601.07894v1_Revealing the Attention Floating Mechanism in Mask.pdf
+/dataset/2601.07898v1_Large Language Models and Algorithm Execution Appl.pdf
+/dataset/2601.07901v1_Decentralized Online Convex Optimization with Unkn.pdf
+/dataset/2601.07903v2_Enhancing Large Language Models for Time-Series Fo.pdf
+/dataset/2601.07935v1_Towards Specialized Generalists A Multi-Task MoE-L.pdf
+/dataset/2601.07939v1_SECite Analyzing and Summarizing Citations in Soft.pdf
+/dataset/2601.07941v2_Moonworks Lunara Aesthetic Dataset.pdf
+/dataset/2601.07946v1_Coupled Diffusion-Encoder Models for Reconstructio.pdf
+/dataset/2601.07948v1_Reinforcement Learning Methods for Neighborhood Se.pdf
+/dataset/2601.07951v1_Hybrid SARIMA LSTM Model for Local Weather Forecas.pdf
+/dataset/2601.07953v1_Quantum automated theorem proving.pdf
+/dataset/2601.07957v1_LWMSCNN-SE A Lightweight Multi-Scale Network for E.pdf
+/dataset/2601.07958v1_LJ-Spoof A Generatively Varied Corpus for Audio An.pdf
+/dataset/2601.07964v1_Executable Ontologies in Game Development From Alg.pdf
+/dataset/2601.07965v1_When Models Know When They Do Not Know Calibration.pdf
+/dataset/2601.07969v1_Tuberculosis Screening from Cough Audio Baseline M.pdf
+/dataset/2601.07973v1_Cultural Compass A Framework for Organizing Societ.pdf
+/dataset/2601.07988v1_From Word Sequences to Behavioral Sequences Adapti.pdf
+/dataset/2601.07994v2_DYCP Dynamic Context Pruning for Long-Form Dialogu.pdf
+/dataset/2601.08000v1_Reasoning over Precedents Alongside Statutes Case-.pdf
+/dataset/2601.08003v1_LLM Review Enhancing Creative Writing via Blind Pe.pdf
+/dataset/2601.08005v1_Internal Deployment Gaps in AI Regulation.pdf
+/dataset/2601.08011v1_TP-Blend Textual-Prompt Attention Pairing for Prec.pdf
+/dataset/2601.08017v1_Representations of Text and Images Align From Laye.pdf
+/dataset/2601.08026v2_FigEx2 Visual-Conditioned Panel Detection and Capt.pdf
+/dataset/2601.08043v1_The Role of Noisy Data in Improving CNN Robustness.pdf
+/dataset/2601.08049v1_Integrating Attendance Tracking and Emotion Detect.pdf
+/dataset/2601.08052v1_Forecast Aware Deep Reinforcement Learning for Eff.pdf
+/dataset/2601.08058v1_Reasoning Beyond Chain-of-Thought A Latent Computa.pdf
+/dataset/2601.08065v1_A New Strategy for Verifying Reach-Avoid Specifica.pdf
+/dataset/2601.08070v1_Semantic Gravity Wells Why Negative Constraints Ba.pdf
+/dataset/2601.08079v1_MemoBrain Executive Memory as an Agentic Brain for.pdf
+/dataset/2601.08089v1_Q-realign Piggybacking Realignment on Quantization.pdf
+/dataset/2601.08094v1_Local-Global Feature Fusion for Subject-Independen.pdf
+/dataset/2601.08104v1_High-Fidelity Modeling of Stochastic Chemical Dyna.pdf
+/dataset/2601.08107v1_STO-RL Offline RL under Sparse Rewards via LLM-Gui.pdf
+/dataset/2601.08108v1_Debiasing Large Language Models via Adaptive Causa.pdf
+/dataset/2601.08109v1_CSQL Mapping Documents into Causal Databases.pdf
+/dataset/2601.08118v1_MirrorBench An Extensible Framework to Evaluate Us.pdf
+/dataset/2601.08125v1_How vehicles change lanes after encountering crash.pdf
+/dataset/2601.08127v1_PathoGen Diffusion-Based Synthesis of Realistic Le.pdf
+/dataset/2601.08128v1_Embedded AI Companion System on Edge Devices.pdf
+/dataset/2601.08133v1_How Do Optical Flow and Textual Prompts Collaborat.pdf
+/dataset/2601.08139v1_Subspace Alignment for Vision-Language Model Test-.pdf
+/dataset/2601.08141v1_Qalb Largest State-of-the-Art Urdu Large Language .pdf
+/dataset/2601.08146v2_Mechanisms are Transferable Data-Efficient Low-Res.pdf
+/dataset/2601.08148v1_Enriching Semantic Profiles into Knowledge Graph f.pdf
+/dataset/2601.08149v1_Dynamic Graph Structure Learning via Resistance Cu.pdf
+/dataset/2601.08156v1_Project Synapse A Hierarchical Multi-Agent Framewo.pdf
+/dataset/2601.08160v1_SwiftMem Fast Agentic Memory via Query-aware Index.pdf
+/dataset/2601.08166v1_ZeroDVFS Zero-Shot LLM-Guided Core and Frequency A.pdf
+/dataset/2601.08173v1_The Agents First Day Benchmarking Learning Explora.pdf
+/dataset/2601.08176v1_Prompt-Based Clarity Evaluation and Topic Detectio.pdf
+/dataset/2601.08179v1_Instruction-Driven 3D Facial Expression Generation.pdf
+/dataset/2601.08183v2_GI-Bench A Panoramic Benchmark Revealing the Knowl.pdf
+/dataset/2601.08185v1_Autonomous Materials Exploration by Integrating Au.pdf
+/dataset/2601.08187v2_Improving LLM Reasoning with Homophily-aware Struc.pdf
+/dataset/2601.08189v2_ForgetMark Stealthy Fingerprint Embedding via Targ.pdf
+/dataset/2601.08196v1_Evaluating Implicit Regulatory Compliance in LLM T.pdf
+/dataset/2601.08211v1_Adapting Rules of Official International Mahjong f.pdf
+/dataset/2601.08223v2_DNF Dual-Layer Nested Fingerprinting for Large Lan.pdf
+/dataset/2601.08224v1_An Axiomatic Approach to General Intelligence SANC.pdf
+/dataset/2601.08226v1_Knowledge-based learning in Text-RAG and Image-RAG.pdf
+/dataset/2601.08230v1_GADPN Graph Adaptive Denoising and Perturbation Ne.pdf
+/dataset/2601.08235v2_MPCI-Bench A Benchmark for Multimodal Pairwise Con.pdf
+/dataset/2601.08237v1_The End of Reward Engineering How LLMs Are Redefin.pdf
+/dataset/2601.08251v1_Hyperbolic Heterogeneous Graph Transformer.pdf
+/dataset/2601.08254v1_Large Artificial Intelligence Model Guided Deep Re.pdf
+/dataset/2601.08257v2_On Evaluation of Unsupervised Feature Selection fo.pdf
+/dataset/2601.08258v1_T3 Benchmarking Sycophancy and Skepticism in Causa.pdf
+/dataset/2601.08262v1_VGG Induced Deep Hand Sign Language Detection.pdf
+/dataset/2601.08271v1_Sparsity Is Necessary Polynomial-Time Stability fo.pdf
+/dataset/2601.08273v1_HIPPO Accelerating Video Large Language Models Inf.pdf
+/dataset/2601.08276v1_ToolACE-MCP Generalizing History-Aware Routing fro.pdf
+/dataset/2601.08280v1_Greedy Is Enough Sparse Action Discovery in Agenti.pdf
+/dataset/2601.08288v1_OpenMic A Multi-Agent-Based Stand-Up Comedy Genera.pdf
+/dataset/2601.08297v1_Demystifying the Slash Pattern in Attention The Ro.pdf
+/dataset/2601.08302v1_Enhancing Sentiment Classification and Irony Detec.pdf
+/dataset/2601.08310v1_ORBIT On-policy Exploration-Exploitation for Contr.pdf
+/dataset/2601.08311v1_Enhancing Image Quality Assessment Ability of LMMs.pdf
+/dataset/2601.08323v1_AtomMem  Learnable Dynamic Agentic Memory with Ato.pdf
+/dataset/2601.08327v1_Safe Heterogeneous Multi-Agent RL with Communicati.pdf
+/dataset/2601.08332v1_IGAN A New Inception-based Model for Stable and Hi.pdf
+/dataset/2601.08333v1_Semantic Laundering in AI Agent Architectures Why .pdf
+/dataset/2601.08360v1_Scalable Sequential Recommendation under Latency a.pdf
+/dataset/2601.08371v1_Geo-NVS-w Geometry-Aware Novel View Synthesis In-t.pdf
+/dataset/2601.08379v1_Training-Free Distribution Adaptation for Diffusio.pdf
+/dataset/2601.08380v1_Thematic Working Group 5 -- Artificial Intelligenc.pdf
+/dataset/2601.08382v2_A Qualitative Model to Reason about Object Rotatio.pdf
+/dataset/2601.08383v1_Deconstructing Pre-training Knowledge Attribution .pdf
+/dataset/2601.08388v1_Creativity in AI as Emergence from Domain-Limited .pdf
+/dataset/2601.08393v1_Controlled LLM Training on Spectral Sphere.pdf
+/dataset/2601.08401v1_An Explainable Two Stage Deep Learning Framework f.pdf
+/dataset/2601.08402v1_PATS Personality-Aware Teaching Strategies with La.pdf
+/dataset/2601.08403v1_Owen-Shapley Policy Optimization OSPO A Principled.pdf
+/dataset/2601.08406v1_WebTrap Park An Automated Platform for Systematic .pdf
+/dataset/2601.08412v1_Hybrid Distillation with CoT Guidance for Edge-Dro.pdf
+/dataset/2601.08415v2_Regulatory gray areas of LLM Terms.pdf
+/dataset/2601.08418v1_Taxon Hierarchical Tax Code Prediction with Semant.pdf
+/dataset/2601.08430v1_RubricHub A Comprehensive and Highly Discriminativ.pdf
+/dataset/2601.08434v3_Large Multimodal Models for Embodied Intelligent D.pdf
+/dataset/2601.08441v1_YaPO Learnable Sparse Activation Steering Vectors .pdf
+/dataset/2601.08444v1_Beyond Linearization Attributed Table Graphs for T.pdf
+/dataset/2601.08448v1_Divide and Conquer Static-Dynamic Collaboration fo.pdf
+/dataset/2601.08450v1_Decoding Order Matters in Autoregressive Speech Sy.pdf
+/dataset/2601.08457v1_An Under-Explored Application for Explainable Mult.pdf
+/dataset/2601.08462v1_M3-BENCH Process-Aware Evaluation of LLM Agents So.pdf
+/dataset/2601.08464v1_CoMa Contextual Massing Generation with Vision-Lan.pdf
+/dataset/2601.08468v1_JudgeRLVR Judge First Generate Second for Efficien.pdf
+/dataset/2601.08472v1_sui-1 Grounded and Verifiable Long-Form Summarizat.pdf
+/dataset/2601.08475v1_SUMMPILOT Bridging Efficiency and Customization fo.pdf
+/dataset/2601.08490v1_BenchOverflow Measuring Overflow in Large Language.pdf
+/dataset/2601.08493v1_PKI Prior Knowledge-Infused Neural Network for Few.pdf
+/dataset/2601.08499v2_EfficientFSL Enhancing Few-Shot Classification via.pdf
+/dataset/2601.08503v1_Temporal Fusion Nexus A task-agnostic multi-modal .pdf
+/dataset/2601.08509v1_What If TSF A Benchmark for Reframing Forecasting .pdf
+/dataset/2601.08510v2_STAGE A Benchmark for Knowledge Graph Construction.pdf
+/dataset/2601.08519v1_CD2 Constrained Dataset Distillation for Few-Shot .pdf
+/dataset/2601.08531v1_Sketch-Based Facade Renovation With Generative AI .pdf
+/dataset/2601.08545v2_Learner-Tailored Program Repair A Solution Generat.pdf
+/dataset/2601.08549v1_Contrastive and Multi-Task Learning on Noisy Brain.pdf
+/dataset/2601.08557v1_VideoHEDGE Entropy-Based Hallucination Detection f.pdf
+/dataset/2601.08559v1_WaterCopilot An AI-Driven Virtual Assistant for Wa.pdf
+/dataset/2601.08565v1_Rewriting Video Text-Driven Reauthoring of Video F.pdf
+/dataset/2601.08602v1_WaveFormer Frequency-Time Decoupled Vision Modelin.pdf
+/dataset/2601.08605v1_ExpSeek Self-Triggered Experience Seeking for Web .pdf
+/dataset/2601.08611v1_VeriTaS The First Dynamic Benchmark for Multimodal.pdf
+/dataset/2601.08620v1_ViDoRe V3 A Comprehensive Evaluation of Retrieval .pdf
+/dataset/2601.08623v1_SafeRedir Prompt Embedding Redirection for Robust .pdf
+/dataset/2601.08631v1_M2FMoE Multi-Resolution Multi-View Frequency Mixtu.pdf
+/dataset/2601.08634v1_Moral Lenses Political Coordinates Towards Ideolog.pdf
+/dataset/2601.08641v1_Resisting Manipulative Bots in Memecoin Copy Tradi.pdf
+/dataset/2601.08653v1_Prism Towards Lowering User Cognitive Load in LLMs.pdf
+/dataset/2601.08654v1_RULERS Locked Rubrics and Evidence-Anchored Scorin.pdf
+/dataset/2601.08659v1_TRACE Reconstruction-Based Anomaly Detection in En.pdf
+/dataset/2601.08662v1_From Classical to Quantum Reinforcement Learning a.pdf
+/dataset/2601.08670v1_Parallel Context-of-Experts Decoding for Retrieval.pdf
+/dataset/2601.08673v1_Why AI Alignment Failure Is Structural Learned Hum.pdf
+/dataset/2601.08676v2_Advancing ESG Intelligence An Expert-level Agent a.pdf
+/dataset/2601.08679v1_PersonaDual Balancing Personalization and Objectiv.pdf
+/dataset/2601.08682v1_Lessons from the Field An Adaptable Lifecycle Appr.pdf
+/dataset/2601.08683v1_Region of interest detection for efficient aortic .pdf
+/dataset/2601.08684v1_MEMEWEAVER Inter-Meme Graph Reasoning for Sexism a.pdf
+/dataset/2601.08690v1_All Required In Order Phase-Level Evaluation for A.pdf
+/dataset/2601.08697v2_Auditing Student-AI Collaboration A Case Study of .pdf
+/dataset/2601.08703v1_Evaluating the Ability of Explanations to Disambig.pdf
+/dataset/2601.08713v1_Real-Time Localization Framework for Autonomous Ba.pdf
+/dataset/2601.08731v1_Learning from Demonstrations via Capability-Aware .pdf
+/dataset/2601.08732v1_ISLA A U-Net for MRI-based acute ischemic stroke l.pdf
+/dataset/2601.08734v1_TerraFormer Automated Infrastructure-as-Code with .pdf
+/dataset/2601.08743v1_TableCache Primary Foreign Key Guided KV Cache Pre.pdf
+/dataset/2601.08747v2_To Retrieve or To Think An Agentic Approach for Co.pdf
+/dataset/2601.08753v1_Grid-Aware Charging and Operational Optimization f.pdf
+/dataset/2601.08768v1_AI as Entertainment.pdf
+/dataset/2601.08773v1_Reliable Graph-RAG for Codebases AST-Derived Graph.pdf
+/dataset/2601.08776v1_Translating Light-Sheet Microscopy Images to Virtu.pdf
+/dataset/2601.08777v1_Asymptotic Universal Alignment A New Alignment Fra.pdf
+/dataset/2601.08778v3_Pervasive Annotation Errors Break Text-to-SQL Benc.pdf
+/dataset/2601.08785v1_Uncovering Political Bias in Large Language Models.pdf
+/dataset/2601.08806v1_APEX-SWE.pdf
+/dataset/2601.08807v1_S3-CLIP Video Super Resolution for Person-ReID.pdf
+/dataset/2601.08808v1_Multiplex Thinking Reasoning via Token-wise Branch.pdf
+/dataset/2601.08811v1_Reasoning Matters for 3D Visual Grounding.pdf
+/dataset/2601.08816v2_MemRec Collaborative Memory-Augmented Agentic Reco.pdf
+/dataset/2601.08828v1_Motion Attribution for Video Generation.pdf
+/dataset/2601.08829v1_Modeling LLM Agent Reviewer Dynamics in Elo-Ranked.pdf
+/dataset/2601.08873v1_ForensicFormer Hierarchical Multi-Scale Reasoning .pdf
+/dataset/2601.08874v1_The Illusion of Friendship Why Generative AI Deman.pdf
+/dataset/2601.08875v2_Learning Domain-Invariant Representations for Cros.pdf
+/dataset/2601.08881v1_TAG-MoE Task-Aware Gating for Unified Generative M.pdf
+/dataset/2601.08882v1_Compressing Vision Transformers in Geospatial Tran.pdf
+/dataset/2601.08884v1_Bridging the Gap Empowering Small Models in Reliab.pdf
+/dataset/2601.08891v1_Attention Consistency Regularization for Interpret.pdf
+/dataset/2601.08892v1_Evaluating Role-Consistency in LLMs for Counselor .pdf
+/dataset/2601.08896v1_XGBoost Forecasting of NEPSE Index Log Returns wit.pdf
+/dataset/2601.08901v1_Navigating Ideation Space Decomposed Conceptual Re.pdf
+/dataset/2601.08910v1_Towards a Self-Driving Trigger at the LHC Adaptive.pdf
+/dataset/2601.08950v1_ConvoLearn A Dataset of Constructivist Tutor-Stude.pdf
+/dataset/2601.08951v1_PluriHarms Benchmarking the Full Spectrum of Human.pdf
+/dataset/2601.08953v1_Fairness risk and its privacy-enabled solution in .pdf
+/dataset/2601.08955v1_Imagine-then-Plan Agent Learning from Adaptive Loo.pdf
+/dataset/2601.08988v1_ART Action-based Reasoning Task Benchmarking for M.pdf
+/dataset/2601.09012v3_TranslateGemma Technical Report.pdf
+/dataset/2601.09018v1_Meta-learning to Address Data Shift in Time Series.pdf
+/dataset/2601.09028v1_OpenDecoder Open Large Language Model Decoding to .pdf
+/dataset/2601.09029v1_Proactively Detecting Threats A Novel Approach Usi.pdf
+/dataset/2601.09031v1_Generalizable Geometric Prior and Recurrent Spikin.pdf
+/dataset/2601.09032v1_The Hierarchy of Agentic Capabilities Evaluating F.pdf
+/dataset/2601.09035v1_A Decompilation-Driven Framework for Malware Detec.pdf
+/dataset/2601.09041v1_Can LLMs interpret figurative language as humans d.pdf
+/dataset/2601.09049v1_Is Grokking Worthwhile Functional Analysis and Tra.pdf
+/dataset/2601.09066v1_Midm 2.0 Korea-centric Bilingual Language Models.pdf
+/dataset/2601.09069v1_From Symbolic to Natural-Language Relations Rethin.pdf
+/dataset/2601.09072v1_Human-AI Co-design for Clinical Prediction Models.pdf
+/dataset/2601.09085v1_MMR-GRPO Accelerating GRPO-Style Training through .pdf
+/dataset/2601.09089v1_SubTokenTest A Practical Benchmark for Real-World .pdf
+/dataset/2601.09097v1_Programming over Thinking Efficient and Robust Mul.pdf
+/dataset/2601.09100v2_DScheLLM Enabling Dynamic Scheduling through a Fin.pdf
+/dataset/2601.09105v2_AviationLMM A Large Multimodal Foundation Model fo.pdf
+/dataset/2601.09113v1_The AI Hippocampus How Far are We From Human Memor.pdf
+/dataset/2601.09116v1_LP-LLM End-to-End Real-World Degraded License Plat.pdf
+/dataset/2601.09117v1_A Marketplace for AI-Generated Adult Content and D.pdf
+/dataset/2601.09120v1_Adaptive Multi-Stage Patent Claim Generation with .pdf
+/dataset/2601.09130v1_Equi-ViT Rotational Equivariant Vision Transformer.pdf
+/dataset/2601.09136v1_SkinFlow Efficient Information Transmission for Op.pdf
+/dataset/2601.09147v2_SSVP Synergistic Semantic-Visual Prompting for Ind.pdf
+/dataset/2601.09152v1_PrivacyReasoner Can LLM Emulate a Human-like Priva.pdf
+/dataset/2601.09156v1_KTCF Actionable Recourse in Knowledge Tracing via .pdf
+/dataset/2601.09182v1_Position on LLM-Assisted Peer Review Addressing Re.pdf
+/dataset/2601.09195v1_ProFit Leveraging High-Value Signals in SFT via Pr.pdf
+/dataset/2601.09208v2_Mikasa A Character-Driven Emotional AI Companion I.pdf
+/dataset/2601.09212v1_Annealed Relaxation of Speculative Decoding for Fa.pdf
+/dataset/2601.09213v1_SpikeVAEDiff Neural Spike-based Natural Visual Sce.pdf
+/dataset/2601.09233v1_GIFT Unlocking Global Optimality in Post-Training .pdf
+/dataset/2601.09236v2_Reward Learning through Ranking Mean Squared Error.pdf
+/dataset/2601.09239v2_DSA-Tokenizer Disentangled Semantic-Acoustic Token.pdf
+/dataset/2601.09248v1_Hybrid guided variational autoencoder for visual p.pdf
+/dataset/2601.09251v1_HGATSolver A Heterogeneous Graph Attention Solver .pdf
+/dataset/2601.09253v1_RIFT Repurposing Negative Samples via Reward-Infor.pdf
+/dataset/2601.09259v1_MAXS Meta-Adaptive Exploration with LLM Agents.pdf
+/dataset/2601.09260v1_Efficient Paths and Dense Rewards Probabilistic Fl.pdf
+/dataset/2601.09262v1_Magnifying change Rapid burn scar mapping with mul.pdf
+/dataset/2601.09264v1_Coordinated Pandemic Control with Large Language M.pdf
+/dataset/2601.09269v2_RISER Orchestrating Latent Reasoning Skills for Ad.pdf
+/dataset/2601.09274v1_A3-Bench Benchmarking Memory-Driven Scientific Rea.pdf
+/dataset/2601.09278v1_M3Searcher Modular Multimodal Information Seeking .pdf
+/dataset/2601.09280v1_ReGraM Region-First Knowledge Graph Reasoning for .pdf
+/dataset/2601.09281v1_STaR Sensitive Trajectory Regulation for Unlearnin.pdf
+/dataset/2601.09282v1_Cluster Workload Allocation Semantic Soft Affinity.pdf
+/dataset/2601.09286v1_Why not Collaborative Filtering in Dual View Bridg.pdf
+/dataset/2601.09292v1_Blue Teaming Function-Calling Agents.pdf
+/dataset/2601.09293v1_Policy-Based Reinforcement Learning with Action Ma.pdf
+/dataset/2601.09306v1_On-Device Large Language Models for Sequential Rec.pdf
+/dataset/2601.09313v1_Understanding or Memorizing A Case Study of German.pdf
+/dataset/2601.09342v1_Improving Implicit Hate Speech Detection via a Com.pdf
+/dataset/2601.09351v1_Navigating Ethical AI Challenges in the Industrial.pdf
+/dataset/2601.09353v1_Monte-Carlo Tree Search with Neural Network Guidan.pdf
+/dataset/2601.09361v1_GeoRA Geometry-Aware Low-Rank Adaptation for RLVR.pdf
+/dataset/2601.09365v1_Frame of Reference Addressing the Challenges of Co.pdf
+/dataset/2601.09381v1_Query Languages for Machine-Learning Models.pdf
+/dataset/2601.09382v1_Long-term Task-oriented Agent Proactive Long-term .pdf
+/dataset/2601.09394v2_FairGE Fairness-Aware Graph Encoding in Incomplete.pdf
+/dataset/2601.09398v1_Ability Transfer and Recovery via Modularized Para.pdf
+/dataset/2601.09413v1_Speech-Hands A Self-Reflection Voice Agentic Appro.pdf
+/dataset/2601.09416v1_Radiomics-Integrated Deep Learning with Hierarchic.pdf
+/dataset/2601.09421v2_Bias Dynamics in BabyLMs Towards a Compute-Efficie.pdf
+/dataset/2601.09433v1_Do Transformers Understand Ancient Roman Coin Moti.pdf
+/dataset/2601.09445v1_Where Knowledge Collides A Mechanistic Study of In.pdf
+/dataset/2601.09446v1_Improving Symbolic Translation of Language Models .pdf
+/dataset/2601.09448v1_Population-Aligned Audio Reproduction With LLM-Bas.pdf
+/dataset/2601.09451v1_Late Breaking Results Quamba-SE Soft-edge Quantize.pdf
+/dataset/2601.09455v1_On the Hardness of Computing Counterfactual and Se.pdf
+/dataset/2601.09460v1_SoK Enhancing Cryptographic Collaborative Learning.pdf
+/dataset/2601.09465v1_EvoFSM Controllable Self-Evolution for Deep Resear.pdf
+/dataset/2601.09467v1_Searth Transformer A Transformer Architecture Inco.pdf
+/dataset/2601.09469v2_FairGU Fairness-aware Graph Unlearning in Social N.pdf
+/dataset/2601.09470v1_Personalized Multimodal Feedback Using Multiple Ex.pdf
+/dataset/2601.09473v1_SimMerge Learning to Select Merge Operators from S.pdf
+/dataset/2601.09478v3_Bridging Semantic Understanding and Popularity Bia.pdf
+/dataset/2601.09503v1_What Do LLM Agents Know About Their World Task2Qui.pdf
+/dataset/2601.09518v1_Learning Whole-Body Human-Humanoid Interaction fro.pdf
+/dataset/2601.09520v1_Towards Realistic Synthetic Data for Automatic Dru.pdf
+/dataset/2601.09527v1_Private LLM Inference on Consumer Blackwell GPUs A.pdf
+/dataset/2601.09536v1_Omni-R1 Towards the Unified Generative Paradigm fo.pdf
+/dataset/2601.09555v1_Benchmarking Post-Training Quantization of Large L.pdf
+/dataset/2601.09566v2_Hot-Start from Pixels Low-Resolution Visual Tokens.pdf
+/dataset/2601.09600v1_Information Access of the Oppressed A Problem-Posi.pdf
+/dataset/2601.09603v1_Linear Complexity Self-Supervised Learning for Mus.pdf
+/dataset/2601.09605v1_Sim2real Image Translation Enables Viewpoint-Robus.pdf
+/dataset/2601.09609v1_DPWriter Reinforcement Learning with Diverse Plann.pdf
+/dataset/2601.09613v1_CogRail Benchmarking VLMs in Cognitive Intrusion P.pdf
+/dataset/2601.09620v1_Full Disclosure Less Trust How the Level of Detail.pdf
+/dataset/2601.09624v1_Toward Understanding Unlearning Difficulty A Mecha.pdf
+/dataset/2601.09625v1_The Promptware Kill Chain How Prompt Injections Gr.pdf
+/dataset/2601.09626v1_From Prompt to Protocol Fast Charging Batteries wi.pdf
+/dataset/2601.09635v1_LLM for Large-Scale Optimization Model Auto-Formul.pdf
+/dataset/2601.09636v1_PersonalAlign Hierarchical Implicit Intent Alignme.pdf
+/dataset/2601.09667v2_Collaborative Multi-Agent Test-Time Reinforcement .pdf
+/dataset/2601.09680v1_Automating Supply Chain Disruption Monitoring via .pdf
+/dataset/2601.09684v1_Disentangling Task Conflicts in Multi-Task LoRA vi.pdf
+/dataset/2601.09692v1_Routing with Generated Data Annotation-Free LLM Sk.pdf
+/dataset/2601.09694v1_LLMs can Compress LLMs Adaptive Pruning by Agents.pdf
+/dataset/2601.09703v1_ShortCoder Knowledge-Augmented Syntax Optimization.pdf
+/dataset/2601.09706v1_Value-Aware Numerical Representations for Transfor.pdf
+/dataset/2601.09708v1_Fast-ThinkAct Efficient Vision-Language-Action Rea.pdf
+/dataset/2601.09749v1_R-LAM Reproducibility-Constrained Large Action Mod.pdf
+/dataset/2601.09750v1_SAGE Tool-Augmented LLM Task Solving Strategies in.pdf
+/dataset/2601.09753v1_Critically Engaged Pragmatism A Scientific Norm an.pdf
+/dataset/2601.09755v1_Heterogeneous computing platform for real-time rob.pdf
+/dataset/2601.09756v1_Synthetic Data for Veterinary EHR De-identificatio.pdf
+/dataset/2601.09757v1_Democracy and Distrust in an Era of Artificial Int.pdf
+/dataset/2601.09760v1_Investigating Tool-Memory Conflicts in Tool-Augmen.pdf
+/dataset/2601.09762v1_Explicating Tacit Regulatory Knowledge from LLMs t.pdf
+/dataset/2601.09765v1_AI Survival Stories a Taxonomic Analysis of AI Exi.pdf
+/dataset/2601.09768v1_CLiMB A Domain-Informed Novelty Detection Clusteri.pdf
+/dataset/2601.09770v1_GUI-Eyes Tool-Augmented Perception for Visual Grou.pdf
+/dataset/2601.09771v1_PCN-Rec Agentic Proof-Carrying Negotiation for Rel.pdf
+/dataset/2601.09772v1_Antisocial behavior towards large language model u.pdf
+/dataset/2601.09773v1_Enhancing LUT-based Deep Neural Networks Inference.pdf
+/dataset/2601.09805v1_Improving Chain-of-Thought for Logical Reasoning v.pdf
+/dataset/2601.09806v1_Diffusion-Driven Deceptive Patches Adversarial Man.pdf
+/dataset/2601.09809v1_QFed Parameter-Compact Quantum-Classical Federated.pdf
+/dataset/2601.09814v1_Explainable Deep Learning for Pediatric Pneumonia .pdf
+/dataset/2601.09822v2_LLM-Based Agentic Systems for Software Engineering.pdf
+/dataset/2601.09841v2_A pipeline for enabling path-specific causal fairn.pdf
+/dataset/2601.09851v1_ViSIL Unified Evaluation of Information Loss in Mu.pdf
+/dataset/2601.09853v1_MedRedFlag Investigating how LLMs Redirect Misconc.pdf
+/dataset/2601.09855v1_Thinking Long but Short Stable Sequential Test-Tim.pdf
+/dataset/2601.09858v1_OUTLINEFORGE Hierarchical Reinforcement Learning w.pdf
+/dataset/2601.09865v1_Advancing Model Refinement Muon-Optimized Distilla.pdf
+/dataset/2601.09869v1_A Scoping Review of the Ethical Perspectives on An.pdf
+/dataset/2601.09871v1_Epistemology gives a Future to Complementarity in .pdf
+/dataset/2601.09879v1_MedVL-SAM2 A unified 3D medical vision-language mo.pdf
+/dataset/2601.09881v1_Transition Matching Distillation for Fast Video Ge.pdf
+/dataset/2601.09883v1_Beyond Rule-Based Workflows An Information-Flow-Or.pdf
+/dataset/2601.09896v1_The Algorithmic Gaze An Audit and Ethnography of t.pdf
+/dataset/2601.09902v1_A Novel Contrastive Loss for Zero-Day Network Intr.pdf
+/dataset/2601.09913v1_Continuum Memory Architectures for Long-Horizon LL.pdf
+/dataset/2601.09921v1_Learning to Decode in Parallel Self-Coordinating N.pdf
+/dataset/2601.09923v1_CaMeLs Can Use Computers Too System-level Security.pdf
+/dataset/2601.09929v1_Hallucination Detection and Mitigation in Large La.pdf
+/dataset/2601.09933v1_Malware Classification using Diluted Convolutional.pdf
+/dataset/2601.09949v2_Kinematic Tokenization Optimization-Based Continuo.pdf
+/dataset/2601.09966v1_A Sustainable AI Economy Needs Data Deals That Wor.pdf
+/dataset/2601.09972v1_Chinese Labor Law Large Language Model Benchmark.pdf
+/dataset/2601.09974v1_SPRInG Continual LLM Personalization via Selective.pdf
+/dataset/2601.09980v1_Performance of AI agents based on reasoning langua.pdf
+/dataset/2601.09982v1_Context Volume Drives Performance Tackling Domain .pdf
+/dataset/2601.10010v1_VERHallu Evaluating and Mitigating Event Relation .pdf
+/dataset/2601.10011v1_Memo-SQL Structured Decomposition and Experience-D.pdf
+/dataset/2601.10018v1_Empowering Older Adults in Digital Technology Use .pdf
+/dataset/2601.10025v1_Structured Personality Control and Adaptation for .pdf
+/dataset/2601.10029v1_PaperScout An Autonomous Agent for Academic Paper .pdf
+/dataset/2601.10031v1_FilDeep Learning Large Deformations of Elastic-Pla.pdf
+/dataset/2601.10038v1_What Understanding Means in AI-Laden Astronomy.pdf
+/dataset/2601.10061v1_CoF-T2I Video Models as Pure Visual Reasoners for .pdf
+/dataset/2601.10073v1_ReaMIL Reasoning- and Evidence-Aware Multiple Inst.pdf
+/dataset/2601.10079v1_Sparse-RL Breaking the Memory Wall in LLM Reinforc.pdf
+/dataset/2601.10088v1_State of AI An Empirical 100 Trillion Token Study .pdf
+/dataset/2601.10090v1_Difficulty-guided Sampling Bridging the Target Gap.pdf
+/dataset/2601.10092v1_LeMoF Level-guided Multimodal Fusion for Heterogen.pdf
+/dataset/2601.10094v1_V-Zero Self-Improving Multimodal Reasoning with Ze.pdf
+/dataset/2601.10101v2_Matrix as Plan Structured Logical Reasoning with F.pdf
+/dataset/2601.10103v1_FlowAct-R1 Towards Interactive Humanoid Video Gene.pdf
+/dataset/2601.10104v1_MathDoc Benchmarking Structured Extraction and Act.pdf
+/dataset/2601.10108v1_SIN-Bench Tracing Native Evidence Chains in Long-C.pdf
+/dataset/2601.10112v1_Repository Intelligence Graph Deterministic Archit.pdf
+/dataset/2601.10114v1_Following the Teachers Footsteps Scheduled Checkpo.pdf
+/dataset/2601.10120v1_TopoDIM One-shot Topology Generation of Diverse In.pdf
+/dataset/2601.10122v1_Role-Playing Agents Driven by Large Language Model.pdf
+/dataset/2601.10129v1_LaViT Aligning Latent Visual Thoughts for Multi-mo.pdf
+/dataset/2601.10130v1_Redundancy-Driven Top-k Functional Dependency Disc.pdf
+/dataset/2601.10131v2_M4olGen Multi-Agent Multi-Stage Molecular Generati.pdf
+/dataset/2601.10132v1_Is More Context Always Better Examining LLM Reason.pdf
+/dataset/2601.10137v1_Step-by-Step Causality Transparent Causal Discover.pdf
+/dataset/2601.10141v1_Understanding and Preserving Safety in Fine-Tuned .pdf
+/dataset/2601.10143v1_History Is Not Enough An Adaptive Dataflow System .pdf
+/dataset/2601.10148v1_DecisionLLM Large Language Models for Long Sequenc.pdf
+/dataset/2601.10150v1_Simple Network Graph Comparative Learning.pdf
+/dataset/2601.10154v1_MHub.ai A Simple Standardized and Reproducible Pla.pdf
+/dataset/2601.10155v1_LOOKAT Lookup-Optimized Key-Attention for Memory-E.pdf
+/dataset/2601.10157v1_MMPG MoE-based Adaptive Multi-Perspective Graph Fu.pdf
+/dataset/2601.10160v1_Alignment Pretraining AI Discourse Causes Self-Ful.pdf
+/dataset/2601.10161v1_AWED-FiNER Agents Web applications and Expert Dete.pdf
+/dataset/2601.10168v1_RAG-3DSG Enhancing 3D Scene Graphs with Re-Shot Gu.pdf
+/dataset/2601.10169v1_CtD Composition through Decomposition in Emergent .pdf
+/dataset/2601.10173v1_ReasAlign Reasoning Enhanced Safety Alignment agai.pdf
+/dataset/2601.10187v1_HOMURA Taming the Sand-Glass for Time-Constrained .pdf
+/dataset/2601.10191v1_How does downsampling affect needle electromyograp.pdf
+/dataset/2601.10193v1_GFM4GA Graph Foundation Model for Group Anomaly De.pdf
+/dataset/2601.10201v1_PRL Process Reward Learning Improves LLMs Reasonin.pdf
+/dataset/2601.10205v1_One Instruction Does Not Fit All How Well Do Embed.pdf
+/dataset/2601.10212v1_PADER Paillier-based Secure Decentralized Social R.pdf
+/dataset/2601.10215v1_Topo-RAG Topology-aware retrieval for hybrid text-.pdf
+/dataset/2601.10222v1_Introduction to optimization methods for training .pdf
+/dataset/2601.10236v1_Who Owns the Text Design Patterns for Preserving A.pdf
+/dataset/2601.10242v1_Loop as a Bridge Can Looped Transformers Truly Lin.pdf
+/dataset/2601.10245v1_TRIM Hybrid Inference via Targeted Stepwise Routin.pdf
+/dataset/2601.10251v1_X-SAM Boosting Sharpness-Aware Minimization with D.pdf
+/dataset/2601.10254v1_NoReGeo Non-Reasoning Geometry Benchmark.pdf
+/dataset/2601.10257v1_Untangling Input Language from Reasoning Language .pdf
+/dataset/2601.10272v1_MoST Mixing Speech and Text with Modality-Aware Mi.pdf
+/dataset/2601.10274v1_Queueing-Aware Optimization of Reasoning Tokens fo.pdf
+/dataset/2601.10282v2_SPIKE Sparse Koopman Regularization for Physics-In.pdf
+/dataset/2601.10305v1_DanQing An Up-to-Date Large-Scale Chinese Vision-L.pdf
+/dataset/2601.10306v1_Evidence-Augmented Policy Optimization with Reward.pdf
+/dataset/2601.10338v1_Agent Skills in the Wild An Empirical Study of Sec.pdf
+/dataset/2601.10342v1_C-GRASP Clinically-Grounded Reasoning for Affectiv.pdf
+/dataset/2601.10343v2_OctoBench Benchmarking Scaffold-Aware Instruction .pdf
+/dataset/2601.10348v1_Training-Trajectory-Aware Token Selection.pdf
+/dataset/2601.10349v1_SuS Strategy-aware Surprise for Intrinsic Explorat.pdf
+/dataset/2601.10373v1_Towards Efficient Low-rate Image Compression with .pdf
+/dataset/2601.10378v2_Global Context Compression with Interleaved Vision.pdf
+/dataset/2601.10386v1_Handling Missing Modalities in Multimodal Survival.pdf
+/dataset/2601.10398v2_LatentRefusal Latent-Signal Refusal for Unanswerab.pdf
+/dataset/2601.10402v1_Toward Ultra-Long-Horizon Agentic Science Cognitiv.pdf
+/dataset/2601.10406v1_ErrEval Error-Aware Evaluation for Question Genera.pdf
+/dataset/2601.10413v1_LADFA A Framework of Using Large Language Models a.pdf
+/dataset/2601.10416v1_LLMdoctor Token-Level Flow-Guided Preference Optim.pdf
+/dataset/2601.10421v1_Are Language Models Models.pdf
+/dataset/2601.10436v1_Development of Ontological Knowledge Bases by Leve.pdf
+/dataset/2601.10440v1_AgentGuardian Learning Access Control Policies to .pdf
+/dataset/2601.10457v1_NSR-Boost A Neuro-Symbolic Residual Boosting Frame.pdf
+/dataset/2601.10460v1_Contextual StereoSet Stress-Testing Bias Alignment.pdf
+/dataset/2601.10462v3_ChartComplete A Taxonomy-based Inclusive Chart Dat.pdf
+/dataset/2601.10477v1_Urban Socio-Semantic Segmentation with Vision-Lang.pdf
+/dataset/2601.10485v1_Panning for Gold Expanding Domain-Specific Knowled.pdf
+/dataset/2601.10496v1_Model See Model Do Exposure-Aware Evaluation of Bu.pdf
+/dataset/2601.10498v1_Projected Microbatch Accumulation yields reference.pdf
+/dataset/2601.10511v1_Scalable Algorithms for Approximate DNF Model Coun.pdf
+/dataset/2601.10512v2_SatMap Revisiting Satellite Maps as Prior for Onli.pdf
+/dataset/2601.10520v1_Breaking Up with Normatively Monolithic Agency wit.pdf
+/dataset/2601.10524v1_Diagnosing Generalization Failures in Fine-Tuned L.pdf
+/dataset/2601.10527v2_A Safety Report on GPT-5.2 Gemini 3 Pro Qwen3-VL G.pdf
+/dataset/2601.10543v1_Defending Large Language Models Against Jailbreak .pdf
+/dataset/2601.10560v1_Learning Latency-Aware Orchestration for Parallel .pdf
+/dataset/2601.10562v1_Process-Guided Concept Bottleneck Model.pdf
+/dataset/2601.10567v1_Generative AI collective behavior needs an interac.pdf
+/dataset/2601.10581v1_From Single to Multi-Agent Reasoning Advancing Gen.pdf
+/dataset/2601.10587v1_Adversarial Evasion Attacks on Computer Vision usi.pdf
+/dataset/2601.10591v1_ProbFM Probabilistic Time Series Foundation Model .pdf
+/dataset/2601.10600v1_Procedural Fairness in Multi-Agent Bandits.pdf
+/dataset/2601.10611v1_Molmo2 Open Weights and Data for Vision-Language M.pdf
+/dataset/2601.10651v1_Multi-Property Synthesis.pdf
+/dataset/2601.10679v1_Are Your Reasoning Models Reasoning or Guessing A .pdf
+/dataset/2601.10681v1_Structure and Diversity Aware Context Bubble Const.pdf
+/dataset/2601.10684v1_On the origin of neural scaling laws from random g.pdf
+/dataset/2601.10696v1_The Impact of Generative AI on Architectural Conce.pdf
+/dataset/2601.10700v2_LIBERTy A Causal Framework for Benchmarking Concep.pdf
+/dataset/2601.10702v1_Grounding Agent Memory in Contextual Intent.pdf
+/dataset/2601.10712v1_MatchTIR Fine-Grained Supervision for Tool-Integra.pdf
+/dataset/2601.10748v1_AnyECG Evolved ECG Foundation Model for Holistic H.pdf
+/dataset/2601.10768v1_Optimisation of complex product innovation process.pdf
+/dataset/2601.10770v1_Unifying Speech Recognition Synthesis and Conversi.pdf
+/dataset/2601.10773v1_LogicLens Leveraging Semantic Code Graph to explor.pdf
+/dataset/2601.10779v1_Unified Optimization of Source Weights and Transfe.pdf
+/dataset/2601.10810v1_Digital Metabolism Decoupling Logic from Facts via.pdf
+/dataset/2601.10820v1_Towards Reliable ML Feature Engineering via Planni.pdf
+/dataset/2601.10827v1_Approximately Optimal Global Planning for Contact-.pdf
+/dataset/2601.10835v1_Can Vision-Language Models Understand Construction.pdf
+/dataset/2601.10880v1_Medical SAM3 A Foundation Model for Universal Prom.pdf
+/dataset/2601.10904v1_ARC Prize 2025 Technical Report.pdf
+/dataset/2601.10917v1_Self-learned representation-guided latent diffusio.pdf
+/dataset/2601.10921v1_RobuMTL Enhancing Multi-Task Learning Robustness A.pdf
+/dataset/2601.10922v1_What Matters in Data Curation for Multimodal Reaso.pdf
+/dataset/2601.10926v1_Selecting Language Models for Social Science Start.pdf
+/dataset/2601.10931v1_Sparse Data Tree Canopy Segmentation Fine-Tuning L.pdf
+/dataset/2601.10945v1_PatientVLM Meets DocVLM Pre-Consultation Dialogue .pdf
+/dataset/2601.10951v1_Multi-Stage Patient Role-Playing Framework for Rea.pdf
+/dataset/2601.10955v1_Beyond Max Tokens Stealthy Resource Amplification .pdf
+/dataset/2601.10960v1_Steering Language Models Before They Speak Logit-L.pdf
+/dataset/2601.11000v1_When Personalization Misleads Understanding and Mi.pdf
+/dataset/2601.11007v1_AdaMARP An Adaptive Multi-Agent Interaction Framew.pdf
+/dataset/2601.11012v1_Efficient Protein Optimization via Structure-aware.pdf
+/dataset/2601.11016v1_Contextual Distributionally Robust Optimization wi.pdf
+/dataset/2601.11019v1_Finding the Translation Switch Discovering and Exp.pdf
+/dataset/2601.11021v1_Combating Spurious Correlations in Graph Interpret.pdf
+/dataset/2601.11030v1_IDDR-NGP Incorporating Detectors for Distractor Re.pdf
+/dataset/2601.11035v1_Your One-Stop Solution for AI-Generated Video Dete.pdf
+/dataset/2601.11037v1_BAPO Boundary-Aware Policy Optimization for Reliab.pdf
+/dataset/2601.11042v1_Spectral Characterization and Mitigation of Sequen.pdf
+/dataset/2601.11044v2_AgencyBench Benchmarking the Frontiers of Autonomo.pdf
+/dataset/2601.11049v1_Predicting Biased Human Decision-Making with Large.pdf
+/dataset/2601.11063v1_H-AIM Orchestrating LLMs PDDL and Behavior Trees f.pdf
+/dataset/2601.11065v1_Fairness in Healthcare Processes A Quantitative An.pdf
+/dataset/2601.11073v1_Bridging Cognitive Neuroscience and Graph Intellig.pdf
+/dataset/2601.11076v1_A3D Adaptive Affordance Assembly with Dual-Arm Man.pdf
+/dataset/2601.11077v1_ABC-Bench Benchmarking Agentic Backend Coding in R.pdf
+/dataset/2601.11078v1_Visual Marker Search for Autonomous Drone Landing .pdf
+/dataset/2601.11089v2_MiCA A Mobility-Informed Causal Adapter for Lightw.pdf
+/dataset/2601.11090v1_Efficient Multilingual Name Type Classification Us.pdf
+/dataset/2601.11100v1_ReCreate Reasoning and Creating Domain Agents Driv.pdf
+/dataset/2601.11109v1_Vision-as-Inverse-Graphics Agent via Interleaved M.pdf
+/dataset/2601.11124v1_Learn Before Represent Bridging Generative and Con.pdf
+/dataset/2601.11135v1_Context-aware Graph Causality Inference for Few-Sh.pdf
+/dataset/2601.11143v1_Learning Quadrupedal Locomotion for a Heavy Hydrau.pdf
+/dataset/2601.11144v2_Deep GraphRAG A Balanced Approach to Hierarchical .pdf
+/dataset/2601.11147v1_Do We Always Need Query-Level Workflows Rethinking.pdf
+/dataset/2601.11151v1_Cross-Modal Attention Network with Dual Graph Lear.pdf
+/dataset/2601.11160v1_Clustering High-dimensional Data Balancing Abstrac.pdf
+/dataset/2601.11178v1_TANDEM Temporal-Aware Neural Detection for Multimo.pdf
+/dataset/2601.11189v1_Policy-Based Deep Reinforcement Learning Hyperheur.pdf
+/dataset/2601.11196v1_Artificial Intelligence and the US Economy An Acco.pdf
+/dataset/2601.11199v1_SD-RAG A Prompt-Injection-Resilient Framework for .pdf
+/dataset/2601.11200v1_FAQ Mitigating Quantization Error via Regenerating.pdf
+/dataset/2601.11202v1_Epistemic Control and the Normativity of Machine L.pdf
+/dataset/2601.11207v1_LoRA as Oracle.pdf
+/dataset/2601.11219v1_SDFLoRA Selective Dual-Module LoRA for Federated F.pdf
+/dataset/2601.11232v1_FactCorrector A Graph-Inspired Approach to Long-Fo.pdf
+/dataset/2601.11252v1_Beyond Model Scaling Test-Time Intervention for Ef.pdf
+/dataset/2601.11258v1_Knowledge is Not Enough Injecting RL Skills for Co.pdf
+/dataset/2601.11269v1_X-Distill Cross-Architecture Vision Distillation f.pdf
+/dataset/2601.11282v1_From SERPs to Sound How Search Engine Result Pages.pdf
+/dataset/2601.11286v1_XChoice Explainable Evaluation of AI-Human Alignme.pdf
+/dataset/2601.11344v1_How Much Would a Clinician Edit This Draft Evaluat.pdf
+/dataset/2601.11350v1_FEATHer Fourier-Efficient Adaptive Temporal Hierar.pdf
+/dataset/2601.11354v1_AstroReason-Bench Evaluating Unified Agentic Plann.pdf
+/dataset/2601.11359v1_Think-Clip-Sample Slow-Fast Frame Selection for Vi.pdf
+/dataset/2601.11369v2_Institutional AI Governing LLM Collusion in Multi-.pdf
+/dataset/2601.11379v1_Evaluating LLM Behavior in Hiring Implicit Weights.pdf
+/dataset/2601.11389v1_Hyperparameter Optimization of Constraint Programm.pdf
+/dataset/2601.11400v1_Wetland mapping from sparse annotations with satel.pdf
+/dataset/2601.11409v1_Topology-Guaranteed Image Segmentation Enforcing C.pdf
+/dataset/2601.11421v1_The Great March 100 100 Detail-oriented Tasks for .pdf
+/dataset/2601.11429v1_Relational Linearity is a Predictor of Hallucinati.pdf
+/dataset/2601.11440v1_GenDA Generative Data Assimilation on Complex Urba.pdf
+/dataset/2601.11441v1_Hierarchical Orthogonal Residual Spread for Precis.pdf
+/dataset/2601.11442v1_Map2Thought Explicit 3D Spatial Reasoning via Metr.pdf
+/dataset/2601.11451v1_PRISM-CAFO Prior-conditioned Remote-sensing Infras.pdf
+/dataset/2601.11459v1_Interactive Narrative Analytics Bridging Computati.pdf
+/dataset/2601.11464v1_MHA2MLA-VLM Enabling DeepSeeks Economical Multi-He.pdf
+/dataset/2601.11468v1_Exploring LLM Features in Predictive Process Monit.pdf
+/dataset/2601.11479v1_Health Facility Location in Ethiopia Leveraging LL.pdf
+/dataset/2601.11492v1_BoxMind Closed-loop AI strategy optimization for e.pdf
+/dataset/2601.11496v1_The Poisoned Apple Effect Strategic Manipulation o.pdf
+/dataset/2601.11505v1_MetaboNet The Largest Publicly Available Consolida.pdf
+/dataset/2601.11516v2_Building Production-Ready Probes For Gemini.pdf
+/dataset/2601.11517v1_Do explanations generalize across large reasoning .pdf
+/dataset/2601.11625v1_Reasoning Stabilization Point A Training-Time Sign.pdf
+/dataset/2601.11643v1_Syllabic Agglutinative Tokenizations for Indonesia.pdf
+/dataset/2601.11644v1_Predicting When to Trust Vision-Language Models fo.pdf
+/dataset/2601.11647v1_Reinforcement Learning for Dynamic Workflow Optimi.pdf
+/dataset/2601.11650v1_Large Language Model Agent for User-friendly Chemi.pdf
+/dataset/2601.11651v1_Aesthetics as Structural Harm Algorithmic Lookism .pdf
+/dataset/2601.11652v1_WISP Waste- and Interference-Suppressed Distribute.pdf
+/dataset/2601.11657v1_Size is Not the Solution Deformable Convolutions f.pdf
+/dataset/2601.11658v1_Towards AGI A Pragmatic Approach Towards Self Evol.pdf
+/dataset/2601.11663v1_Activation Sensitivity as a Unifying Principle for.pdf
+/dataset/2601.11664v1_Serverless AI Security Attack Surface Analysis and.pdf
+/dataset/2601.11666v1_MATEX Multi-scale Attention and Text-guided Explai.pdf
+/dataset/2601.11667v1_Distill-then-Replace Efficient Task-Specific Hybri.pdf
+/dataset/2601.11670v1_A Confidence-Variance Theory for Pseudo-Label Sele.pdf
+/dataset/2601.11674v1_Pigment Network Detection and Classification in De.pdf
+/dataset/2601.11675v1_Generating metamers of human scene understanding.pdf
+/dataset/2601.11676v1_HALO Semantic-Aware Distributed LLM Inference in L.pdf
+/dataset/2601.11683v1_Attesting Model Lineage by Consisted Knowledge Evo.pdf
+/dataset/2601.11684v1_Mobile-friendly Image de-noising Hardware Consciou.pdf
+/dataset/2601.11685v1_Towards Efficient Image Deblurring for Edge Deploy.pdf
+/dataset/2601.11686v1_Proof of Concept Multi-Target Wildfire Risk Predic.pdf
+/dataset/2601.11687v1_Semantic Caching and Intent-Driven Context Optimiz.pdf
+/dataset/2601.11688v1_SpecMap Hierarchical LLM Agent for Datasheet-to-Co.pdf
+/dataset/2601.11700v1_Telling Human and Machine Handwriting Apart.pdf
+/dataset/2601.11702v1_PASTA A Scalable Framework for Multi-Policy AI Com.pdf
+/dataset/2601.11713v1_Inter-Cell Interference Rejection Based on Ultrawi.pdf
+/dataset/2601.11746v1_LIME-LLM Probing Models with Fluent Counterfactual.pdf
+/dataset/2601.11747v1_PRISM Learning Design Knowledge from Data for Styl.pdf
+/dataset/2601.11758v1_Early Linguistic Pattern of Anxiety from Social Me.pdf
+/dataset/2601.11762v1_Industry-Aligned Granular Topic Modeling.pdf
+/dataset/2601.11768v1_Lightweight Self-Supervised Detection of Fundament.pdf
+/dataset/2601.11776v1_Cleansing the Artificial Mind A Self-Reflective De.pdf
+/dataset/2601.11778v1_Translation as a Scalable Proxy for Multilingual E.pdf
+/dataset/2601.11781v1_Risk-Aware Human-in-the-Loop Framework with Adapti.pdf
+/dataset/2601.11792v1_A self-evolving multi-role collaborative framework.pdf
+/dataset/2601.11801v1_RobotDesignGPT Automated Robot Design Synthesis us.pdf
+/dataset/2601.11809v1_Multi-agent DRL-based Lane Change Decision Model f.pdf
+/dataset/2601.11816v1_POLARIS Typed Planning and Governed Execution for .pdf
+/dataset/2601.11825v1_AI Co-Scientist for Knowledge Synthesis in Medical.pdf
+/dataset/2601.11840v1_Imandra CodeLogician Neuro-Symbolic Reasoning for .pdf
+/dataset/2601.11850v1_Human-AI Collaborative Inductive Thematic Analysis.pdf
+/dataset/2601.11854v1_ATOD An Evaluation Framework and Benchmark for Age.pdf
+/dataset/2601.11859v1_Cascaded Transformer for Robust and Scalable SLA D.pdf
+/dataset/2601.11863v1_Utilizing Metadata for Better Retrieval-Augmented .pdf
+/dataset/2601.11868v1_Terminal-Bench Benchmarking Agents on Hard Realist.pdf
+/dataset/2601.11876v1_AI for Green Spaces Leveraging Autonomous Navigati.pdf
+/dataset/2601.11880v1_TF-CoDiT Conditional Time Series Synthesis with Di.pdf
+/dataset/2601.11885v1_MyGram Modality-aware Graph Transformer with Globa.pdf
+/dataset/2601.11895v1_DevBench A Realistic Developer-Informed Benchmark .pdf
+/dataset/2601.11903v1_AEMA Verifiable Evaluation Framework for Trustwort.pdf
+/dataset/2601.11905v1_LIBRA Language Model Informed Bandit Recourse Algo.pdf
+/dataset/2601.11907v1_Towards Airborne Object Detection A Deep Learning .pdf
+/dataset/2601.11913v1_LSTM-MAS A Long Short-Term Memory Inspired Multi-A.pdf
+/dataset/2601.11920v1_Enhancing LLM-Based Data Annotation with Error Dec.pdf
+/dataset/2601.11935v1_Big Data Workload Profiling for Energy-Aware Cloud.pdf
+/dataset/2601.11940v1_Thinking Traps in Long Chain-of-Thought A Measurab.pdf
+/dataset/2601.11956v1_Double-Calibration Towards Trustworthy LLMs via Ca.pdf
+/dataset/2601.11960v1_R2PO Decoupling Training Trajectories from Inferen.pdf
+/dataset/2601.11969v1_textttMemoryRewardBench Benchmarking Reward Models.pdf
+/dataset/2601.11974v1_Learn Like Humans Use Meta-cognitive Reflection fo.pdf
+/dataset/2601.11977v1_One-Shot Price Forecasting with Covariate-Guided E.pdf
+/dataset/2601.11979v1_Process In-Context Learning Enhancing Mathematical.pdf
+/dataset/2601.11995v1_Learning Audio-Visual Embeddings with Inferred Lat.pdf
+/dataset/2601.11998v1_Hybrid IDS Using Signature-Based and Anomaly-Based.pdf
+/dataset/2601.12002v1_Kernel-Based Learning of Safety Barriers.pdf
+/dataset/2601.12003v1_Robust Verification of Concurrent Stochastic Games.pdf
+/dataset/2601.12014v1_Are LLMs Ready for TOON Benchmarking Structural Co.pdf
+/dataset/2601.12019v1_Acting Flatterers via LLMs Sycophancy Combating Cl.pdf
+/dataset/2601.12024v1_A Multi-Agent System for Generating Actionable Bus.pdf
+/dataset/2601.12030v1_ARC Active and Reflection-driven Context Managemen.pdf
+/dataset/2601.12038v1_Abstract Argumentation with Subargument Relations.pdf
+/dataset/2601.12040v1_Partial Reasoning in Language Models Search and Re.pdf
+/dataset/2601.12042v1_Less Is More -- Until It Breaks Security Pitfalls .pdf
+/dataset/2601.12049v1_textitFocaLogic Logic-Based Interpretation of Visu.pdf
+/dataset/2601.12053v1_A New Strategy for Artificial Intelligence Trainin.pdf
+/dataset/2601.12055v1_Automating Parameter Selection in Deep Image Prior.pdf
+/dataset/2601.12061v1_Codebook-Injected Dialogue Segmentation for Multi-.pdf
+/dataset/2601.12068v1_Bridging the Gap in Bangla Healthcare Machine Lear.pdf
+/dataset/2601.12082v1_Conditional Random Fields for Interactive Refineme.pdf
+/dataset/2601.12095v1_Neural Isomorphic Fields A Transformer-based Algeb.pdf
+/dataset/2601.12099v1_Large language models struggle with ethnographic t.pdf
+/dataset/2601.12104v1_Powerful Training-Free Membership Inference Agains.pdf
+/dataset/2601.12124v1_SynQP A Framework and Metrics for Evaluating the Q.pdf
+/dataset/2601.12126v1_UniMo Unified Motion Generation and Understanding .pdf
+/dataset/2601.12132v1_Bengali Text Classification An Evaluation of Large.pdf
+/dataset/2601.12134v1_Human-Human-AI Triadic Programming Uncovering the .pdf
+/dataset/2601.12138v1_DriveSafe A Hierarchical Risk Taxonomy for Safety-.pdf
+/dataset/2601.12141v1_TIDE A Trace-Informed Depth-First Exploration for .pdf
+/dataset/2601.12147v1_Segment and Matte Anything in a Unified Model.pdf
+/dataset/2601.12150v1_Enhanced Diagnostic Performance via Large-Resoluti.pdf
+/dataset/2601.12186v1_Aletheia What Makes RLVR For Code Verifiers Tick.pdf
+/dataset/2601.12205v1_Do Neural Codecs Generalize A Controlled Study Acr.pdf
+/dataset/2601.12212v1_Speculative Sampling with Reinforcement Learning.pdf
+/dataset/2601.12215v1_Wavelet-Driven Masked Multiscale Reconstruction fo.pdf
+/dataset/2601.12224v1_Where It Moves It Matters Referring Surgical Instr.pdf
+/dataset/2601.12234v1_Proc3D Procedural 3D Generation and Parametric Edi.pdf
+/dataset/2601.12242v1_Optimal Power Allocation and Sub-Optimal Channel A.pdf
+/dataset/2601.12243v1_Less is More Label-Guided Summarization of Procedu.pdf
+/dataset/2601.12247v1_Plan Verify and Fill A Structured Parallel Decodin.pdf
+/dataset/2601.12248v1_AQUA-Bench Beyond Finding Answers to Knowing When .pdf
+/dataset/2601.12249v1_An Innovative Framework for Breast Cancer Detectio.pdf
+/dataset/2601.12256v1_Improving Large Molecular Language Model via Relat.pdf
+/dataset/2601.12257v1_Soft Shadow Diffusion SSD Physics-inspired Learnin.pdf
+/dataset/2601.12259v1_FutureX-Pro Extending Future Prediction to High-Va.pdf
+/dataset/2601.12260v1_Docs2Synth A Synthetic Data Trained Retriever Fram.pdf
+/dataset/2601.12263v1_Multimodal Generative Engine Optimization Rank Man.pdf
+/dataset/2601.12269v1_Simulated Annealing Enhances Theory-of-Mind Reason.pdf
+/dataset/2601.12276v1_Predictive Prototyping Evaluating Design Concepts .pdf
+/dataset/2601.12282v1_CytoCLIP Learning Cytoarchitectural Characteristic.pdf
+/dataset/2601.12286v1_Conversational Context Classification A Representa.pdf
+/dataset/2601.12288v1_TimeGMM Single-Pass Probabilistic Forecasting via .pdf
+/dataset/2601.12294v1_ToolPRMBench Evaluating and Advancing Process Rewa.pdf
+/dataset/2601.12304v1_A Two-Stage Globally-Diverse Adversarial Attack fo.pdf
+/dataset/2601.12310v1_Survival is the Only Reward Sustainable Self-Train.pdf
+/dataset/2601.12316v1_GazeFormer-MoE Context-Aware Gaze Estimation via C.pdf
+/dataset/2601.12317v1_Explanova Automatically Discover Data Insights in .pdf
+/dataset/2601.12318v1_Beyond Human Annotation Recent Advances in Data Ge.pdf
+/dataset/2601.12323v1_MARO Learning Stronger Reasoning from Social Inter.pdf
+/dataset/2601.12327v1_The Expert Validation Framework EVF Enabling Domai.pdf
+/dataset/2601.12330v1_IceWatch Forecasting Glacial Lake Outburst Floods .pdf
+/dataset/2601.12331v1_Efficient Privacy-Preserving Retrieval Augmented G.pdf
+/dataset/2601.12338v1_Actionable Advice from Reviews via Mixture of LoRA.pdf
+/dataset/2601.12341v1_Time-Continuous Modeling for Temporal Affective Pa.pdf
+/dataset/2601.12343v1_How Well Do LLMs Predict Human Behavior A Measure .pdf
+/dataset/2601.12349v1_Zero-Permission Manipulation Can We Trust Large Mu.pdf
+/dataset/2601.12357v1_SimpleMatch A Simple and Strong Baseline for Seman.pdf
+/dataset/2601.12358v1_From Prompts to Pavement LMMs-based Agentic Behavi.pdf
+/dataset/2601.12374v1_A Scalable Entity-Based Framework for Auditing Bia.pdf
+/dataset/2601.12389v1_NADIR Differential Attention Flow for Non-Autoregr.pdf
+/dataset/2601.12392v1_PsychēChat An Empathic Framework Focused on Emotio.pdf
+/dataset/2601.12401v1_Beyond the Dirac Delta Mitigating Diversity Collap.pdf
+/dataset/2601.12402v1_Weaknesses of Facial Emotion Recognition Systems.pdf
+/dataset/2601.12405v1_Explainable Machine Learning for Pediatric Dental .pdf
+/dataset/2601.12410v1_Are LLMs Smarter Than Chimpanzees An Evaluation on.pdf
+/dataset/2601.12415v1_Orthogonalized Policy OptimizationDecoupling Sampl.pdf
+/dataset/2601.12436v1_Purification Before Fusion Toward Mask-Free Speech.pdf
+/dataset/2601.12442v1_Constraint-Aware Neurosymbolic Uncertainty Quantif.pdf
+/dataset/2601.12443v1_Adversarial Defense in Vision-Language Models An O.pdf
+/dataset/2601.12444v1_Large Language Model for OWL Proofs.pdf
+/dataset/2601.12449v1_AgenTRIM Tool Risk Mitigation for Agentic AI.pdf
+/dataset/2601.12465v1_Incentivizing In-depth Reasoning over Long Context.pdf
+/dataset/2601.12467v1_Patch-Level Tokenization with CNN Encoders and Att.pdf
+/dataset/2601.12471v1_Knowing When to Abstain Medical LLMs Under Clinica.pdf
+/dataset/2601.12494v1_Harmonizing the Arabic Audio Space with Data Sched.pdf
+/dataset/2601.12499v1_Failure Modes in Multi-Hop QA The Weakest Link Law.pdf
+/dataset/2601.12518v1_Cooperative Multi-agent RL with Communication Cons.pdf
+/dataset/2601.12522v1_Improved Bug Localization with AI Agents Leveragin.pdf
+/dataset/2601.12534v1_Encoding Emotion Through Self-Supervised Eye Movem.pdf
+/dataset/2601.12535v1_Improving Low-Resource Machine Translation via Rou.pdf
+/dataset/2601.12538v1_Agentic Reasoning for Large Language Models.pdf
+/dataset/2601.12539v1_MemeLens Multilingual Multitask VLMs for Memes.pdf
+/dataset/2601.12542v1_Rethinking the AI Scientist Interactive Multi-Agen.pdf
+/dataset/2601.12547v1_How Clinicians Think and What AI Can Learn From It.pdf
+/dataset/2601.12549v1_Benchmarking Concept-Spilling Across Languages in .pdf
+/dataset/2601.12554v1_Artificial Intelligence in Materials Science and E.pdf
+/dataset/2601.12557v1_Life Machine Learning and the Search for Habitabil.pdf
+/dataset/2601.12560v1_Agentic Artificial Intelligence AI Architectures T.pdf
+/dataset/2601.12577v1_Primate-like perceptual decision making emerges th.pdf
+/dataset/2601.12582v1_Ontology-aligned structuring and reuse of multimod.pdf
+/dataset/2601.12585v1_Do MLLMs See What We See Analyzing Visualization L.pdf
+/dataset/2601.12594v1_SLAP Scalable Language-Audio Pretraining with Vari.pdf
+/dataset/2601.12607v1_A Cloud-based Multi-Agentic Workflow for Science.pdf
+/dataset/2601.12617v1_Creating Disability Story Videos with Generative A.pdf
+/dataset/2601.12637v1_Topology-Aware Multiscale Mixture of Experts for E.pdf
+/dataset/2601.12638v1_Mixed Precision PointPillars for Efficient 3D Obje.pdf
+/dataset/2601.12641v1_STEP-LLM Generating CAD STEP Models from Natural L.pdf
+/dataset/2601.12646v1_Unbounded Harms Bounded Law Liability in the Age o.pdf
+/dataset/2601.12648v1_Intelligent Documentation in Medical Education Can.pdf
+/dataset/2601.12654v1_Explanation Multiplicity in SHAP Characterization .pdf
+/dataset/2601.12658v1_Augmenting Question Answering with A Hybrid RAG Ap.pdf
+/dataset/2601.12661v1_MedConsultBench A Full-Cycle Fine-Grained Process-.pdf
+/dataset/2601.12664v1_Generalizable Hyperparameter Optimization for Fede.pdf
+/dataset/2601.12667v1_Empowering All-in-Loop Health Management of Spacec.pdf
+/dataset/2601.12671v1_Exploiting Test-Time Augmentation in Federated Lea.pdf
+/dataset/2601.12688v1_Logic-Guided Multistage Inference for Explainable .pdf
+/dataset/2601.12711v1_Neurosymbolic LoRA Why and When to Tune Weights vs.pdf
+/dataset/2601.12715v1_RSOD Reliability-Guided Sonar Image Object Detecti.pdf
+/dataset/2601.12720v1_Teaching Large Reasoning Models Effective Reflecti.pdf
+/dataset/2601.12723v1_An Evolutionary Framework for Automatic Optimizati.pdf
+/dataset/2601.12727v1_AI-exhibited Personality Traits Can Shape Human Se.pdf
+/dataset/2601.12731v1_A Shared Geometry of Difficulty in Multilingual La.pdf
+/dataset/2601.12740v1_TreeWriter AI-Assisted Hierarchical Planning and W.pdf
+/dataset/2601.12742v1_AirHunt Bridging VLM Semantics and Continuous Plan.pdf
+/dataset/2601.12744v1_Vision Language Models for Optimization-Driven Int.pdf
+/dataset/2601.12745v1_A Graph Prompt Fine-Tuning Method for WSN Spatio-T.pdf
+/dataset/2601.12754v1_PAIR-SAFE A Paired-Agent Approach for Runtime Audi.pdf
+/dataset/2601.12758v1_VISPA Pluralistic Alignment via Automatic Value Se.pdf
+/dataset/2601.12762v1_Teaching LLMs to Learn Tool Trialing and Execution.pdf
+/dataset/2601.12781v1_VIRO Robust and Efficient Neuro-Symbolic Reasoning.pdf
+/dataset/2601.12785v1_Distilling Time Series Foundation Models for Effic.pdf
+/dataset/2601.12804v1_SL-CBM Enhancing Concept Bottleneck Models with Se.pdf
+/dataset/2601.12805v1_SciHorizon-GENE Benchmarking LLM for Life Sciences.pdf
+/dataset/2601.12809v1_Left-Right Symmetry Breaking in CLIP-style Vision-.pdf
+/dataset/2601.12816v1_Fisher-Orthogonal Projected Natural Gradient Desce.pdf
+/dataset/2601.12822v1_MirrorGuard Toward Secure Computer-Use Agents via .pdf
+/dataset/2601.12837v1_Cognition spaces natural artificial and hybrid.pdf
+/dataset/2601.12842v1_SCULPT Constraint-Guided Pruned MCTS that Carves E.pdf
+/dataset/2601.12849v1_The Cost of EFX Generalized-Mean Welfare and Compl.pdf
+/dataset/2601.12856v1_Mining Citywide Dengue Spread Patterns in Singapor.pdf
+/dataset/2601.12879v1_Hierarchical Sparse Circuit Extraction from Billio.pdf
+/dataset/2601.12882v1_YOLO26 An Analysis of NMS-Free End to End Framewor.pdf
+/dataset/2601.12886v1_Communication Methods in Multi-Agent Reinforcement.pdf
+/dataset/2601.12893v1_AdaNODEs Test Time Adaptation for Time Series Fore.pdf
+/dataset/2601.12904v1_From Prefix Cache to Fusion RAG Cache Accelerating.pdf
+/dataset/2601.12910v1_SciCoQA Quality Assurance for Scientific Paper--Co.pdf
+/dataset/2601.12912v1_Human Emotion Verification by Action Languages via.pdf
+/dataset/2601.12913v1_Actionable Interpretability Must Be Defined in Ter.pdf
+/dataset/2601.12922v1_Your Privacy Depends on Others Collusion Vulnerabi.pdf
+/dataset/2601.12925v1_ForeDiffusion Foresight-Conditioned Diffusion Poli.pdf
+/dataset/2601.12929v1_Membership Inference Test Auditing Training Data i.pdf
+/dataset/2601.12931v1_Online Continual Learning for Time Series a Natura.pdf
+/dataset/2601.12937v1_On the Evidentiary Limits of Membership Inference .pdf
+/dataset/2601.12938v1_The Post-Turing Condition Conceptualising Artifici.pdf
+/dataset/2601.12939v1_Active Inference-Driven World Modeling for Adaptiv.pdf
+/dataset/2601.12946v1_AI-generated data contamination erodes pathologica.pdf
+/dataset/2601.12951v1_Beyond Accuracy Characterizing Code Comprehension .pdf
+/dataset/2601.13007v1_ArchAgent Scalable Legacy Software Architecture Re.pdf
+/dataset/2601.13013v1_HT-GNN Hyper-Temporal Graph Neural Network for Cus.pdf
+/dataset/2601.13018v1_Bi-Attention HateXplain  Taking into account the s.pdf
+/dataset/2601.13020v1_PASs-MoE Mitigating Misaligned Co-drift among Rout.pdf
+/dataset/2601.13048v1_Analysis of Long Range Dependency Understanding in.pdf
+/dataset/2601.13054v1_TinyML-Enabled IoT for Sustainable Precision Irrig.pdf
+/dataset/2601.13060v1_MagicGUI-RMS A Multi-Agent Reward Model System for.pdf
+/dataset/2601.13075v1_METIS Mentoring Engine for Thoughtful Inquiry  Sol.pdf
+/dataset/2601.13111v1_CORE-T COherent REtrieval of Tables for Text-to-SQ.pdf
+/dataset/2601.13114v1_IntAgent NWDAF-Based Intent LLM Agent Towards Adva.pdf
+/dataset/2601.13122v1_Responsible AI for General-Purpose Systems Overvie.pdf
+/dataset/2601.13142v1_TVWorld Foundations for Remote-Control TV Agents.pdf
+/dataset/2601.13160v1_Training instability in deep learning follows low-.pdf
+/dataset/2601.13166v1_From 100000 images to winning the first brain MRI .pdf
+/dataset/2601.13186v1_Prompt Injection Mitigation with Agentic AI Nested.pdf
+/dataset/2601.13187v1_Scientific production in the era of Large Language.pdf
+/dataset/2601.13197v1_Diffusion-Driven Synthetic Tabular Data Generation.pdf
+/dataset/2601.13206v1_Real-Time Deadlines Reveal Temporal Awareness Fail.pdf
+/dataset/2601.13217v1_Beyond Single-shot Writing Deep Research Agents ar.pdf
+/dataset/2601.13222v1_Incorporating QA Nuggets into Retrieval-Augmented .pdf
+/dataset/2601.13227v1_Insider Knowledge How Much Can RAG Systems Gain fr.pdf
+/dataset/2601.13228v1_Autoregressive Models Rival Diffusion Models at AN.pdf
+/dataset/2601.13233v1_RAG A Random-Forest-Based Generative Design Framew.pdf
+/dataset/2601.13235v1_RubRIX Rubric-Driven Risk Mitigation in Caregiver-.pdf
+/dataset/2601.13236v1_Pixelwise Uncertainty Quantification of Accelerate.pdf
+/dataset/2601.13238v1_A Semantic Decoupling-Based Two-Stage Rainy-Day At.pdf
+/dataset/2601.13240v1_KOCO-BENCH Can Large Language Models Leverage Doma.pdf
+/dataset/2601.13247v1_Aligning Agentic World Models via Knowledgeable Ex.pdf
+/dataset/2601.13260v1_Stop Taking Tokenizers for Granted They Are Core D.pdf
+/dataset/2601.13262v1_CURE-Med Curriculum-Informed Reinforcement Learnin.pdf
+/dataset/2601.13268v1_Improving the Safety and Trustworthiness of Medica.pdf
+/dataset/2601.13286v1_AI Skills Improve Job Prospects Causal Evidence fr.pdf
+/dataset/2601.13295v1_CooperBench Why Coding Agents Cannot be Your Teamm.pdf
+/dataset/2601.13317v1_Paid Voices vs. Public Feeds Interpretable Cross-P.pdf
+/dataset/2601.13327v1_PepEDiff Zero-Shot Peptide Binder Design via Prote.pdf
+/dataset/2601.13348v1_The AI Genie Phenomenon and Three Types of AI Chat.pdf
+/dataset/2601.13352v1_LLM-as-RNN A Recurrent Language Model for Memory U.pdf
+/dataset/2601.13358v1_The Geometry of Thought How Scale Restructures Rea.pdf
+/dataset/2601.13376v1_Bounded Minds Generative Machines Envisioning Conv.pdf
+/dataset/2601.13383v1_A Lightweight Modular Framework for Constructing A.pdf
+/dataset/2601.13385v1_Organ-Aware Attention Improves CT Triage and Class.pdf
+/dataset/2601.13392v1_Beyond Memorization Testing LLM Reasoning on Unsee.pdf
+/dataset/2601.13398v1_Can LLMs Compress and Decompress Evaluating Code U.pdf
+/dataset/2601.13400v1_Deep Image Prior with L0 Gradient Regularizer for .pdf
+/dataset/2601.13401v1_Reasoning with Pixel-level Precision QVLM Architec.pdf
+/dataset/2601.13404v1_Local-to-Global Logical Explanations for Deep Visi.pdf
+/dataset/2601.13406v1_Integrating Virtual Reality and Large Language Mod.pdf
+/dataset/2601.13412v1_Using deep learning for predicting cleansing quali.pdf
+/dataset/2601.13422v1_TrustEnergy A Unified Framework for Accurate and R.pdf
+/dataset/2601.13435v1_A Learnable Wavelet Transformer for Long-Short Equ.pdf
+/dataset/2601.13437v1_MOSLD-Bench Multilingual Open-Set Learning and Dis.pdf
+/dataset/2601.13443v1_Explicit Cognitive Allocation A Principle for Gove.pdf
+/dataset/2601.13458v1_Labels or Preferences Budget-Constrained Learning .pdf
+/dataset/2601.13462v1_SpatialBench-UC Uncertainty-Aware Evaluation of Sp.pdf
+/dataset/2601.13464v1_Context and Transcripts Improve Detection of Deepf.pdf
+/dataset/2601.13465v1_Graph Neural Networks are Heuristics.pdf
+/dataset/2601.13474v1_Preconditioning Benefits of Spectral Orthogonaliza.pdf
+/dataset/2601.13476v1_A Unified Variational Imputation Framework for Ele.pdf
+/dataset/2601.13481v1_Towards Efficient and Robust Linguistic Emotion Di.pdf
+/dataset/2601.13487v1_The Hidden Toll of Social Media News Causal Effect.pdf
+/dataset/2601.13508v1_CatMaster An Agentic Autonomous System for Computa.pdf
+/dataset/2601.13515v1_Automatic Adjustment of HPA Parameters and Attack .pdf
+/dataset/2601.13518v1_AgenticRed Optimizing Agentic Systems for Automate.pdf
+/dataset/2601.13528v1_Eliciting Harmful Capabilities by Fine-Tuning On S.pdf
+/dataset/2601.13533v1_Reasoning While Recommending Entropy-Guided Latent.pdf
+/dataset/2601.13534v1_MN-TSGContinuous Time Series Generation with Irreg.pdf
+/dataset/2601.13537v1_When Wording Steers the Evaluation Framing Bias in.pdf
+/dataset/2601.13545v1_TruthTensor Evaluating LLMs Human Imitation throug.pdf
+/dataset/2601.13546v1_ChatAD Reasoning-Enhanced Time-Series Anomaly Dete.pdf
+/dataset/2601.13547v1_HateXScore A Metric Suite for Evaluating Reasoning.pdf
+/dataset/2601.13558v1_Leveraging ChatGPT and Other NLP Methods for Ident.pdf
+/dataset/2601.13559v1_AgentGC Evolutionary Learning-based Lossless Compr.pdf
+/dataset/2601.13562v1_Reasoning is a Modality.pdf
+/dataset/2601.13563v1_ButterflyMoE Sub-Linear Ternary Experts via Struct.pdf
+/dataset/2601.13564v1_Multi-objective fluorescent molecule design with a.pdf
+/dataset/2601.13566v1_Self-Improvement as Coherence Optimization A Theor.pdf
+/dataset/2601.13570v1_GeoDynamics A Geometric State-Space Neural Network.pdf
+/dataset/2601.13580v1_Neural Organ Transplantation NOT Checkpoint-Based .pdf
+/dataset/2601.13581v1_SCRIPTMIND Crime Script Inference and Cognitive Ev.pdf
+/dataset/2601.13588v1_TREX Tokenizer Regression for Optimal Data Mixture.pdf
+/dataset/2601.13589v1_Motion-to-Response Content Generation via Multi-Ag.pdf
+/dataset/2601.13590v1_Vulnerability of LLMs Belief Systems LLMs Belief R.pdf
+/dataset/2601.13591v1_DSAEval Evaluating Data Science Agents on a Wide R.pdf
+/dataset/2601.13592v1_Machine learning based radiative parameterization .pdf
+/dataset/2601.13599v1_Diffusion In Diffusion Breaking the Autoregressive.pdf
+/dataset/2601.13600v1_Foundations of Global Consistency Checking with No.pdf
+/dataset/2601.13614v1_CauScientist Teaching LLMs to Respect Data for Cau.pdf
+/dataset/2601.13622v1_CARPE Context-Aware Image Representation Prioritiz.pdf
+/dataset/2601.13632v1_Resilient Routing Risk-Aware Dynamic Routing in Sm.pdf
+/dataset/2601.13645v1_Quadratic Upper Bound for Boosting Robustness.pdf
+/dataset/2601.13647v1_Fusion Segment Transformer Bi-Directional Attentio.pdf
+/dataset/2601.13649v1_Fairness or Fluency An Investigation into Language.pdf
+/dataset/2601.13655v1_Why Does the LLM Stop Computing An Empirical Study.pdf
+/dataset/2601.13657v1_Communication-Free Collective Navigation for a Swa.pdf
+/dataset/2601.13659v1_Temporal-Spatial Decouple before Act Disentangled .pdf
+/dataset/2601.13671v1_The Orchestration of Multi-Agent Systems Architect.pdf
+/dataset/2601.13684v1_HeteroCache A Dynamic Retrieval Approach to Hetero.pdf
+/dataset/2601.13687v1_Understanding Mental States to Guide Social Influe.pdf
+/dataset/2601.13693v1_End-to-End Reverse Screening Identifies Protein Ta.pdf
+/dataset/2601.13697v1_Uncertainty-Aware Gradient Signal-to-Noise Data Se.pdf
+/dataset/2601.13698v1_Does Privacy Always Harm Fairness Data-Dependent T.pdf
+/dataset/2601.13704v1_Performance and Complexity Trade-off Optimization .pdf
+/dataset/2601.13707v1_Attention-space Contrastive Guidance for Efficient.pdf
+/dataset/2601.13709v1_Hidden in Plain Text Measuring LLM Deception Quali.pdf
+/dataset/2601.13710v1_Who Should Have Surgery A Comparative Study of Gen.pdf
+/dataset/2601.13717v1_Simulated Ignorance Fails A Systematic Study of LL.pdf
+/dataset/2601.13719v1_Hierarchical Long Video Understanding with Audiovi.pdf
+/dataset/2601.13722v1_OP-Bench Benchmarking Over-Personalization for Mem.pdf
+/dataset/2601.13734v1_Towards robust long-context understanding of large.pdf
+/dataset/2601.13735v1_Reasoning or Fluency Dissecting Probabilistic Conf.pdf
+/dataset/2601.13749v1_Pro-AI Bias in Large Language Models.pdf
+/dataset/2601.13752v1_Finding RELIEF Shaping Reasoning Behavior without .pdf
+/dataset/2601.13761v1_DARC Decoupled Asymmetric Reasoning Curriculum for.pdf
+/dataset/2601.13768v1_vLinear A Powerful Linear Model for Multivariate T.pdf
+/dataset/2601.13770v1_Look-Ahead-Bench a Standardized Benchmark of Look-.pdf
+/dataset/2601.13798v1_Insight Interpretable Semantic Hierarchies in Visi.pdf
+/dataset/2601.13809v1_DroneVLA VLA based Aerial Manipulation.pdf
+/dataset/2601.13846v1_Virtual Urbanism An AI-Driven Framework for Quanti.pdf
+/dataset/2601.13864v1_HardSecBench Benchmarking the Security Awareness o.pdf
+/dataset/2601.13880v1_LifeAgentBench A Multi-dimensional Benchmark and A.pdf
+/dataset/2601.13885v1_Confident Rankings with Fewer Items Adaptive LLM E.pdf
+/dataset/2601.13887v1_Human Simulation Computation A Human-Inspired Fram.pdf
+/dataset/2601.13895v1_OmniOVCD Streamlining Open-Vocabulary Change Detec.pdf
+/dataset/2601.13897v1_TractRLFusion A GPT-Based Multi-Critic Policy Fusi.pdf
+/dataset/2601.13904v1_PREFAB PREFerence-based Affective Modeling for Low.pdf
+/dataset/2601.13920v1_Asymmetric regularization mechanism for GAN traini.pdf
+/dataset/2601.13938v1_IF-GEO Conflict-Aware Instruction Fusion for Multi.pdf
+/dataset/2601.13942v1_Glance-or-Gaze Incentivizing LMMs to Adaptively Fo.pdf
+/dataset/2601.13948v1_Stream-Voice-Anon Enhancing Utility of Real-Time S.pdf
+/dataset/2601.13964v1_RL-BioAug Label-Efficient Reinforcement Learning f.pdf
+/dataset/2601.13969v1_Autonomous Knowledge Graph Exploration with Adapti.pdf
+/dataset/2601.13992v1_The Whole Is Greater Than the Sum of Its Parts A C.pdf
+/dataset/2601.13994v1_torch-sla Differentiable Sparse Linear Algebra wit.pdf
+/dataset/2601.13999v1_DAME Duration-Aware Matryoshka Embedding for Durat.pdf
+/dataset/2601.14012v1_MATE Matryoshka Audio-Text Embeddings for Open-Voc.pdf
+/dataset/2601.14022v1_Credible CO2 Comparisons A Machine Learning Approa.pdf
+/dataset/2601.14027v1_Numina-Lean-Agent An Open and General Agentic Reas.pdf
+/dataset/2601.14039v1_Generalizing Abstention for Noise-Robust Learning .pdf
+/dataset/2601.14041v1_Top 10 Open Challenges Steering the Future of Diff.pdf
+/dataset/2601.14047v1_Collective intelligence in science direct elicitat.pdf
+/dataset/2601.14051v1_Kakugo Distillation of Low-Resource Languages into.pdf
+/dataset/2601.14053v1_LLMOrbit A Circular Taxonomy of Large Language Mod.pdf
+/dataset/2601.14055v1_Decoder-Free Supervoxel GNN for Accurate Brain-Tum.pdf
+/dataset/2601.14056v1_POCI-Diff Position Objects Consistently and Intera.pdf
+/dataset/2601.14063v1_XCR-Bench A Multi-Task Benchmark for Evaluating Cu.pdf
+/dataset/2601.14069v1_Unsupervised Video Class-Incremental Learning via .pdf
+/dataset/2601.14084v1_DermaBench A Clinician-Annotated Benchmark Dataset.pdf
+/dataset/2601.14086v1_Two-Stream temporal transformer for video action c.pdf
+/dataset/2601.14087v1_1-bit Count-based Sorting Unit to Reduce Link Powe.pdf
+/dataset/2601.14091v1_Zero-shot adaptable task planning for autonomous c.pdf
+/dataset/2601.14096v1_Remapping and navigation of an embedding space via.pdf
+/dataset/2601.14099v1_Causal feature selection framework for stable soft.pdf
+/dataset/2601.14115v1_Riemannian Liquid Spatio-Temporal Graph Network.pdf
+/dataset/2601.14124v1_Style Transfer as Bias Mitigation Diffusion Models.pdf
+/dataset/2601.14152v1_Lost in the Prompt Order Revealing the Limitations.pdf
+/dataset/2601.14154v1_LLM Augmented Intervenable Multimodal Adaptor for .pdf
+/dataset/2601.14157v1_ConceptCaps -- a Distilled Concept Dataset for Int.pdf
+/dataset/2601.14160v1_Domain-Adaptation through Synthetic Data Fine-Tuni.pdf
+/dataset/2601.14171v1_Paper2Rebuttal A Multi-Agent Framework for Transpa.pdf
+/dataset/2601.14172v1_Human Values in a Single Sentence Moral Presence H.pdf
+/dataset/2601.14175v1_A model of errors in transformers.pdf
+/dataset/2601.14192v1_Toward Efficient Agents Memory Tool learning and P.pdf
+/dataset/2601.14209v1_InT Self-Proposed Interventions Enable Credit Assi.pdf
+/dataset/2601.14230v1_MASCOT Towards Multi-Agent Socio-Collaborative Com.pdf
+/dataset/2601.14232v1_KAGE-Bench Fast Known-Axis Visual Generalization E.pdf
+/dataset/2601.14234v1_Q-learning with Adjoint Matching.pdf
+/dataset/2601.14235v1_Opportunities in AIML for the Rubin LSST Dark Ener.pdf
+/dataset/2601.14242v1_APEX-Agents.pdf
+/dataset/2601.14255v1_VideoMaMa Mask-Guided Video Matting via Generative.pdf
