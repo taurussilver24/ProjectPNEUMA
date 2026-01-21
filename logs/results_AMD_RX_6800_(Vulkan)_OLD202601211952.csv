@@ -1,0 +1,999 @@
+filename,platform,prompt_tokens,completion_tokens,total_time_sec,tokens_per_second,valid_json
+2601.07192v1_Relink Constructing Query-Driven Evidence Graph On.pdf,AMD RX 6800 (Vulkan),1023,143,5.603301763534546,25.520667284175683,True
+2601.07197v1_Beyond Variance Knowledge-Aware LLM Compression vi.pdf,AMD RX 6800 (Vulkan),1033,121,4.730927467346191,25.5763802838167,True
+2601.07199v1_Forward versus Backward Comparing Reasoning Object.pdf,AMD RX 6800 (Vulkan),729,111,4.078063011169434,27.218804539307357,True
+2601.07200v1_Safeguarding LLM Fine-tuning via Push-Pull Distrib.pdf,AMD RX 6800 (Vulkan),1005,153,5.727728843688965,26.71215837470752,True
+2601.07201v1_CalPro Prior-Aware Evidential--Conformal Predictio.pdf,AMD RX 6800 (Vulkan),1010,178,6.677491664886475,26.656716164246415,True
+2601.07206v1_LLMRouterBench A Massive Benchmark and Unified Fra.pdf,AMD RX 6800 (Vulkan),1041,198,7.306615352630615,27.0987304578328,True
+2601.07209v1_SIRR-LMM Single-image Reflection Removal via Large.pdf,AMD RX 6800 (Vulkan),795,137,5.318657875061035,25.758378000282228,True
+2601.07214v1_BlindU Blind Machine Unlearning without Revealing .pdf,AMD RX 6800 (Vulkan),868,119,4.626688241958618,25.72034115478325,True
+2601.07224v1_Consolidation or Adaptation PRISM Disentangling SF.pdf,AMD RX 6800 (Vulkan),905,197,7.04602313041687,27.959033961948506,True
+2601.07226v1_Lost in the Noise How Reasoning Models Fail with C.pdf,AMD RX 6800 (Vulkan),896,161,6.219101667404175,25.887983282833304,True
+2601.07229v2_DiSCo Making Absence Visible in Intelligent Summar.pdf,AMD RX 6800 (Vulkan),778,193,7.257123947143555,26.59455748664261,True
+2601.07232v1_Yes FLoReNce I Will Do Better Next Time Agentic Fe.pdf,AMD RX 6800 (Vulkan),988,140,5.603497266769409,24.984396946215405,True
+2601.07233v1_From Thinking to Justifying Aligning High-Stakes E.pdf,AMD RX 6800 (Vulkan),1010,142,5.449958086013794,26.0552462530701,True
+2601.07238v1_Group Pattern Selection Optimization Let LRMs Pick.pdf,AMD RX 6800 (Vulkan),905,140,5.2786900997161865,26.521731216524195,True
+2601.07239v1_Stochastic CHAOS Why Deterministic Inference Kills.pdf,AMD RX 6800 (Vulkan),835,212,7.621273756027222,27.816872452894312,True
+2601.07245v1_Learning to Trust the Crowd A Multi-Model Consensu.pdf,AMD RX 6800 (Vulkan),827,120,4.536010503768921,26.45496519469991,True
+2601.07250v1_DDT A Dual-Masking Dual-Expert Transformer for Ene.pdf,AMD RX 6800 (Vulkan),847,125,4.752802133560181,26.300274340763746,True
+2601.07261v1_Pseudodata-guided Invariant Representation Learnin.pdf,AMD RX 6800 (Vulkan),525,132,4.528789758682251,29.146859764673255,True
+2601.07263v1_When Bots Take the Bait Exposing and Mitigating th.pdf,AMD RX 6800 (Vulkan),937,170,6.319689750671387,26.900054703150523,True
+2601.07291v1_A Visual Semantic Adaptive Watermark grounded by P.pdf,AMD RX 6800 (Vulkan),982,161,6.006305694580078,26.805162472046984,True
+2601.07292v1_Photometric Redshift Estimation Using Scaled Ensem.pdf,AMD RX 6800 (Vulkan),985,157,5.894976615905762,26.632845256143053,True
+2601.07296v1_LRAS Advanced Legal Reasoning with Agentic Search.pdf,AMD RX 6800 (Vulkan),966,146,5.552441358566284,26.29473965983482,True
+2601.07304v1_Heterogeneous Multi-Expert Reinforcement Learning .pdf,AMD RX 6800 (Vulkan),877,127,4.895205497741699,25.943752526546394,True
+2601.07309v1_ARM Role-Conditioned Neuron Transplantation for Tr.pdf,AMD RX 6800 (Vulkan),735,162,5.942265748977661,27.262328351415675,True
+2601.07313v1_Explaining Machine Learning Predictive Models thro.pdf,AMD RX 6800 (Vulkan),805,149,5.601978302001953,26.59774671864626,True
+2601.07315v1_VLM-CAD VLM-Optimized Collaborative Agent Design W.pdf,AMD RX 6800 (Vulkan),894,160,5.900491237640381,27.1163863407387,True
+2601.07316v1_BEAT-Net Injecting Biomimetic Spatio-Temporal Prio.pdf,AMD RX 6800 (Vulkan),797,173,6.1637537479400635,28.06731207550543,True
+2601.07320v1_Segmental Advantage Estimation Enhancing PPO for L.pdf,AMD RX 6800 (Vulkan),867,219,7.812649488449097,28.031463631356907,True
+2601.07342v1_Agentic Diagnostic Reasoning over Telecom and Data.pdf,AMD RX 6800 (Vulkan),674,98,3.7586147785186768,26.07343550078393,True
+2601.07344v1_PulseMind A Multi-Modal Medical Model for Real-Wor.pdf,AMD RX 6800 (Vulkan),965,202,7.310437917709351,27.631723608603544,True
+2601.07348v4_Controlled Self-Evolution for Algorithmic Code Opt.pdf,AMD RX 6800 (Vulkan),624,178,6.206971645355225,28.677430826222675,True
+2601.07351v2_Beyond Hard Masks Progressive Token Evolution for .pdf,AMD RX 6800 (Vulkan),1113,170,6.422035455703735,26.47135805658226,True
+2601.07356v1_Efficient Convolutional Forward Model for Passive .pdf,AMD RX 6800 (Vulkan),996,139,5.329083681106567,26.083283415646626,True
+2601.07359v1_Seeing Right but Saying Wrong Inter- and Intra-Lay.pdf,AMD RX 6800 (Vulkan),853,127,4.7808427810668945,26.564353988578272,True
+2601.07364v1_On the universal definition of intelligence.pdf,AMD RX 6800 (Vulkan),443,90,3.2016313076019287,28.110669640912334,True
+2601.07372v1_Conditional Memory via Scalable Lookup A New Axis .pdf,AMD RX 6800 (Vulkan),863,201,7.185566425323486,27.97274259293361,True
+2601.07376v1_OpenTinker Separating Concerns in Agentic Reinforc.pdf,AMD RX 6800 (Vulkan),790,115,4.312350749969482,26.667589597347533,True
+2601.07377v1_Learning Dynamic Collaborative Network for Semi-su.pdf,AMD RX 6800 (Vulkan),920,129,4.812572002410889,26.804793764202724,True
+2601.07389v1_On the Non-decoupling of Supervised Fine-tuning an.pdf,AMD RX 6800 (Vulkan),790,154,5.533811569213867,27.828920098534766,True
+2601.07392v1_OceanSAR-2 A Universal Feature Extractor for SAR O.pdf,AMD RX 6800 (Vulkan),868,190,6.863013982772827,27.684629592323127,True
+2601.07393v1_Software-Hardware Co-optimization for Modular E2E .pdf,AMD RX 6800 (Vulkan),797,171,6.108755350112915,27.9926090012492,True
+2601.07395v1_MCP-ITP An Automated Framework for Implicit Tool P.pdf,AMD RX 6800 (Vulkan),908,125,4.79972505569458,26.043158420438093,True
+2601.07397v1_Layerwise goal-oriented adaptivity for neural ODEs.pdf,AMD RX 6800 (Vulkan),769,114,4.267604112625122,26.712880808870395,True
+2601.07411v1_SCALPEL Selective Capability Ablation via Low-rank.pdf,AMD RX 6800 (Vulkan),756,149,5.350445747375488,27.848147058231138,True
+2601.07422v1_Two Pathways to Truthfulness On the Intrinsic Enco.pdf,AMD RX 6800 (Vulkan),959,183,6.6412389278411865,27.555099581319585,True
+2601.07430v1_KALE Enhancing Knowledge Manipulation in Large Lan.pdf,AMD RX 6800 (Vulkan),992,135,5.1491405963897705,26.21796734287133,True
+2601.07449v1_RLPO Residual Listwise Preference Optimization for.pdf,AMD RX 6800 (Vulkan),930,146,5.489262580871582,26.597379492969747,True
+2601.07463v1_Puzzle it Out Local-to-Global World Model for Offl.pdf,AMD RX 6800 (Vulkan),907,109,4.713104724884033,23.127005734565333,True
+2601.07464v1_IFDNS An Iterative Feedback-Driven Neuro-Symbolic .pdf,AMD RX 6800 (Vulkan),1052,150,5.663846492767334,26.48376861759023,True
+2601.07468v1_Beyond Dialogue Time Temporal Semantic Memory for .pdf,AMD RX 6800 (Vulkan),988,163,6.538586854934692,24.928933975539895,True
+2601.07469v1_Knowledge Distillation for LLM-Based Human Activit.pdf,AMD RX 6800 (Vulkan),943,159,6.010873556137085,26.452062003144526,True
+2601.07470v1_Learning How to Remember A Meta-Cognitive Manageme.pdf,AMD RX 6800 (Vulkan),1025,149,6.2292845249176025,23.91927987941294,True
+2601.07474v1_Task Prototype-Based Knowledge Retrieval for Multi.pdf,AMD RX 6800 (Vulkan),969,113,5.152798175811768,21.929832324977113,True
+2601.07475v1_ARCQuant Boosting NVFP4 Quantization with Augmente.pdf,AMD RX 6800 (Vulkan),941,141,5.592658758163452,25.211622252866068,True
+2601.07477v1_JudgeFlow Agentic Workflow Optimization via Block .pdf,AMD RX 6800 (Vulkan),945,137,5.217783212661743,26.25636106681257,True
+2601.07496v1_Graph Inference Towards ICD Coding.pdf,AMD RX 6800 (Vulkan),939,110,4.357530355453491,25.24365661901447,True
+2601.07514v1_Data-Driven Stochastic VRP Integration of Forecast.pdf,AMD RX 6800 (Vulkan),487,143,4.8894524574279785,29.246628583688686,True
+2601.07516v1_Controlling Multimodal Conversational Agents with .pdf,AMD RX 6800 (Vulkan),980,130,5.024518251419067,25.87312723230417,True
+2601.07518v1_Mon3tr Monocular 3D Telepresence with Pre-built Ga.pdf,AMD RX 6800 (Vulkan),919,163,6.034249544143677,27.012472521656612,True
+2601.07525v1_Thinking Before Constraining A Unified Decoding Fr.pdf,AMD RX 6800 (Vulkan),909,147,5.549145698547363,26.490564131066368,True
+2601.07528v1_From RAG to Agentic RAG for Faithful Islamic Quest.pdf,AMD RX 6800 (Vulkan),947,196,7.263264179229736,26.98511236318347,True
+2601.07553v1_VirtualEnv A Platform for Embodied AI Research.pdf,AMD RX 6800 (Vulkan),1031,131,5.065025091171265,25.863642853091342,True
+2601.07556v1_Backpropagation-Free Test-Time Adaptation for Ligh.pdf,AMD RX 6800 (Vulkan),950,164,6.0773961544036865,26.985241019900513,True
+2601.07565v1_A Unified Framework for Emotion Recognition and Se.pdf,AMD RX 6800 (Vulkan),830,195,7.01350474357605,27.803502974544692,True
+2601.07568v1_d3LLM Ultra-Fast Diffusion LLM using Pseudo-Trajec.pdf,AMD RX 6800 (Vulkan),1037,164,6.152323961257935,26.65659367626469,True
+2601.07573v1_A Model of Artificial Jagged Intelligence.pdf,AMD RX 6800 (Vulkan),567,101,3.6835575103759766,27.419145680636067,True
+2601.07577v1_Beyond Entangled Planning Task-Decoupled Planning .pdf,AMD RX 6800 (Vulkan),937,145,5.543108701705933,26.15860662363976,True
+2601.07580v1_Large Language Models for Physics Instrument Desig.pdf,AMD RX 6800 (Vulkan),761,130,4.827087879180908,26.931351418043636,True
+2601.07582v2_ES-Mem Event Segmentation-Based Memory for Long-Te.pdf,AMD RX 6800 (Vulkan),934,195,7.124619007110596,27.369884593882677,True
+2601.07597v1_Pheromone-Focused Ant Colony Optimization algorith.pdf,AMD RX 6800 (Vulkan),832,146,5.419057130813599,26.9419562251561,True
+2601.07606v1_Proof of Time A Benchmark for Evaluating Scientifi.pdf,AMD RX 6800 (Vulkan),930,169,6.244853973388672,27.062282115829014,True
+2601.07611v1_DIAGPaper Diagnosing Valid and Specific Weaknesses.pdf,AMD RX 6800 (Vulkan),870,146,5.421617269515991,26.92923397985155,True
+2601.07618v1_Neural Architecture for Fast and Reliable Coagulat.pdf,AMD RX 6800 (Vulkan),891,132,4.979549884796143,26.508420048773935,True
+2601.07632v2_GeoMotionGPT Geometry-Aligned Motion Understanding.pdf,AMD RX 6800 (Vulkan),939,179,6.565817594528198,27.262408287000614,True
+2601.07635v2_Learning About Learning A Physics Path from Spin G.pdf,AMD RX 6800 (Vulkan),903,159,5.863454103469849,27.117121954771964,True
+2601.07638v1_SALT-KG A Benchmark for Semantics-Aware Learning o.pdf,AMD RX 6800 (Vulkan),913,157,5.799692392349243,27.070401217676487,True
+2601.07641v1_Beyond Static Tools Test-Time Tool Evolution for S.pdf,AMD RX 6800 (Vulkan),938,198,7.229522228240967,27.387701946132044,True
+2601.07651v1_Active Evaluation of General Agents Problem Defini.pdf,AMD RX 6800 (Vulkan),902,116,4.5273520946502686,25.622040781204323,True
+2601.07654v1_Towards Automating Blockchain Consensus Verificati.pdf,AMD RX 6800 (Vulkan),645,111,4.124765634536743,26.91061985936724,True
+2601.07663v2_Reasoning Models Will Blatantly Lie About Their Re.pdf,AMD RX 6800 (Vulkan),970,105,4.244719982147217,24.736614062085934,True
+2601.07666v1_Variational Contrastive Learning for Skeleton-base.pdf,AMD RX 6800 (Vulkan),653,122,4.486589193344116,27.19214858828345,True
+2601.07667v1_Adaptive Layer Selection for Layer-Wise Token Prun.pdf,AMD RX 6800 (Vulkan),1013,132,5.080710172653198,25.980619935867796,True
+2601.07685v1_Predictive Analytics for Dementia Machine Learning.pdf,AMD RX 6800 (Vulkan),911,146,5.417938470840454,26.947519021446517,True
+2601.07701v1_Deep Whole-body Parkour.pdf,AMD RX 6800 (Vulkan),805,137,5.084903001785278,26.94250017196004,True
+2601.07718v1_Hiking in the Wild A Scalable Perceptive Parkour F.pdf,AMD RX 6800 (Vulkan),584,145,5.029549837112427,28.829617897423525,True
+2601.07737v1_Evaluating the encoding competence of visual langu.pdf,AMD RX 6800 (Vulkan),216,71,2.3265416622161865,30.517398915765707,True
+2601.07748v1_Improving Domain Generalization in Contrastive Lea.pdf,AMD RX 6800 (Vulkan),800,119,4.516812086105347,26.346015227436347,True
+2601.07778v1_DT-ICU Towards Explainable Digital Twins for ICU P.pdf,AMD RX 6800 (Vulkan),431,129,4.379540920257568,29.4551420682726,True
+2601.07779v1_OS-Symphony A Holistic Framework for Robust and Ge.pdf,AMD RX 6800 (Vulkan),1110,281,10.064152479171753,27.920880628701024,True
+2601.07782v1_Beyond Single-Shot Multi-step Tool Retrieval via Q.pdf,AMD RX 6800 (Vulkan),881,101,4.025549411773682,25.089742956477284,True
+2601.07790v1_Benchmarking Small Language Models and Small Reaso.pdf,AMD RX 6800 (Vulkan),749,151,5.514591217041016,27.3819026754666,True
+2601.07794v1_Kinship Data Benchmark for Multi-hop Reasoning.pdf,AMD RX 6800 (Vulkan),815,112,4.268230199813843,26.240384130379105,True
+2601.07821v1_Failure-Aware RL Reliable Offline-to-Online Reinfo.pdf,AMD RX 6800 (Vulkan),871,183,6.562519073486328,27.88563323790563,True
+2601.07832v2_MHLA Restoring Expressivity of Linear Attention vi.pdf,AMD RX 6800 (Vulkan),737,170,6.034219741821289,28.172656494721792,True
+2601.07885v1_Small Symbols Big Risks Exploring Emoticon Semanti.pdf,AMD RX 6800 (Vulkan),977,155,5.8425610065460205,26.52946196476812,True
+2601.07891v1_KVzap Fast Adaptive and Faithful KV Cache Pruning.pdf,AMD RX 6800 (Vulkan),743,109,4.160959243774414,26.195882635256453,True
+2601.07892v1_Sherry Hardware-Efficient 1.25-Bit Ternary Quantiz.pdf,AMD RX 6800 (Vulkan),1010,186,6.9062018394470215,26.93231450862041,True
+2601.07894v1_Revealing the Attention Floating Mechanism in Mask.pdf,AMD RX 6800 (Vulkan),944,191,7.047027587890625,27.103625978165315,True
+2601.07898v1_Large Language Models and Algorithm Execution Appl.pdf,AMD RX 6800 (Vulkan),802,107,4.1440651416778564,25.82005744163511,True
+2601.07901v1_Decentralized Online Convex Optimization with Unkn.pdf,AMD RX 6800 (Vulkan),846,121,4.573052406311035,26.45935127115843,True
+2601.07903v2_Enhancing Large Language Models for Time-Series Fo.pdf,AMD RX 6800 (Vulkan),937,121,4.685875654220581,25.822281453630758,True
+2601.07935v1_Towards Specialized Generalists A Multi-Task MoE-L.pdf,AMD RX 6800 (Vulkan),789,141,5.165902853012085,27.294357639301534,True
+2601.07939v1_SECite Analyzing and Summarizing Citations in Soft.pdf,AMD RX 6800 (Vulkan),824,145,5.337007522583008,27.168783140448493,True
+2601.07941v2_Moonworks Lunara Aesthetic Dataset.pdf,AMD RX 6800 (Vulkan),595,127,4.464240074157715,28.448290837934287,True
+2601.07946v1_Coupled Diffusion-Encoder Models for Reconstructio.pdf,AMD RX 6800 (Vulkan),781,126,4.659519910812378,27.041412508532915,True
+2601.07948v1_Reinforcement Learning Methods for Neighborhood Se.pdf,AMD RX 6800 (Vulkan),942,134,5.0885233879089355,26.33376910842216,True
+2601.07951v1_Hybrid SARIMA LSTM Model for Local Weather Forecas.pdf,AMD RX 6800 (Vulkan),772,139,5.075533628463745,27.3862829359427,True
+2601.07953v1_Quantum automated theorem proving.pdf,AMD RX 6800 (Vulkan),841,137,5.129898548126221,26.706181168054773,True
+2601.07957v1_LWMSCNN-SE A Lightweight Multi-Scale Network for E.pdf,AMD RX 6800 (Vulkan),833,140,5.22054648399353,26.817115876517402,True
+2601.07958v1_LJ-Spoof A Generatively Varied Corpus for Audio An.pdf,AMD RX 6800 (Vulkan),938,167,6.207021474838257,26.90501405174399,True
+2601.07964v1_Executable Ontologies in Game Development From Alg.pdf,AMD RX 6800 (Vulkan),617,117,4.2500245571136475,27.529252696708916,True
+2601.07965v1_When Models Know When They Do Not Know Calibration.pdf,AMD RX 6800 (Vulkan),869,148,5.522333860397339,26.800263030339714,True
+2601.07969v1_Tuberculosis Screening from Cough Audio Baseline M.pdf,AMD RX 6800 (Vulkan),834,126,4.705471754074097,26.77733638309624,True
+2601.07973v1_Cultural Compass A Framework for Organizing Societ.pdf,AMD RX 6800 (Vulkan),971,177,6.460631370544434,27.396703177801694,True
+2601.07988v1_From Word Sequences to Behavioral Sequences Adapti.pdf,AMD RX 6800 (Vulkan),901,207,7.352786064147949,28.15259388673475,True
+2601.07994v2_DYCP Dynamic Context Pruning for Long-Form Dialogu.pdf,AMD RX 6800 (Vulkan),903,115,4.440654516220093,25.89708331957528,True
+2601.08000v1_Reasoning over Precedents Alongside Statutes Case-.pdf,AMD RX 6800 (Vulkan),1087,202,7.363302230834961,27.4333435824614,True
+2601.08003v1_LLM Review Enhancing Creative Writing via Blind Pe.pdf,AMD RX 6800 (Vulkan),940,163,6.024167776107788,27.05767934393657,True
+2601.08005v1_Internal Deployment Gaps in AI Regulation.pdf,AMD RX 6800 (Vulkan),768,99,3.789665699005127,26.123676298410633,True
+2601.08011v1_TP-Blend Textual-Prompt Attention Pairing for Prec.pdf,AMD RX 6800 (Vulkan),860,118,4.477869033813477,26.351820276330848,True
+2601.08017v1_Representations of Text and Images Align From Laye.pdf,AMD RX 6800 (Vulkan),737,130,4.774322032928467,27.228996934725156,True
+2601.08026v2_FigEx2 Visual-Conditioned Panel Detection and Capt.pdf,AMD RX 6800 (Vulkan),945,195,7.070668697357178,27.57872110071932,True
+2601.08043v1_The Role of Noisy Data in Improving CNN Robustness.pdf,AMD RX 6800 (Vulkan),821,143,5.28037166595459,27.08142703703951,True
+2601.08049v1_Integrating Attendance Tracking and Emotion Detect.pdf,AMD RX 6800 (Vulkan),555,114,4.0471508502960205,28.167964134981947,True
+2601.08052v1_Forecast Aware Deep Reinforcement Learning for Eff.pdf,AMD RX 6800 (Vulkan),560,154,5.3090410232543945,29.007121874827664,True
+2601.08058v1_Reasoning Beyond Chain-of-Thought A Latent Computa.pdf,AMD RX 6800 (Vulkan),896,141,5.293250799179077,26.637694934437548,True
+2601.08065v1_A New Strategy for Verifying Reach-Avoid Specifica.pdf,AMD RX 6800 (Vulkan),672,126,4.638815879821777,27.162104136980943,True
+2601.08070v1_Semantic Gravity Wells Why Negative Constraints Ba.pdf,AMD RX 6800 (Vulkan),840,106,4.134323358535767,25.639020175127644,True
+2601.08079v1_MemoBrain Executive Memory as an Agentic Brain for.pdf,AMD RX 6800 (Vulkan),908,109,4.299769163131714,25.350198083799093,True
+2601.08089v1_Q-realign Piggybacking Realignment on Quantization.pdf,AMD RX 6800 (Vulkan),1035,174,6.42462420463562,27.083296152084994,True
+2601.08094v1_Local-Global Feature Fusion for Subject-Independen.pdf,AMD RX 6800 (Vulkan),804,121,4.57542085647583,26.44565468305335,True
+2601.08104v1_High-Fidelity Modeling of Stochastic Chemical Dyna.pdf,AMD RX 6800 (Vulkan),920,219,7.749592304229736,28.259551135415155,True
+2601.08107v1_STO-RL Offline RL under Sparse Rewards via LLM-Gui.pdf,AMD RX 6800 (Vulkan),940,142,5.362889051437378,26.47826547184315,True
+2601.08108v1_Debiasing Large Language Models via Adaptive Causa.pdf,AMD RX 6800 (Vulkan),928,185,6.793222665786743,27.233024604320782,True
+2601.08109v1_CSQL Mapping Documents into Causal Databases.pdf,AMD RX 6800 (Vulkan),818,98,3.865183115005493,25.354555549914927,True
+2601.08118v1_MirrorBench An Extensible Framework to Evaluate Us.pdf,AMD RX 6800 (Vulkan),942,178,6.5664894580841064,27.10733050532221,True
+2601.08125v1_How vehicles change lanes after encountering crash.pdf,AMD RX 6800 (Vulkan),389,89,3.079664468765259,28.899252143426878,True
+2601.08127v1_PathoGen Diffusion-Based Synthesis of Realistic Le.pdf,AMD RX 6800 (Vulkan),700,124,4.563529968261719,27.171948220432633,True
+2601.08128v1_Embedded AI Companion System on Edge Devices.pdf,AMD RX 6800 (Vulkan),816,107,4.167474269866943,25.675023544516385,True
+2601.08133v1_How Do Optical Flow and Textual Prompts Collaborat.pdf,AMD RX 6800 (Vulkan),984,135,5.149338483810425,26.21695979482441,True
+2601.08139v1_Subspace Alignment for Vision-Language Model Test-.pdf,AMD RX 6800 (Vulkan),1001,193,7.09997820854187,27.183182022700407,True
+2601.08141v1_Qalb Largest State-of-the-Art Urdu Large Language .pdf,AMD RX 6800 (Vulkan),927,122,4.707298517227173,25.91720060954705,True
+2601.08146v2_Mechanisms are Transferable Data-Efficient Low-Res.pdf,AMD RX 6800 (Vulkan),989,164,6.136587142944336,26.724952515106427,True
+2601.08148v1_Enriching Semantic Profiles into Knowledge Graph f.pdf,AMD RX 6800 (Vulkan),1046,114,4.56343412399292,24.981186734049338,True
+2601.08149v1_Dynamic Graph Structure Learning via Resistance Cu.pdf,AMD RX 6800 (Vulkan),328,135,4.457870721817017,30.283516150278658,True
+2601.08156v1_Project Synapse A Hierarchical Multi-Agent Framewo.pdf,AMD RX 6800 (Vulkan),496,161,5.39872145652771,29.821875660084565,True
+2601.08160v1_SwiftMem Fast Agentic Memory via Query-aware Index.pdf,AMD RX 6800 (Vulkan),909,178,6.433294057846069,27.668562698903923,True
+2601.08166v1_ZeroDVFS Zero-Shot LLM-Guided Core and Frequency A.pdf,AMD RX 6800 (Vulkan),793,144,5.223248481750488,27.569050276493968,True
+2601.08173v1_The Agents First Day Benchmarking Learning Explora.pdf,AMD RX 6800 (Vulkan),1024,173,6.469832897186279,26.73948504531507,True
+2601.08176v1_Prompt-Based Clarity Evaluation and Topic Detectio.pdf,AMD RX 6800 (Vulkan),881,138,5.213605880737305,26.46920445403597,True
+2601.08179v1_Instruction-Driven 3D Facial Expression Generation.pdf,AMD RX 6800 (Vulkan),874,146,5.473699331283569,26.673003240344833,True
+2601.08183v2_GI-Bench A Panoramic Benchmark Revealing the Knowl.pdf,AMD RX 6800 (Vulkan),598,211,7.192505598068237,29.336091174773692,True
+2601.08185v1_Autonomous Materials Exploration by Integrating Au.pdf,AMD RX 6800 (Vulkan),877,220,7.815752983093262,28.14827956767513,True
+2601.08187v2_Improving LLM Reasoning with Homophily-aware Struc.pdf,AMD RX 6800 (Vulkan),838,349,11.946449995040894,29.213699479332675,True
+2601.08189v2_ForgetMark Stealthy Fingerprint Embedding via Targ.pdf,AMD RX 6800 (Vulkan),976,146,5.532807350158691,26.388050542879004,True
+2601.08196v1_Evaluating Implicit Regulatory Compliance in LLM T.pdf,AMD RX 6800 (Vulkan),953,194,7.054301977157593,27.50094915530805,True
+2601.08211v1_Adapting Rules of Official International Mahjong f.pdf,AMD RX 6800 (Vulkan),830,110,4.265419006347656,25.78879116830061,True
+2601.08223v2_DNF Dual-Layer Nested Fingerprinting for Large Lan.pdf,AMD RX 6800 (Vulkan),1018,141,5.401895046234131,26.101951036293556,True
+2601.08224v1_An Axiomatic Approach to General Intelligence SANC.pdf,AMD RX 6800 (Vulkan),811,126,4.7890214920043945,26.310176350297404,True
+2601.08226v1_Knowledge-based learning in Text-RAG and Image-RAG.pdf,AMD RX 6800 (Vulkan),831,130,4.910320043563843,26.474852727857588,True
+2601.08230v1_GADPN Graph Adaptive Denoising and Perturbation Ne.pdf,AMD RX 6800 (Vulkan),870,104,4.193801641464233,24.79850238307628,True
+2601.08235v2_MPCI-Bench A Benchmark for Multimodal Pairwise Con.pdf,AMD RX 6800 (Vulkan),922,129,5.047753095626831,25.555925093039985,True
+2601.08237v1_The End of Reward Engineering How LLMs Are Redefin.pdf,AMD RX 6800 (Vulkan),693,132,5.018666744232178,26.3018061822304,True
+2601.08251v1_Hyperbolic Heterogeneous Graph Transformer.pdf,AMD RX 6800 (Vulkan),863,134,5.100615978240967,26.27133675062755,True
+2601.08254v1_Large Artificial Intelligence Model Guided Deep Re.pdf,AMD RX 6800 (Vulkan),908,133,5.066349267959595,26.251644520663692,True
+2601.08257v2_On Evaluation of Unsupervised Feature Selection fo.pdf,AMD RX 6800 (Vulkan),741,146,5.236001491546631,27.88387288195251,True
+2601.08258v1_T3 Benchmarking Sycophancy and Skepticism in Causa.pdf,AMD RX 6800 (Vulkan),952,138,5.267199993133545,26.199878527471956,True
+2601.08262v1_VGG Induced Deep Hand Sign Language Detection.pdf,AMD RX 6800 (Vulkan),538,107,3.671013832092285,29.147261463467604,True
+2601.08271v1_Sparsity Is Necessary Polynomial-Time Stability fo.pdf,AMD RX 6800 (Vulkan),854,191,6.895699501037598,27.698422759179135,True
+2601.08273v1_HIPPO Accelerating Video Large Language Models Inf.pdf,AMD RX 6800 (Vulkan),956,149,5.60386848449707,26.588775309806774,True
+2601.08276v1_ToolACE-MCP Generalizing History-Aware Routing fro.pdf,AMD RX 6800 (Vulkan),1016,173,6.462691068649292,26.76903447222291,True
+2601.08280v1_Greedy Is Enough Sparse Action Discovery in Agenti.pdf,AMD RX 6800 (Vulkan),763,124,4.647097826004028,26.683320352355437,True
+2601.08288v1_OpenMic A Multi-Agent-Based Stand-Up Comedy Genera.pdf,AMD RX 6800 (Vulkan),876,122,4.668435335159302,26.132952743542067,True
+2601.08297v1_Demystifying the Slash Pattern in Attention The Ro.pdf,AMD RX 6800 (Vulkan),777,175,6.230685472488403,28.08679731511286,True
+2601.08302v1_Enhancing Sentiment Classification and Irony Detec.pdf,AMD RX 6800 (Vulkan),873,138,5.172097444534302,26.68163186790569,True
+2601.08310v1_ORBIT On-policy Exploration-Exploitation for Contr.pdf,AMD RX 6800 (Vulkan),937,166,6.133891820907593,27.06275311771606,True
+2601.08311v1_Enhancing Image Quality Assessment Ability of LMMs.pdf,AMD RX 6800 (Vulkan),947,173,6.357422113418579,27.21228776595623,True
+2601.08323v1_AtomMem  Learnable Dynamic Agentic Memory with Ato.pdf,AMD RX 6800 (Vulkan),981,132,5.1024556159973145,25.869896758366917,True
+2601.08327v1_Safe Heterogeneous Multi-Agent RL with Communicati.pdf,AMD RX 6800 (Vulkan),826,148,5.458635330200195,27.113003717464323,True
+2601.08332v1_IGAN A New Inception-based Model for Stable and Hi.pdf,AMD RX 6800 (Vulkan),735,154,5.57655668258667,27.61560740176455,True
+2601.08333v1_Semantic Laundering in AI Agent Architectures Why .pdf,AMD RX 6800 (Vulkan),516,135,4.680675506591797,28.841990821598177,True
+2601.08360v1_Scalable Sequential Recommendation under Latency a.pdf,AMD RX 6800 (Vulkan),599,187,6.448095321655273,29.000811971867023,True
+2601.08371v1_Geo-NVS-w Geometry-Aware Novel View Synthesis In-t.pdf,AMD RX 6800 (Vulkan),877,174,6.379344701766968,27.275528778340668,True
+2601.08379v1_Training-Free Distribution Adaptation for Diffusio.pdf,AMD RX 6800 (Vulkan),773,146,5.2725889682769775,27.69038149539488,True
+2601.08380v1_Thematic Working Group 5 -- Artificial Intelligenc.pdf,AMD RX 6800 (Vulkan),666,249,8.472091913223267,29.390615983681673,True
+2601.08382v2_A Qualitative Model to Reason about Object Rotatio.pdf,AMD RX 6800 (Vulkan),985,112,4.387102127075195,25.529380615232782,True
+2601.08383v1_Deconstructing Pre-training Knowledge Attribution .pdf,AMD RX 6800 (Vulkan),1059,155,5.885272264480591,26.336929378012325,True
+2601.08388v1_Creativity in AI as Emergence from Domain-Limited .pdf,AMD RX 6800 (Vulkan),751,104,3.960599899291992,26.258648347335292,True
+2601.08393v1_Controlled LLM Training on Spectral Sphere.pdf,AMD RX 6800 (Vulkan),729,224,7.8535120487213135,28.522271133011255,True
+2601.08401v1_An Explainable Two Stage Deep Learning Framework f.pdf,AMD RX 6800 (Vulkan),564,147,5.079672574996948,28.938873092639895,True
+2601.08402v1_PATS Personality-Aware Teaching Strategies with La.pdf,AMD RX 6800 (Vulkan),942,171,6.360753059387207,26.883609283909866,True
+2601.08403v1_Owen-Shapley Policy Optimization OSPO A Principled.pdf,AMD RX 6800 (Vulkan),929,179,6.596167325973511,27.13697078228407,True
+2601.08406v1_WebTrap Park An Automated Platform for Systematic .pdf,AMD RX 6800 (Vulkan),833,156,5.686150789260864,27.435079684244226,True
+2601.08412v1_Hybrid Distillation with CoT Guidance for Edge-Dro.pdf,AMD RX 6800 (Vulkan),795,145,5.272687911987305,27.500205288150408,True
+2601.08415v2_Regulatory gray areas of LLM Terms.pdf,AMD RX 6800 (Vulkan),626,111,4.053197860717773,27.385783722964664,True
+2601.08418v1_Taxon Hierarchical Tax Code Prediction with Semant.pdf,AMD RX 6800 (Vulkan),860,165,6.067750692367554,27.192943211649858,True
+2601.08430v1_RubricHub A Comprehensive and Highly Discriminativ.pdf,AMD RX 6800 (Vulkan),975,197,7.147322177886963,27.562770377064652,True
+2601.08434v3_Large Multimodal Models for Embodied Intelligent D.pdf,AMD RX 6800 (Vulkan),883,149,5.5350611209869385,26.91930526928532,True
+2601.08441v1_YaPO Learnable Sparse Activation Steering Vectors .pdf,AMD RX 6800 (Vulkan),955,182,6.679364442825317,27.24810145604444,True
+2601.08444v1_Beyond Linearization Attributed Table Graphs for T.pdf,AMD RX 6800 (Vulkan),1127,185,7.025897979736328,26.33115375907334,True
+2601.08448v1_Divide and Conquer Static-Dynamic Collaboration fo.pdf,AMD RX 6800 (Vulkan),976,141,5.337967395782471,26.414548749661552,True
+2601.08450v1_Decoding Order Matters in Autoregressive Speech Sy.pdf,AMD RX 6800 (Vulkan),973,100,4.069835186004639,24.571019569509915,True
+2601.08457v1_An Under-Explored Application for Explainable Mult.pdf,AMD RX 6800 (Vulkan),910,137,5.905272006988525,23.19960872892374,True
+2601.08462v1_M3-BENCH Process-Aware Evaluation of LLM Agents So.pdf,AMD RX 6800 (Vulkan),875,180,6.576436758041382,27.37044491150984,True
+2601.08464v1_CoMa Contextual Massing Generation with Vision-Lan.pdf,AMD RX 6800 (Vulkan),612,135,4.792876958847046,28.166798596990276,True
+2601.08468v1_JudgeRLVR Judge First Generate Second for Efficien.pdf,AMD RX 6800 (Vulkan),786,158,5.718505859375,27.629594842676003,True
+2601.08472v1_sui-1 Grounded and Verifiable Long-Form Summarizat.pdf,AMD RX 6800 (Vulkan),676,142,5.200629949569702,27.304384541289853,True
+2601.08475v1_SUMMPILOT Bridging Efficiency and Customization fo.pdf,AMD RX 6800 (Vulkan),858,133,5.1035895347595215,26.06008949077189,True
+2601.08490v1_BenchOverflow Measuring Overflow in Large Language.pdf,AMD RX 6800 (Vulkan),774,117,4.427698850631714,26.424561368555416,True
+2601.08493v1_PKI Prior Knowledge-Infused Neural Network for Few.pdf,AMD RX 6800 (Vulkan),616,142,5.084078073501587,27.930334260622303,True
+2601.08499v2_EfficientFSL Enhancing Few-Shot Classification via.pdf,AMD RX 6800 (Vulkan),913,128,4.904628038406372,26.097799669552554,True
+2601.08503v1_Temporal Fusion Nexus A task-agnostic multi-modal .pdf,AMD RX 6800 (Vulkan),607,220,7.330310821533203,30.01236991939517,True
+2601.08509v1_What If TSF A Benchmark for Reframing Forecasting .pdf,AMD RX 6800 (Vulkan),936,148,5.5346527099609375,26.74061187861678,True
+2601.08510v2_STAGE A Benchmark for Knowledge Graph Construction.pdf,AMD RX 6800 (Vulkan),569,181,6.303267240524292,28.715266716970866,True
+2601.08519v1_CD2 Constrained Dataset Distillation for Few-Shot .pdf,AMD RX 6800 (Vulkan),910,145,5.470985412597656,26.50345213242913,True
+2601.08531v1_Sketch-Based Facade Renovation With Generative AI .pdf,AMD RX 6800 (Vulkan),676,129,4.851738691329956,26.58840638522488,True
+2601.08545v2_Learner-Tailored Program Repair A Solution Generat.pdf,AMD RX 6800 (Vulkan),966,179,9.003479242324829,19.881203164053677,True
+2601.08549v1_Contrastive and Multi-Task Learning on Noisy Brain.pdf,AMD RX 6800 (Vulkan),834,162,8.523492813110352,19.00629279006616,True
+2601.08557v1_VideoHEDGE Entropy-Based Hallucination Detection f.pdf,AMD RX 6800 (Vulkan),896,147,6.962673902511597,21.112578595268367,True
+2601.08559v1_WaterCopilot An AI-Driven Virtual Assistant for Wa.pdf,AMD RX 6800 (Vulkan),785,157,6.597540378570557,23.796747119570657,True
+2601.08565v1_Rewriting Video Text-Driven Reauthoring of Video F.pdf,AMD RX 6800 (Vulkan),851,125,5.571544408798218,22.43543097361087,True
+2601.08602v1_WaveFormer Frequency-Time Decoupled Vision Modelin.pdf,AMD RX 6800 (Vulkan),959,164,7.276945114135742,22.536929635682394,True
+2601.08605v1_ExpSeek Self-Triggered Experience Seeking for Web .pdf,AMD RX 6800 (Vulkan),1011,142,5.800002813339233,24.482746745125525,True
+2601.08611v1_VeriTaS The First Dynamic Benchmark for Multimodal.pdf,AMD RX 6800 (Vulkan),1300,133,6.079782962799072,21.87578089773917,True
+2601.08620v1_ViDoRe V3 A Comprehensive Evaluation of Retrieval .pdf,AMD RX 6800 (Vulkan),1020,222,8.790340423583984,25.254994607988856,True
+2601.08623v1_SafeRedir Prompt Embedding Redirection for Robust .pdf,AMD RX 6800 (Vulkan),916,162,7.803056240081787,20.761096039249104,True
+2601.08631v1_M2FMoE Multi-Resolution Multi-View Frequency Mixtu.pdf,AMD RX 6800 (Vulkan),885,166,6.317953824996948,26.274329410769347,True
+2601.08634v1_Moral Lenses Political Coordinates Towards Ideolog.pdf,AMD RX 6800 (Vulkan),910,166,6.150755167007446,26.988555956579344,True
+2601.08641v1_Resisting Manipulative Bots in Memecoin Copy Tradi.pdf,AMD RX 6800 (Vulkan),920,154,5.785511493682861,26.618216931752873,True
+2601.08653v1_Prism Towards Lowering User Cognitive Load in LLMs.pdf,AMD RX 6800 (Vulkan),861,100,3.9609522819519043,25.246454105405515,True
+2601.08654v1_RULERS Locked Rubrics and Evidence-Anchored Scorin.pdf,AMD RX 6800 (Vulkan),977,144,5.562443733215332,25.88790231533035,True
+2601.08659v1_TRACE Reconstruction-Based Anomaly Detection in En.pdf,AMD RX 6800 (Vulkan),1011,157,6.064170837402344,25.88977194238359,True
+2601.08662v1_From Classical to Quantum Reinforcement Learning a.pdf,AMD RX 6800 (Vulkan),910,132,5.1195056438446045,25.78373952155109,True
+2601.08670v1_Parallel Context-of-Experts Decoding for Retrieval.pdf,AMD RX 6800 (Vulkan),1028,115,4.676223516464233,24.592494262753572,True
+2601.08673v1_Why AI Alignment Failure Is Structural Learned Hum.pdf,AMD RX 6800 (Vulkan),641,145,5.489515066146851,26.413990717358036,True
+2601.08676v2_Advancing ESG Intelligence An Expert-level Agent a.pdf,AMD RX 6800 (Vulkan),948,184,7.022804260253906,26.20036002446515,True
+2601.08679v1_PersonaDual Balancing Personalization and Objectiv.pdf,AMD RX 6800 (Vulkan),1123,159,6.0505053997039795,26.278796480006292,True
+2601.08682v1_Lessons from the Field An Adaptable Lifecycle Appr.pdf,AMD RX 6800 (Vulkan),913,211,7.6403281688690186,27.616614801931195,True
+2601.08683v1_Region of interest detection for efficient aortic .pdf,AMD RX 6800 (Vulkan),849,116,4.508485317230225,25.72926201105259,True
+2601.08684v1_MEMEWEAVER Inter-Meme Graph Reasoning for Sexism a.pdf,AMD RX 6800 (Vulkan),985,157,5.661635398864746,27.730503456913027,True
+2601.08690v1_All Required In Order Phase-Level Evaluation for A.pdf,AMD RX 6800 (Vulkan),918,144,5.3403637409210205,26.96445541650786,True
+2601.08697v2_Auditing Student-AI Collaboration A Case Study of .pdf,AMD RX 6800 (Vulkan),909,117,4.531170845031738,25.821140716485274,True
+2601.08703v1_Evaluating the Ability of Explanations to Disambig.pdf,AMD RX 6800 (Vulkan),907,140,5.270034313201904,26.565291927850936,True
+2601.08713v1_Real-Time Localization Framework for Autonomous Ba.pdf,AMD RX 6800 (Vulkan),860,109,4.251188278198242,25.639890041801884,True
+2601.08731v1_Learning from Demonstrations via Capability-Aware .pdf,AMD RX 6800 (Vulkan),860,203,7.884809970855713,25.745706079200417,True
+2601.08732v1_ISLA A U-Net for MRI-based acute ischemic stroke l.pdf,AMD RX 6800 (Vulkan),1038,170,6.457541227340698,26.325809470674997,True
+2601.08734v1_TerraFormer Automated Infrastructure-as-Code with .pdf,AMD RX 6800 (Vulkan),1071,165,6.274943828582764,26.29505610048884,True
+2601.08743v1_TableCache Primary Foreign Key Guided KV Cache Pre.pdf,AMD RX 6800 (Vulkan),885,156,5.752994775772095,27.116311778514284,True
+2601.08747v2_To Retrieve or To Think An Agentic Approach for Co.pdf,AMD RX 6800 (Vulkan),912,134,5.014899253845215,26.720377263262947,True
+2601.08753v1_Grid-Aware Charging and Operational Optimization f.pdf,AMD RX 6800 (Vulkan),814,163,5.913619041442871,27.56349349826049,True
+2601.08768v1_AI as Entertainment.pdf,AMD RX 6800 (Vulkan),819,109,4.273975133895874,25.503190024562166,True
+2601.08773v1_Reliable Graph-RAG for Codebases AST-Derived Graph.pdf,AMD RX 6800 (Vulkan),709,153,5.526533365249634,27.68462431839294,True
+2601.08776v1_Translating Light-Sheet Microscopy Images to Virtu.pdf,AMD RX 6800 (Vulkan),784,117,4.480547666549683,26.11287920748709,True
+2601.08777v1_Asymptotic Universal Alignment A New Alignment Fra.pdf,AMD RX 6800 (Vulkan),575,106,3.9006266593933105,27.17512062958798,True
+2601.08778v3_Pervasive Annotation Errors Break Text-to-SQL Benc.pdf,AMD RX 6800 (Vulkan),991,119,4.731053352355957,25.152960902616055,True
+2601.08785v1_Uncovering Political Bias in Large Language Models.pdf,AMD RX 6800 (Vulkan),904,151,5.721492528915405,26.391714965434783,True
+2601.08806v1_APEX-SWE.pdf,AMD RX 6800 (Vulkan),823,162,6.041741609573364,26.813460500082456,True
+2601.08807v1_S3-CLIP Video Super Resolution for Person-ReID.pdf,AMD RX 6800 (Vulkan),967,147,5.661683559417725,25.96400848922016,True
+2601.08808v1_Multiplex Thinking Reasoning via Token-wise Branch.pdf,AMD RX 6800 (Vulkan),883,156,5.909271478652954,26.399193295407866,True
+2601.08811v1_Reasoning Matters for 3D Visual Grounding.pdf,AMD RX 6800 (Vulkan),982,160,6.1775689125061035,25.900156237203596,True
+2601.08816v2_MemRec Collaborative Memory-Augmented Agentic Reco.pdf,AMD RX 6800 (Vulkan),982,153,5.816061019897461,26.30646402721157,True
+2601.08828v1_Motion Attribution for Video Generation.pdf,AMD RX 6800 (Vulkan),926,148,5.6275248527526855,26.299306333157514,True
+2601.08829v1_Modeling LLM Agent Reviewer Dynamics in Elo-Ranked.pdf,AMD RX 6800 (Vulkan),900,139,5.278493165969849,26.33327270292311,True
+2601.08873v1_ForensicFormer Hierarchical Multi-Scale Reasoning .pdf,AMD RX 6800 (Vulkan),830,175,6.300309181213379,27.77641461181381,True
+2601.08874v1_The Illusion of Friendship Why Generative AI Deman.pdf,AMD RX 6800 (Vulkan),741,115,4.200644016265869,27.376754505902735,True
+2601.08875v2_Learning Domain-Invariant Representations for Cros.pdf,AMD RX 6800 (Vulkan),870,136,5.029760360717773,27.039061554931035,True
+2601.08881v1_TAG-MoE Task-Aware Gating for Unified Generative M.pdf,AMD RX 6800 (Vulkan),764,204,7.1280741691589355,28.619230827121235,True
+2601.08882v1_Compressing Vision Transformers in Geospatial Tran.pdf,AMD RX 6800 (Vulkan),672,116,4.30243182182312,26.961496382491415,True
+2601.08884v1_Bridging the Gap Empowering Small Models in Reliab.pdf,AMD RX 6800 (Vulkan),825,147,5.475683927536011,26.84596151738586,True
+2601.08891v1_Attention Consistency Regularization for Interpret.pdf,AMD RX 6800 (Vulkan),817,119,4.4934728145599365,26.482857449234203,True
+2601.08892v1_Evaluating Role-Consistency in LLMs for Counselor .pdf,AMD RX 6800 (Vulkan),695,112,4.109846353530884,27.25162703558922,True
+2601.08896v1_XGBoost Forecasting of NEPSE Index Log Returns wit.pdf,AMD RX 6800 (Vulkan),950,173,6.245854377746582,27.698372318186518,True
+2601.08901v1_Navigating Ideation Space Decomposed Conceptual Re.pdf,AMD RX 6800 (Vulkan),908,124,4.571378469467163,27.125297287943294,True
+2601.08910v1_Towards a Self-Driving Trigger at the LHC Adaptive.pdf,AMD RX 6800 (Vulkan),608,190,6.302489995956421,30.146815008338137,True
+2601.08950v1_ConvoLearn A Dataset of Constructivist Tutor-Stude.pdf,AMD RX 6800 (Vulkan),993,148,5.637830495834351,26.251232652232705,True
+2601.08951v1_PluriHarms Benchmarking the Full Spectrum of Human.pdf,AMD RX 6800 (Vulkan),864,147,5.477990627288818,26.834657085339636,True
+2601.08953v1_Fairness risk and its privacy-enabled solution in .pdf,AMD RX 6800 (Vulkan),593,117,4.175073862075806,28.023456318406005,True
+2601.08955v1_Imagine-then-Plan Agent Learning from Adaptive Loo.pdf,AMD RX 6800 (Vulkan),978,149,5.686686754226685,26.20154871186712,True
+2601.08988v1_ART Action-based Reasoning Task Benchmarking for M.pdf,AMD RX 6800 (Vulkan),809,135,5.117685794830322,26.37911067857497,True
+2601.09012v3_TranslateGemma Technical Report.pdf,AMD RX 6800 (Vulkan),861,150,5.687570095062256,26.373301338338603,True
+2601.09018v1_Meta-learning to Address Data Shift in Time Series.pdf,AMD RX 6800 (Vulkan),879,139,5.278204917907715,26.33471078934535,True
+2601.09028v1_OpenDecoder Open Large Language Model Decoding to .pdf,AMD RX 6800 (Vulkan),953,165,6.159647464752197,26.787247313128162,True
+2601.09029v1_Proactively Detecting Threats A Novel Approach Usi.pdf,AMD RX 6800 (Vulkan),915,118,4.485082149505615,26.309440065218645,True
+2601.09031v1_Generalizable Geometric Prior and Recurrent Spikin.pdf,AMD RX 6800 (Vulkan),838,140,5.206160068511963,26.891220814886534,True
+2601.09032v1_The Hierarchy of Agentic Capabilities Evaluating F.pdf,AMD RX 6800 (Vulkan),770,138,5.056979656219482,27.289016247134086,True
+2601.09035v1_A Decompilation-Driven Framework for Malware Detec.pdf,AMD RX 6800 (Vulkan),780,137,5.064387083053589,27.051644701177818,True
+2601.09041v1_Can LLMs interpret figurative language as humans d.pdf,AMD RX 6800 (Vulkan),874,153,5.6612653732299805,27.025760128376977,True
+2601.09049v1_Is Grokking Worthwhile Functional Analysis and Tra.pdf,AMD RX 6800 (Vulkan),911,146,5.431963920593262,26.877939937431385,True
+2601.09066v1_Midm 2.0 Korea-centric Bilingual Language Models.pdf,AMD RX 6800 (Vulkan),784,103,3.9394609928131104,26.145708813440805,True
+2601.09069v1_From Symbolic to Natural-Language Relations Rethin.pdf,AMD RX 6800 (Vulkan),885,117,4.537426948547363,25.785539101066306,True
+2601.09072v1_Human-AI Co-design for Clinical Prediction Models.pdf,AMD RX 6800 (Vulkan),844,159,5.827908039093018,27.282516974091575,True
+2601.09085v1_MMR-GRPO Accelerating GRPO-Style Training through .pdf,AMD RX 6800 (Vulkan),1124,133,5.2291059494018555,25.434558275724658,True
+2601.09089v1_SubTokenTest A Practical Benchmark for Real-World .pdf,AMD RX 6800 (Vulkan),952,115,4.5203893184661865,25.44028664305858,True
+2601.09097v1_Programming over Thinking Efficient and Robust Mul.pdf,AMD RX 6800 (Vulkan),931,149,5.621233940124512,26.506635658130893,True
+2601.09100v2_DScheLLM Enabling Dynamic Scheduling through a Fin.pdf,AMD RX 6800 (Vulkan),850,145,5.419935703277588,26.75308489588067,True
+2601.09105v2_AviationLMM A Large Multimodal Foundation Model fo.pdf,AMD RX 6800 (Vulkan),860,133,5.049593925476074,26.33875158336832,True
+2601.09113v1_The AI Hippocampus How Far are We From Human Memor.pdf,AMD RX 6800 (Vulkan),745,241,8.56541633605957,28.136402311865847,True
+2601.09116v1_LP-LLM End-to-End Real-World Degraded License Plat.pdf,AMD RX 6800 (Vulkan),828,120,4.603029012680054,26.069790059857034,True
+2601.09117v1_A Marketplace for AI-Generated Adult Content and D.pdf,AMD RX 6800 (Vulkan),882,144,5.418457984924316,26.5758266282859,True
+2601.09120v1_Adaptive Multi-Stage Patent Claim Generation with .pdf,AMD RX 6800 (Vulkan),541,125,4.373900413513184,28.578611349680475,True
+2601.09130v1_Equi-ViT Rotational Equivariant Vision Transformer.pdf,AMD RX 6800 (Vulkan),841,166,6.065453290939331,27.36811117612156,True
+2601.09136v1_SkinFlow Efficient Information Transmission for Op.pdf,AMD RX 6800 (Vulkan),875,192,7.026383876800537,27.325577902730128,True
+2601.09147v2_SSVP Synergistic Semantic-Visual Prompting for Ind.pdf,AMD RX 6800 (Vulkan),946,172,6.456411600112915,26.640185083149273,True
+2601.09152v1_PrivacyReasoner Can LLM Emulate a Human-like Priva.pdf,AMD RX 6800 (Vulkan),843,151,5.6003124713897705,26.962781232549318,True
+2601.09156v1_KTCF Actionable Recourse in Knowledge Tracing via .pdf,AMD RX 6800 (Vulkan),901,125,4.85228967666626,25.761034136338,True
+2601.09182v1_Position on LLM-Assisted Peer Review Addressing Re.pdf,AMD RX 6800 (Vulkan),919,128,4.94612455368042,25.878846885235628,True
+2601.09195v1_ProFit Leveraging High-Value Signals in SFT via Pr.pdf,AMD RX 6800 (Vulkan),964,139,5.324248790740967,26.106969351568488,True
+2601.09208v2_Mikasa A Character-Driven Emotional AI Companion I.pdf,AMD RX 6800 (Vulkan),781,98,3.768130302429199,26.007593191992957,True
+2601.09212v1_Annealed Relaxation of Speculative Decoding for Fa.pdf,AMD RX 6800 (Vulkan),938,114,4.493967294692993,25.36734082035369,True
+2601.09213v1_SpikeVAEDiff Neural Spike-based Natural Visual Sce.pdf,AMD RX 6800 (Vulkan),838,125,4.7258079051971436,26.450503809630717,True
+2601.09233v1_GIFT Unlocking Global Optimality in Post-Training .pdf,AMD RX 6800 (Vulkan),1015,165,6.173772573471069,26.72596018664684,True
+2601.09236v2_Reward Learning through Ranking Mean Squared Error.pdf,AMD RX 6800 (Vulkan),884,130,4.9300761222839355,26.368761206830097,True
+2601.09239v2_DSA-Tokenizer Disentangled Semantic-Acoustic Token.pdf,AMD RX 6800 (Vulkan),1003,169,6.3323774337768555,26.688238622441425,True
+2601.09248v1_Hybrid guided variational autoencoder for visual p.pdf,AMD RX 6800 (Vulkan),664,105,4.020987272262573,26.112989892882066,True
+2601.09251v1_HGATSolver A Heterogeneous Graph Attention Solver .pdf,AMD RX 6800 (Vulkan),963,177,6.666611909866333,26.550218070748457,True
+2601.09253v1_RIFT Repurposing Negative Samples via Reward-Infor.pdf,AMD RX 6800 (Vulkan),943,148,5.619690179824829,26.335971426206505,True
+2601.09259v1_MAXS Meta-Adaptive Exploration with LLM Agents.pdf,AMD RX 6800 (Vulkan),1001,163,6.198246955871582,26.29775824688472,True
+2601.09260v1_Efficient Paths and Dense Rewards Probabilistic Fl.pdf,AMD RX 6800 (Vulkan),888,180,6.598354816436768,27.279527246945367,True
+2601.09262v1_Magnifying change Rapid burn scar mapping with mul.pdf,AMD RX 6800 (Vulkan),835,155,5.720842123031616,27.09391321532601,True
+2601.09264v1_Coordinated Pandemic Control with Large Language M.pdf,AMD RX 6800 (Vulkan),791,153,5.50356650352478,27.800154663709534,True
+2601.09269v2_RISER Orchestrating Latent Reasoning Skills for Ad.pdf,AMD RX 6800 (Vulkan),1045,147,5.654409885406494,25.997407860260243,True
+2601.09274v1_A3-Bench Benchmarking Memory-Driven Scientific Rea.pdf,AMD RX 6800 (Vulkan),936,143,5.400533437728882,26.47886577295902,True
+2601.09278v1_M3Searcher Modular Multimodal Information Seeking .pdf,AMD RX 6800 (Vulkan),918,164,5.9978413581848145,27.343170685266827,True
+2601.09280v1_ReGraM Region-First Knowledge Graph Reasoning for .pdf,AMD RX 6800 (Vulkan),956,151,5.678212881088257,26.592874054249993,True
+2601.09281v1_STaR Sensitive Trajectory Regulation for Unlearnin.pdf,AMD RX 6800 (Vulkan),922,142,5.303759813308716,26.773459771628353,True
+2601.09282v1_Cluster Workload Allocation Semantic Soft Affinity.pdf,AMD RX 6800 (Vulkan),751,130,4.847140073776245,26.81993877241541,True
+2601.09286v1_Why not Collaborative Filtering in Dual View Bridg.pdf,AMD RX 6800 (Vulkan),848,121,4.589885234832764,26.362314918405303,True
+2601.09292v1_Blue Teaming Function-Calling Agents.pdf,AMD RX 6800 (Vulkan),876,118,4.479384183883667,26.342906782711573,True
+2601.09293v1_Policy-Based Reinforcement Learning with Action Ma.pdf,AMD RX 6800 (Vulkan),778,132,4.829784631729126,27.33041120153266,True
+2601.09306v1_On-Device Large Language Models for Sequential Rec.pdf,AMD RX 6800 (Vulkan),942,117,4.59272575378418,25.475067807738743,True
+2601.09313v1_Understanding or Memorizing A Case Study of German.pdf,AMD RX 6800 (Vulkan),870,127,4.916549205780029,25.83112558920296,True
+2601.09342v1_Improving Implicit Hate Speech Detection via a Com.pdf,AMD RX 6800 (Vulkan),887,122,4.79610800743103,25.437292031575335,True
+2601.09351v1_Navigating Ethical AI Challenges in the Industrial.pdf,AMD RX 6800 (Vulkan),524,96,3.482771396636963,27.564255320547197,True
+2601.09353v1_Monte-Carlo Tree Search with Neural Network Guidan.pdf,AMD RX 6800 (Vulkan),732,160,5.792762994766235,27.620670851640245,True
+2601.09361v1_GeoRA Geometry-Aware Low-Rank Adaptation for RLVR.pdf,AMD RX 6800 (Vulkan),951,183,6.719982624053955,27.232213271647097,True
+2601.09365v1_Frame of Reference Addressing the Challenges of Co.pdf,AMD RX 6800 (Vulkan),897,153,5.712972402572632,26.781155100819664,True
+2601.09381v1_Query Languages for Machine-Learning Models.pdf,AMD RX 6800 (Vulkan),850,107,4.188432693481445,25.546548752359463,True
+2601.09382v1_Long-term Task-oriented Agent Proactive Long-term .pdf,AMD RX 6800 (Vulkan),939,149,5.6721906661987305,26.26851048712255,True
+2601.09394v2_FairGE Fairness-Aware Graph Encoding in Incomplete.pdf,AMD RX 6800 (Vulkan),971,153,5.817782163619995,26.298681472941038,True
+2601.09398v1_Ability Transfer and Recovery via Modularized Para.pdf,AMD RX 6800 (Vulkan),928,129,5.040499687194824,25.592700725231474,True
+2601.09413v1_Speech-Hands A Self-Reflection Voice Agentic Appro.pdf,AMD RX 6800 (Vulkan),974,241,8.733738422393799,27.59413991402151,True
+2601.09416v1_Radiomics-Integrated Deep Learning with Hierarchic.pdf,AMD RX 6800 (Vulkan),873,165,6.064673900604248,27.206739010907146,True
+2601.09421v2_Bias Dynamics in BabyLMs Towards a Compute-Efficie.pdf,AMD RX 6800 (Vulkan),945,179,6.617029428482056,27.051413619156676,True
+2601.09433v1_Do Transformers Understand Ancient Roman Coin Moti.pdf,AMD RX 6800 (Vulkan),524,100,3.5678155422210693,28.028354834103077,True
+2601.09445v1_Where Knowledge Collides A Mechanistic Study of In.pdf,AMD RX 6800 (Vulkan),873,141,5.298082113265991,26.61340405558208,True
+2601.09446v1_Improving Symbolic Translation of Language Models .pdf,AMD RX 6800 (Vulkan),890,146,5.48114538192749,26.63676838081932,True
+2601.09448v1_Population-Aligned Audio Reproduction With LLM-Bas.pdf,AMD RX 6800 (Vulkan),852,142,5.324195861816406,26.67069425795977,True
+2601.09451v1_Late Breaking Results Quamba-SE Soft-edge Quantize.pdf,AMD RX 6800 (Vulkan),991,112,4.457322359085083,25.127193183979024,True
+2601.09455v1_On the Hardness of Computing Counterfactual and Se.pdf,AMD RX 6800 (Vulkan),795,120,4.575673818588257,26.225645611474963,True
+2601.09460v1_SoK Enhancing Cryptographic Collaborative Learning.pdf,AMD RX 6800 (Vulkan),857,109,4.2277209758758545,25.78221236027019,True
+2601.09465v1_EvoFSM Controllable Self-Evolution for Deep Resear.pdf,AMD RX 6800 (Vulkan),745,193,6.933213949203491,27.837017783386365,True
+2601.09467v1_Searth Transformer A Transformer Architecture Inco.pdf,AMD RX 6800 (Vulkan),910,600,20.10796093940735,29.838928064761006,False
+2601.09469v2_FairGU Fairness-aware Graph Unlearning in Social N.pdf,AMD RX 6800 (Vulkan),961,142,5.447179317474365,26.068537810838876,True
+2601.09470v1_Personalized Multimodal Feedback Using Multiple Ex.pdf,AMD RX 6800 (Vulkan),520,180,6.205202341079712,29.00791788985882,True
+2601.09473v1_SimMerge Learning to Select Merge Operators from S.pdf,AMD RX 6800 (Vulkan),779,160,5.808012247085571,27.54815127676205,True
+2601.09478v3_Bridging Semantic Understanding and Popularity Bia.pdf,AMD RX 6800 (Vulkan),977,139,5.387803554534912,25.79901041176673,True
+2601.09503v1_What Do LLM Agents Know About Their World Task2Qui.pdf,AMD RX 6800 (Vulkan),756,125,4.721878290176392,26.472516299298867,True
+2601.09518v1_Learning Whole-Body Human-Humanoid Interaction fro.pdf,AMD RX 6800 (Vulkan),702,178,6.423468589782715,27.710885094562464,True
+2601.09520v1_Towards Realistic Synthetic Data for Automatic Dru.pdf,AMD RX 6800 (Vulkan),875,144,6.734286785125732,21.383110727933076,True
+2601.09527v1_Private LLM Inference on Consumer Blackwell GPUs A.pdf,AMD RX 6800 (Vulkan),978,176,6.6150946617126465,26.60581730124987,True
+2601.09536v1_Omni-R1 Towards the Unified Generative Paradigm fo.pdf,AMD RX 6800 (Vulkan),849,183,6.627514839172363,27.61215997863429,True
+2601.09555v1_Benchmarking Post-Training Quantization of Large L.pdf,AMD RX 6800 (Vulkan),1011,167,6.044543981552124,27.628221501850597,True
+2601.09566v2_Hot-Start from Pixels Low-Resolution Visual Tokens.pdf,AMD RX 6800 (Vulkan),707,109,4.1121110916137695,26.50706597452933,True
+2601.09600v1_Information Access of the Oppressed A Problem-Posi.pdf,AMD RX 6800 (Vulkan),871,119,4.63117790222168,25.695406765288165,True
+2601.09603v1_Linear Complexity Self-Supervised Learning for Mus.pdf,AMD RX 6800 (Vulkan),977,126,4.946096897125244,25.474632345604338,True
+2601.09605v1_Sim2real Image Translation Enables Viewpoint-Robus.pdf,AMD RX 6800 (Vulkan),858,139,5.3182995319366455,26.136173633188257,True
+2601.09609v1_DPWriter Reinforcement Learning with Diverse Plann.pdf,AMD RX 6800 (Vulkan),1010,149,5.6967902183532715,26.15507931465841,True
+2601.09613v1_CogRail Benchmarking VLMs in Cognitive Intrusion P.pdf,AMD RX 6800 (Vulkan),1001,184,6.7652809619903564,27.19768787634607,True
+2601.09620v1_Full Disclosure Less Trust How the Level of Detail.pdf,AMD RX 6800 (Vulkan),857,192,6.877530574798584,27.916996938341192,True
+2601.09624v1_Toward Understanding Unlearning Difficulty A Mecha.pdf,AMD RX 6800 (Vulkan),957,126,4.891012668609619,25.76153621696064,True
+2601.09625v1_The Promptware Kill Chain How Prompt Injections Gr.pdf,AMD RX 6800 (Vulkan),859,121,4.6290647983551025,26.13918907399963,True
+2601.09626v1_From Prompt to Protocol Fast Charging Batteries wi.pdf,AMD RX 6800 (Vulkan),851,129,4.8976733684539795,26.339036986600984,True
+2601.09635v1_LLM for Large-Scale Optimization Model Auto-Formul.pdf,AMD RX 6800 (Vulkan),936,176,6.5904319286346436,26.70538166630641,True
+2601.09636v1_PersonalAlign Hierarchical Implicit Intent Alignme.pdf,AMD RX 6800 (Vulkan),928,157,5.851685523986816,26.829876512747767,True
+2601.09667v2_Collaborative Multi-Agent Test-Time Reinforcement .pdf,AMD RX 6800 (Vulkan),985,206,7.4534993171691895,27.63802493755886,True
+2601.09680v1_Automating Supply Chain Disruption Monitoring via .pdf,AMD RX 6800 (Vulkan),736,122,4.53600811958313,26.89589541810875,True
+2601.09684v1_Disentangling Task Conflicts in Multi-Task LoRA vi.pdf,AMD RX 6800 (Vulkan),960,140,5.359732151031494,26.120708284472133,True
+2601.09692v1_Routing with Generated Data Annotation-Free LLM Sk.pdf,AMD RX 6800 (Vulkan),942,167,6.2502076625823975,26.719112230424777,True
+2601.09694v1_LLMs can Compress LLMs Adaptive Pruning by Agents.pdf,AMD RX 6800 (Vulkan),695,111,4.173860311508179,26.594085981735063,True
+2601.09703v1_ShortCoder Knowledge-Augmented Syntax Optimization.pdf,AMD RX 6800 (Vulkan),845,154,5.756944179534912,26.750302799086935,True
+2601.09706v1_Value-Aware Numerical Representations for Transfor.pdf,AMD RX 6800 (Vulkan),831,121,4.673241138458252,25.89209424787335,True
+2601.09708v1_Fast-ThinkAct Efficient Vision-Language-Action Rea.pdf,AMD RX 6800 (Vulkan),906,143,5.488356828689575,26.055157210713524,True
+2601.09749v1_R-LAM Reproducibility-Constrained Large Action Mod.pdf,AMD RX 6800 (Vulkan),802,124,4.808074951171875,25.789947382117536,True
+2601.09750v1_SAGE Tool-Augmented LLM Task Solving Strategies in.pdf,AMD RX 6800 (Vulkan),955,161,6.09494161605835,26.415347371960564,True
+2601.09753v1_Critically Engaged Pragmatism A Scientific Norm an.pdf,AMD RX 6800 (Vulkan),914,116,4.484031438827515,25.86957776333783,True
+2601.09755v1_Heterogeneous computing platform for real-time rob.pdf,AMD RX 6800 (Vulkan),908,254,8.943822383880615,28.399490631408593,True
+2601.09756v1_Synthetic Data for Veterinary EHR De-identificatio.pdf,AMD RX 6800 (Vulkan),826,149,5.522853851318359,26.978805525413684,True
+2601.09757v1_Democracy and Distrust in an Era of Artificial Int.pdf,AMD RX 6800 (Vulkan),746,110,4.172332286834717,26.364151375740498,True
+2601.09760v1_Investigating Tool-Memory Conflicts in Tool-Augmen.pdf,AMD RX 6800 (Vulkan),901,142,5.31498122215271,26.71693352521125,True
+2601.09762v1_Explicating Tacit Regulatory Knowledge from LLMs t.pdf,AMD RX 6800 (Vulkan),970,146,5.568186521530151,26.220386015351878,True
+2601.09765v1_AI Survival Stories a Taxonomic Analysis of AI Exi.pdf,AMD RX 6800 (Vulkan),870,122,4.716200590133667,25.86828055092166,True
+2601.09768v1_CLiMB A Domain-Informed Novelty Detection Clusteri.pdf,AMD RX 6800 (Vulkan),845,151,5.6615800857543945,26.670999564228463,True
+2601.09770v1_GUI-Eyes Tool-Augmented Perception for Visual Grou.pdf,AMD RX 6800 (Vulkan),1044,137,5.3248515129089355,25.728416964843717,True
+2601.09771v1_PCN-Rec Agentic Proof-Carrying Negotiation for Rel.pdf,AMD RX 6800 (Vulkan),921,138,5.226501941680908,26.403893376459262,True
+2601.09772v1_Antisocial behavior towards large language model u.pdf,AMD RX 6800 (Vulkan),576,80,2.9898805618286133,26.756921671503807,True
+2601.09773v1_Enhancing LUT-based Deep Neural Networks Inference.pdf,AMD RX 6800 (Vulkan),943,123,4.860220193862915,25.307495359019793,True
+2601.09805v1_Improving Chain-of-Thought for Logical Reasoning v.pdf,AMD RX 6800 (Vulkan),903,105,4.156691312789917,25.260475724266705,True
+2601.09806v1_Diffusion-Driven Deceptive Patches Adversarial Man.pdf,AMD RX 6800 (Vulkan),570,139,4.819267749786377,28.84255600991695,True
+2601.09809v1_QFed Parameter-Compact Quantum-Classical Federated.pdf,AMD RX 6800 (Vulkan),824,127,4.796591758728027,26.477133428940842,True
+2601.09814v1_Explainable Deep Learning for Pediatric Pneumonia .pdf,AMD RX 6800 (Vulkan),697,148,5.354964017868042,27.63790746420792,True
+2601.09822v2_LLM-Based Agentic Systems for Software Engineering.pdf,AMD RX 6800 (Vulkan),757,101,3.877532720565796,26.0474913504437,True
+2601.09841v2_A pipeline for enabling path-specific causal fairn.pdf,AMD RX 6800 (Vulkan),665,140,5.054253816604614,27.699439933163127,True
+2601.09851v1_ViSIL Unified Evaluation of Information Loss in Mu.pdf,AMD RX 6800 (Vulkan),872,171,6.309532642364502,27.10184885198052,True
+2601.09853v1_MedRedFlag Investigating how LLMs Redirect Misconc.pdf,AMD RX 6800 (Vulkan),903,158,5.8364574909210205,27.071215758151073,True
+2601.09855v1_Thinking Long but Short Stable Sequential Test-Tim.pdf,AMD RX 6800 (Vulkan),945,136,5.217568635940552,26.06578072843766,True
+2601.09858v1_OUTLINEFORGE Hierarchical Reinforcement Learning w.pdf,AMD RX 6800 (Vulkan),822,137,5.143773317337036,26.63414414827397,True
+2601.09865v1_Advancing Model Refinement Muon-Optimized Distilla.pdf,AMD RX 6800 (Vulkan),797,150,5.481890439987183,27.362823398628652,True
+2601.09869v1_A Scoping Review of the Ethical Perspectives on An.pdf,AMD RX 6800 (Vulkan),888,162,6.001765489578247,26.99205763392531,True
+2601.09871v1_Epistemology gives a Future to Complementarity in .pdf,AMD RX 6800 (Vulkan),934,171,6.408852815628052,26.681842276517067,True
+2601.09879v1_MedVL-SAM2 A unified 3D medical vision-language mo.pdf,AMD RX 6800 (Vulkan),898,178,6.546175241470337,27.19145049346699,True
+2601.09881v1_Transition Matching Distillation for Fast Video Ge.pdf,AMD RX 6800 (Vulkan),598,114,4.124562501907349,27.639295063969143,True
+2601.09883v1_Beyond Rule-Based Workflows An Information-Flow-Or.pdf,AMD RX 6800 (Vulkan),951,207,7.614590406417847,27.184653271111348,True
+2601.09896v1_The Algorithmic Gaze An Audit and Ethnography of t.pdf,AMD RX 6800 (Vulkan),905,138,5.289866924285889,26.087612784064405,True
+2601.09902v1_A Novel Contrastive Loss for Zero-Day Network Intr.pdf,AMD RX 6800 (Vulkan),844,127,4.9225990772247314,25.79937915065799,True
+2601.09913v1_Continuum Memory Architectures for Long-Horizon LL.pdf,AMD RX 6800 (Vulkan),802,205,7.499438762664795,27.335378884693608,True
+2601.09921v1_Learning to Decode in Parallel Self-Coordinating N.pdf,AMD RX 6800 (Vulkan),551,182,6.328317880630493,28.759617236842605,True
+2601.09923v1_CaMeLs Can Use Computers Too System-level Security.pdf,AMD RX 6800 (Vulkan),784,149,5.38887095451355,27.649576554658868,True
+2601.09929v1_Hallucination Detection and Mitigation in Large La.pdf,AMD RX 6800 (Vulkan),751,117,4.36362361907959,26.812578309556077,True
+2601.09933v1_Malware Classification using Diluted Convolutional.pdf,AMD RX 6800 (Vulkan),864,147,5.4636549949646,26.905066321991008,True
+2601.09949v2_Kinematic Tokenization Optimization-Based Continuo.pdf,AMD RX 6800 (Vulkan),689,132,4.784300088882446,27.590242574193038,True
+2601.09966v1_A Sustainable AI Economy Needs Data Deals That Wor.pdf,AMD RX 6800 (Vulkan),811,210,7.410800218582153,28.337020808284258,True
+2601.09972v1_Chinese Labor Law Large Language Model Benchmark.pdf,AMD RX 6800 (Vulkan),873,172,6.2783050537109375,27.395929080944452,True
+2601.09974v1_SPRInG Continual LLM Personalization via Selective.pdf,AMD RX 6800 (Vulkan),927,136,5.088929176330566,26.72467925719187,True
+2601.09980v1_Performance of AI agents based on reasoning langua.pdf,AMD RX 6800 (Vulkan),859,98,3.8457977771759033,25.482359104166065,True
+2601.09982v1_Context Volume Drives Performance Tackling Domain .pdf,AMD RX 6800 (Vulkan),989,145,5.460025072097778,26.556654609699443,True
+2601.10010v1_VERHallu Evaluating and Mitigating Event Relation .pdf,AMD RX 6800 (Vulkan),885,132,4.997862815856934,26.411289157677146,True
+2601.10011v1_Memo-SQL Structured Decomposition and Experience-D.pdf,AMD RX 6800 (Vulkan),942,147,5.550653696060181,26.483367194090974,True
+2601.10018v1_Empowering Older Adults in Digital Technology Use .pdf,AMD RX 6800 (Vulkan),822,119,4.503598928451538,26.42331208674381,True
+2601.10025v1_Structured Personality Control and Adaptation for .pdf,AMD RX 6800 (Vulkan),910,151,5.5873754024505615,27.025211145428507,True
+2601.10029v1_PaperScout An Autonomous Agent for Academic Paper .pdf,AMD RX 6800 (Vulkan),945,173,6.4105024337768555,26.986964249239687,True
+2601.10031v1_FilDeep Learning Large Deformations of Elastic-Pla.pdf,AMD RX 6800 (Vulkan),1011,162,6.120601654052734,26.46798618118405,True
+2601.10038v1_What Understanding Means in AI-Laden Astronomy.pdf,AMD RX 6800 (Vulkan),883,97,3.8547000885009766,25.164084824488008,True
+2601.10073v1_ReaMIL Reasoning- and Evidence-Aware Multiple Inst.pdf,AMD RX 6800 (Vulkan),927,157,5.773300409317017,27.194150463161705,True
+2601.10079v1_Sparse-RL Breaking the Memory Wall in LLM Reinforc.pdf,AMD RX 6800 (Vulkan),954,165,6.138117074966431,26.88120770340673,True
+2601.10088v1_State of AI An Empirical 100 Trillion Token Study .pdf,AMD RX 6800 (Vulkan),842,172,6.230180740356445,27.607545778866026,True
+2601.10090v1_Difficulty-guided Sampling Bridging the Target Gap.pdf,AMD RX 6800 (Vulkan),679,154,5.527385473251343,27.86127378762557,True
+2601.10092v1_LeMoF Level-guided Multimodal Fusion for Heterogen.pdf,AMD RX 6800 (Vulkan),833,158,5.807156085968018,27.207810098609112,True
+2601.10094v1_V-Zero Self-Improving Multimodal Reasoning with Ze.pdf,AMD RX 6800 (Vulkan),919,148,5.544233798980713,26.694400951707568,True
+2601.10101v2_Matrix as Plan Structured Logical Reasoning with F.pdf,AMD RX 6800 (Vulkan),964,143,5.481156349182129,26.089385321281295,True
+2601.10103v1_FlowAct-R1 Towards Interactive Humanoid Video Gene.pdf,AMD RX 6800 (Vulkan),589,220,7.508427381515503,29.30040990229237,True
+2601.10104v1_MathDoc Benchmarking Structured Extraction and Act.pdf,AMD RX 6800 (Vulkan),935,162,6.117376089096069,26.48194219883869,True
+2601.10108v1_SIN-Bench Tracing Native Evidence Chains in Long-C.pdf,AMD RX 6800 (Vulkan),999,247,8.839592456817627,27.942464678843727,True
+2601.10112v1_Repository Intelligence Graph Deterministic Archit.pdf,AMD RX 6800 (Vulkan),822,163,5.947920560836792,27.404535472993626,True
+2601.10114v1_Following the Teachers Footsteps Scheduled Checkpo.pdf,AMD RX 6800 (Vulkan),717,138,5.042935609817505,27.365013293317457,True
+2601.10120v1_TopoDIM One-shot Topology Generation of Diverse In.pdf,AMD RX 6800 (Vulkan),987,166,6.214074373245239,26.71355217676742,True
+2601.10122v1_Role-Playing Agents Driven by Large Language Model.pdf,AMD RX 6800 (Vulkan),723,203,7.17461371421814,28.294206222936996,True
+2601.10129v1_LaViT Aligning Latent Visual Thoughts for Multi-mo.pdf,AMD RX 6800 (Vulkan),980,163,6.044453382492065,26.96687188822305,True
+2601.10130v1_Redundancy-Driven Top-k Functional Dependency Disc.pdf,AMD RX 6800 (Vulkan),1032,104,4.2249579429626465,24.615629647445104,True
+2601.10131v2_M4olGen Multi-Agent Multi-Stage Molecular Generati.pdf,AMD RX 6800 (Vulkan),964,166,6.201658487319946,26.767033421689927,True
+2601.10132v1_Is More Context Always Better Examining LLM Reason.pdf,AMD RX 6800 (Vulkan),1059,174,6.507028579711914,26.740315931992342,True
+2601.10137v1_Step-by-Step Causality Transparent Causal Discover.pdf,AMD RX 6800 (Vulkan),941,157,5.832458257675171,26.918323811987385,True
+2601.10141v1_Understanding and Preserving Safety in Fine-Tuned .pdf,AMD RX 6800 (Vulkan),939,414,14.230964183807373,29.091493355809842,True
+2601.10143v1_History Is Not Enough An Adaptive Dataflow System .pdf,AMD RX 6800 (Vulkan),845,148,5.473616600036621,27.038795519402985,True
+2601.10148v1_DecisionLLM Large Language Models for Long Sequenc.pdf,AMD RX 6800 (Vulkan),985,184,6.772931814193726,27.16696477209464,True
+2601.10150v1_Simple Network Graph Comparative Learning.pdf,AMD RX 6800 (Vulkan),853,106,4.091621160507202,25.906601770252873,True
+2601.10154v1_MHub.ai A Simple Standardized and Reproducible Pla.pdf,AMD RX 6800 (Vulkan),924,229,8.111463785171509,28.23164918995666,True
+2601.10155v1_LOOKAT Lookup-Optimized Key-Attention for Memory-E.pdf,AMD RX 6800 (Vulkan),870,117,4.4964587688446045,26.0204765605054,True
+2601.10157v1_MMPG MoE-based Adaptive Multi-Perspective Graph Fu.pdf,AMD RX 6800 (Vulkan),905,176,6.371623277664185,27.622474262872775,True
+2601.10160v1_Alignment Pretraining AI Discourse Causes Self-Ful.pdf,AMD RX 6800 (Vulkan),939,132,5.074321746826172,26.013328792672997,True
+2601.10161v1_AWED-FiNER Agents Web applications and Expert Dete.pdf,AMD RX 6800 (Vulkan),1035,152,5.754756450653076,26.412933597346303,True
+2601.10168v1_RAG-3DSG Enhancing 3D Scene Graphs with Re-Shot Gu.pdf,AMD RX 6800 (Vulkan),923,159,5.881500244140625,27.03391879621222,True
+2601.10169v1_CtD Composition through Decomposition in Emergent .pdf,AMD RX 6800 (Vulkan),992,112,4.483111381530762,24.982649429904978,True
+2601.10173v1_ReasAlign Reasoning Enhanced Safety Alignment agai.pdf,AMD RX 6800 (Vulkan),958,121,4.737610578536987,25.54030095849832,True
+2601.10187v1_HOMURA Taming the Sand-Glass for Time-Constrained .pdf,AMD RX 6800 (Vulkan),848,161,5.874271869659424,27.40765214350462,True
+2601.10191v1_How does downsampling affect needle electromyograp.pdf,AMD RX 6800 (Vulkan),807,169,6.086428642272949,27.76669372679735,True
+2601.10193v1_GFM4GA Graph Foundation Model for Group Anomaly De.pdf,AMD RX 6800 (Vulkan),973,116,4.566656827926636,25.40151458078066,True
+2601.10201v1_PRL Process Reward Learning Improves LLMs Reasonin.pdf,AMD RX 6800 (Vulkan),840,128,4.77889347076416,26.78444304797035,True
+2601.10205v1_One Instruction Does Not Fit All How Well Do Embed.pdf,AMD RX 6800 (Vulkan),935,151,5.624066352844238,26.84890087109931,True
+2601.10212v1_PADER Paillier-based Secure Decentralized Social R.pdf,AMD RX 6800 (Vulkan),877,126,4.783825874328613,26.33875130701397,True
+2601.10215v1_Topo-RAG Topology-aware retrieval for hybrid text-.pdf,AMD RX 6800 (Vulkan),732,201,7.0220208168029785,28.62423869764492,True
+2601.10222v1_Introduction to optimization methods for training .pdf,AMD RX 6800 (Vulkan),655,173,6.082026481628418,28.444466745182687,True
+2601.10236v1_Who Owns the Text Design Patterns for Preserving A.pdf,AMD RX 6800 (Vulkan),716,119,4.42812180519104,26.873696170800354,True
+2601.10242v1_Loop as a Bridge Can Looped Transformers Truly Lin.pdf,AMD RX 6800 (Vulkan),926,120,4.585862398147583,26.1673791277455,True
+2601.10245v1_TRIM Hybrid Inference via Targeted Stepwise Routin.pdf,AMD RX 6800 (Vulkan),859,136,5.098316431045532,26.67547254851538,True
+2601.10251v1_X-SAM Boosting Sharpness-Aware Minimization with D.pdf,AMD RX 6800 (Vulkan),851,137,5.125910043716431,26.726961423745763,True
+2601.10254v1_NoReGeo Non-Reasoning Geometry Benchmark.pdf,AMD RX 6800 (Vulkan),876,147,5.544128656387329,26.51453620771281,True
+2601.10257v1_Untangling Input Language from Reasoning Language .pdf,AMD RX 6800 (Vulkan),864,138,5.170109272003174,26.691892325620326,True
+2601.10272v1_MoST Mixing Speech and Text with Modality-Aware Mi.pdf,AMD RX 6800 (Vulkan),831,135,5.030369758605957,26.83699339776007,True
+2601.10274v1_Queueing-Aware Optimization of Reasoning Tokens fo.pdf,AMD RX 6800 (Vulkan),872,116,4.485375881195068,25.861823640317375,True
+2601.10282v2_SPIKE Sparse Koopman Regularization for Physics-In.pdf,AMD RX 6800 (Vulkan),873,136,5.128352642059326,26.519237168797392,True
+2601.10305v1_DanQing An Up-to-Date Large-Scale Chinese Vision-L.pdf,AMD RX 6800 (Vulkan),921,177,6.550900459289551,27.01918630880796,True
+2601.10306v1_Evidence-Augmented Policy Optimization with Reward.pdf,AMD RX 6800 (Vulkan),964,142,5.47244119644165,25.948200246049748,True
+2601.10338v1_Agent Skills in the Wild An Empirical Study of Sec.pdf,AMD RX 6800 (Vulkan),980,142,5.446030616760254,26.074036301410523,True
+2601.10342v1_C-GRASP Clinically-Grounded Reasoning for Affectiv.pdf,AMD RX 6800 (Vulkan),870,147,5.515929937362671,26.650084694564676,True
+2601.10343v2_OctoBench Benchmarking Scaffold-Aware Instruction .pdf,AMD RX 6800 (Vulkan),1026,178,6.545424699783325,27.194568445022732,True
+2601.10348v1_Training-Trajectory-Aware Token Selection.pdf,AMD RX 6800 (Vulkan),983,163,6.027439832687378,27.042990809470307,True
+2601.10349v1_SuS Strategy-aware Surprise for Intrinsic Explorat.pdf,AMD RX 6800 (Vulkan),803,103,4.008960962295532,25.692442747315297,True
+2601.10373v1_Towards Efficient Low-rate Image Compression with .pdf,AMD RX 6800 (Vulkan),1057,131,5.152093887329102,25.42655527341559,True
+2601.10378v2_Global Context Compression with Interleaved Vision.pdf,AMD RX 6800 (Vulkan),948,147,5.557188034057617,26.452227115422435,True
+2601.10386v1_Handling Missing Modalities in Multimodal Survival.pdf,AMD RX 6800 (Vulkan),642,224,7.738937854766846,28.944540478772012,True
+2601.10398v2_LatentRefusal Latent-Signal Refusal for Unanswerab.pdf,AMD RX 6800 (Vulkan),930,155,5.815281629562378,26.65391117294251,True
+2601.10402v1_Toward Ultra-Long-Horizon Agentic Science Cognitiv.pdf,AMD RX 6800 (Vulkan),957,259,9.106077432632446,28.442543116518014,True
+2601.10406v1_ErrEval Error-Aware Evaluation for Question Genera.pdf,AMD RX 6800 (Vulkan),931,144,5.4657416343688965,26.34592149298089,True
+2601.10413v1_LADFA A Framework of Using Large Language Models a.pdf,AMD RX 6800 (Vulkan),878,162,5.9728171825408936,27.122879379858006,True
+2601.10416v1_LLMdoctor Token-Level Flow-Guided Preference Optim.pdf,AMD RX 6800 (Vulkan),1009,173,6.469419956207275,26.74119181797899,True
+2601.10421v1_Are Language Models Models.pdf,AMD RX 6800 (Vulkan),361,105,3.5226058959960938,29.80747863942042,True
+2601.10436v1_Development of Ontological Knowledge Bases by Leve.pdf,AMD RX 6800 (Vulkan),579,122,4.279586553573608,28.507426704134684,True
+2601.10440v1_AgentGuardian Learning Access Control Policies to .pdf,AMD RX 6800 (Vulkan),813,130,4.862585544586182,26.73474817214004,True
+2601.10457v1_NSR-Boost A Neuro-Symbolic Residual Boosting Frame.pdf,AMD RX 6800 (Vulkan),957,143,5.402622222900391,26.46862839934617,True
+2601.10460v1_Contextual StereoSet Stress-Testing Bias Alignment.pdf,AMD RX 6800 (Vulkan),703,128,4.678141832351685,27.36129099695442,True
+2601.10462v3_ChartComplete A Taxonomy-based Inclusive Chart Dat.pdf,AMD RX 6800 (Vulkan),815,96,3.7940402030944824,25.302842052569922,True
+2601.10477v1_Urban Socio-Semantic Segmentation with Vision-Lang.pdf,AMD RX 6800 (Vulkan),884,140,5.278426170349121,26.523057343575623,True
+2601.10485v1_Panning for Gold Expanding Domain-Specific Knowled.pdf,AMD RX 6800 (Vulkan),898,136,5.139936923980713,26.45946866886305,True
+2601.10496v1_Model See Model Do Exposure-Aware Evaluation of Bu.pdf,AMD RX 6800 (Vulkan),939,146,5.550886869430542,26.302103327675628,True
+2601.10498v1_Projected Microbatch Accumulation yields reference.pdf,AMD RX 6800 (Vulkan),960,142,5.399384498596191,26.29929393561788,True
+2601.10511v1_Scalable Algorithms for Approximate DNF Model Coun.pdf,AMD RX 6800 (Vulkan),736,117,4.388772249221802,26.658936339370523,True
+2601.10512v2_SatMap Revisiting Satellite Maps as Prior for Onli.pdf,AMD RX 6800 (Vulkan),701,105,3.9735968112945557,26.424422251786567,True
+2601.10520v1_Breaking Up with Normatively Monolithic Agency wit.pdf,AMD RX 6800 (Vulkan),842,150,5.55391001701355,27.00799968679688,True
+2601.10524v1_Diagnosing Generalization Failures in Fine-Tuned L.pdf,AMD RX 6800 (Vulkan),817,168,6.141151428222656,27.356433392592923,True
+2601.10527v2_A Safety Report on GPT-5.2 Gemini 3 Pro Qwen3-VL G.pdf,AMD RX 6800 (Vulkan),689,309,10.625211000442505,29.081775410119494,True
+2601.10543v1_Defending Large Language Models Against Jailbreak .pdf,AMD RX 6800 (Vulkan),917,135,5.150209188461304,26.212527503243635,True
+2601.10560v1_Learning Latency-Aware Orchestration for Parallel .pdf,AMD RX 6800 (Vulkan),849,133,4.9356465339660645,26.946824308572833,True
+2601.10562v1_Process-Guided Concept Bottleneck Model.pdf,AMD RX 6800 (Vulkan),1226,537,18.88115119934082,28.44106242943215,True
+2601.10567v1_Generative AI collective behavior needs an interac.pdf,AMD RX 6800 (Vulkan),478,205,6.78956937789917,30.19337289155607,True
+2601.10581v1_From Single to Multi-Agent Reasoning Advancing Gen.pdf,AMD RX 6800 (Vulkan),662,119,4.312982559204102,27.591115513798815,True
+2601.10587v1_Adversarial Evasion Attacks on Computer Vision usi.pdf,AMD RX 6800 (Vulkan),425,116,3.981029748916626,29.138189693650883,True
+2601.10591v1_ProbFM Probabilistic Time Series Foundation Model .pdf,AMD RX 6800 (Vulkan),847,148,5.514209032058716,26.839751474699643,True
+2601.10600v1_Procedural Fairness in Multi-Agent Bandits.pdf,AMD RX 6800 (Vulkan),753,105,4.037825107574463,26.004098048484796,True
+2601.10611v1_Molmo2 Open Weights and Data for Vision-Language M.pdf,AMD RX 6800 (Vulkan),785,248,8.659709215164185,28.638375012145026,True
+2601.10651v1_Multi-Property Synthesis.pdf,AMD RX 6800 (Vulkan),932,140,5.352592706680298,26.15554884743484,True
+2601.10679v1_Are Your Reasoning Models Reasoning or Guessing A .pdf,AMD RX 6800 (Vulkan),1015,104,4.27038049697876,24.353801745202492,True
+2601.10681v1_Structure and Diversity Aware Context Bubble Const.pdf,AMD RX 6800 (Vulkan),768,118,4.393195867538452,26.85971751724252,True
+2601.10684v1_On the origin of neural scaling laws from random g.pdf,AMD RX 6800 (Vulkan),894,125,4.761927366256714,26.24987539410136,True
+2601.10696v1_The Impact of Generative AI on Architectural Conce.pdf,AMD RX 6800 (Vulkan),483,144,4.910602569580078,29.32430347592025,True
+2601.10700v2_LIBERTy A Causal Framework for Benchmarking Concep.pdf,AMD RX 6800 (Vulkan),1036,142,5.424168586730957,26.179127313146566,True
+2601.10702v1_Grounding Agent Memory in Contextual Intent.pdf,AMD RX 6800 (Vulkan),1033,146,5.605230093002319,26.047102006083446,True
+2601.10712v1_MatchTIR Fine-Grained Supervision for Tool-Integra.pdf,AMD RX 6800 (Vulkan),994,156,5.838924169540405,26.717250553414726,True
+2601.10748v1_AnyECG Evolved ECG Foundation Model for Holistic H.pdf,AMD RX 6800 (Vulkan),899,190,6.837865352630615,27.786449454858676,True
+2601.10768v1_Optimisation of complex product innovation process.pdf,AMD RX 6800 (Vulkan),623,143,5.037847280502319,28.385139929398893,True
+2601.10770v1_Unifying Speech Recognition Synthesis and Conversi.pdf,AMD RX 6800 (Vulkan),764,143,5.232245445251465,27.33052214318041,True
+2601.10773v1_LogicLens Leveraging Semantic Code Graph to explor.pdf,AMD RX 6800 (Vulkan),862,123,4.710188388824463,26.113605199281107,True
+2601.10779v1_Unified Optimization of Source Weights and Transfe.pdf,AMD RX 6800 (Vulkan),844,155,5.756912708282471,26.924153249188837,True
+2601.10810v1_Digital Metabolism Decoupling Logic from Facts via.pdf,AMD RX 6800 (Vulkan),725,127,4.710612773895264,26.960399017256123,True
+2601.10820v1_Towards Reliable ML Feature Engineering via Planni.pdf,AMD RX 6800 (Vulkan),729,161,5.756418943405151,27.968777391445744,True
+2601.10827v1_Approximately Optimal Global Planning for Contact-.pdf,AMD RX 6800 (Vulkan),866,163,5.945369005203247,27.4162965927508,True
+2601.10835v1_Can Vision-Language Models Understand Construction.pdf,AMD RX 6800 (Vulkan),907,120,4.663628578186035,25.731037107306516,True
+2601.10880v1_Medical SAM3 A Foundation Model for Universal Prom.pdf,AMD RX 6800 (Vulkan),674,156,5.627816438674927,27.71945419682706,True
+2601.10904v1_ARC Prize 2025 Technical Report.pdf,AMD RX 6800 (Vulkan),878,233,8.314028978347778,28.024920361331645,True
+2601.10917v1_Self-learned representation-guided latent diffusio.pdf,AMD RX 6800 (Vulkan),933,181,6.585490942001343,27.484663116853937,True
+2601.10921v1_RobuMTL Enhancing Multi-Task Learning Robustness A.pdf,AMD RX 6800 (Vulkan),908,126,4.759995222091675,26.470614805498077,True
+2601.10922v1_What Matters in Data Curation for Multimodal Reaso.pdf,AMD RX 6800 (Vulkan),885,212,7.575366020202637,27.985446437125308,True
+2601.10926v1_Selecting Language Models for Social Science Start.pdf,AMD RX 6800 (Vulkan),858,128,4.860903978347778,26.33255060584579,True
+2601.10931v1_Sparse Data Tree Canopy Segmentation Fine-Tuning L.pdf,AMD RX 6800 (Vulkan),876,166,6.154541015625,26.971954460708478,True
+2601.10945v1_PatientVLM Meets DocVLM Pre-Consultation Dialogue .pdf,AMD RX 6800 (Vulkan),1045,168,6.334917783737183,26.5196811916462,True
+2601.10951v1_Multi-Stage Patient Role-Playing Framework for Rea.pdf,AMD RX 6800 (Vulkan),592,113,4.067255973815918,27.78285918748873,True
+2601.10955v1_Beyond Max Tokens Stealthy Resource Amplification .pdf,AMD RX 6800 (Vulkan),962,177,6.5774242877960205,26.910229940375277,True
+2601.10960v1_Steering Language Models Before They Speak Logit-L.pdf,AMD RX 6800 (Vulkan),876,118,4.559331655502319,25.880986275169203,True
+2601.11000v1_When Personalization Misleads Understanding and Mi.pdf,AMD RX 6800 (Vulkan),894,191,6.915403366088867,27.61950241928166,True
+2601.11007v1_AdaMARP An Adaptive Multi-Agent Interaction Framew.pdf,AMD RX 6800 (Vulkan),1035,169,6.310347557067871,26.781409180974897,True
+2601.11012v1_Efficient Protein Optimization via Structure-aware.pdf,AMD RX 6800 (Vulkan),867,104,4.1124982833862305,25.288764355268356,True
+2601.11016v1_Contextual Distributionally Robust Optimization wi.pdf,AMD RX 6800 (Vulkan),653,121,4.468990087509155,27.075468423659178,True
+2601.11019v1_Finding the Translation Switch Discovering and Exp.pdf,AMD RX 6800 (Vulkan),918,164,6.122549295425415,26.786227776481258,True
+2601.11021v1_Combating Spurious Correlations in Graph Interpret.pdf,AMD RX 6800 (Vulkan),807,112,4.287929534912109,26.119832214615833,True
+2601.11030v1_IDDR-NGP Incorporating Detectors for Distractor Re.pdf,AMD RX 6800 (Vulkan),1036,167,6.212118864059448,26.88293699049894,True
+2601.11035v1_Your One-Stop Solution for AI-Generated Video Dete.pdf,AMD RX 6800 (Vulkan),636,142,5.010857343673706,28.338463911625315,True
+2601.11037v1_BAPO Boundary-Aware Policy Optimization for Reliab.pdf,AMD RX 6800 (Vulkan),958,203,7.392419099807739,27.46056429691325,True
+2601.11042v1_Spectral Characterization and Mitigation of Sequen.pdf,AMD RX 6800 (Vulkan),976,177,6.5061211585998535,27.205149686774536,True
+2601.11044v2_AgencyBench Benchmarking the Frontiers of Autonomo.pdf,AMD RX 6800 (Vulkan),1031,226,8.181113243103027,27.624602335204948,True
+2601.11049v1_Predicting Biased Human Decision-Making with Large.pdf,AMD RX 6800 (Vulkan),827,102,3.9803905487060547,25.625626116803577,True
+2601.11063v1_H-AIM Orchestrating LLMs PDDL and Behavior Trees f.pdf,AMD RX 6800 (Vulkan),867,167,6.102465391159058,27.365988874257464,True
+2601.11065v1_Fairness in Healthcare Processes A Quantitative An.pdf,AMD RX 6800 (Vulkan),722,126,4.6225035190582275,27.25795653383749,True
+2601.11073v1_Bridging Cognitive Neuroscience and Graph Intellig.pdf,AMD RX 6800 (Vulkan),926,138,5.238509893417358,26.34336916561119,True
+2601.11076v1_A3D Adaptive Affordance Assembly with Dual-Arm Man.pdf,AMD RX 6800 (Vulkan),1023,139,5.376705646514893,25.852261428910083,True
+2601.11077v1_ABC-Bench Benchmarking Agentic Backend Coding in R.pdf,AMD RX 6800 (Vulkan),708,188,6.57846999168396,28.578073661148625,True
+2601.11078v1_Visual Marker Search for Autonomous Drone Landing .pdf,AMD RX 6800 (Vulkan),792,130,4.821896553039551,26.960346114860688,True
+2601.11089v2_MiCA A Mobility-Informed Causal Adapter for Lightw.pdf,AMD RX 6800 (Vulkan),864,143,5.337505340576172,26.79154227966795,True
+2601.11090v1_Efficient Multilingual Name Type Classification Us.pdf,AMD RX 6800 (Vulkan),901,132,4.998639106750488,26.40718747263402,True
+2601.11100v1_ReCreate Reasoning and Creating Domain Agents Driv.pdf,AMD RX 6800 (Vulkan),973,147,5.563697814941406,26.42127679997806,True
+2601.11109v1_Vision-as-Inverse-Graphics Agent via Interleaved M.pdf,AMD RX 6800 (Vulkan),769,214,7.534113645553589,28.404137509433042,True
+2601.11124v1_Learn Before Represent Bridging Generative and Con.pdf,AMD RX 6800 (Vulkan),958,162,6.107175827026367,26.526172585877408,True
+2601.11135v1_Context-aware Graph Causality Inference for Few-Sh.pdf,AMD RX 6800 (Vulkan),919,132,4.988482475280762,26.460952935906782,True
+2601.11143v1_Learning Quadrupedal Locomotion for a Heavy Hydrau.pdf,AMD RX 6800 (Vulkan),967,163,6.099026203155518,26.72557791531818,True
+2601.11144v2_Deep GraphRAG A Balanced Approach to Hierarchical .pdf,AMD RX 6800 (Vulkan),898,121,4.697139501571655,25.760359035432863,True
+2601.11147v1_Do We Always Need Query-Level Workflows Rethinking.pdf,AMD RX 6800 (Vulkan),914,145,5.396069049835205,26.871412997287027,True
+2601.11151v1_Cross-Modal Attention Network with Dual Graph Lear.pdf,AMD RX 6800 (Vulkan),857,200,7.0811309814453125,28.24407577321476,True
+2601.11160v1_Clustering High-dimensional Data Balancing Abstrac.pdf,AMD RX 6800 (Vulkan),808,128,4.769756078720093,26.835753838872883,True
+2601.11178v1_TANDEM Temporal-Aware Neural Detection for Multimo.pdf,AMD RX 6800 (Vulkan),862,167,6.080498695373535,27.46485253373464,True
+2601.11189v1_Policy-Based Deep Reinforcement Learning Hyperheur.pdf,AMD RX 6800 (Vulkan),864,140,5.211257457733154,26.86491717891417,True
+2601.11196v1_Artificial Intelligence and the US Economy An Acco.pdf,AMD RX 6800 (Vulkan),604,121,4.287787199020386,28.219684043005774,True
+2601.11199v1_SD-RAG A Prompt-Injection-Resilient Framework for .pdf,AMD RX 6800 (Vulkan),834,139,5.1906163692474365,26.779093292951828,True
+2601.11200v1_FAQ Mitigating Quantization Error via Regenerating.pdf,AMD RX 6800 (Vulkan),908,159,5.877703666687012,27.051380780076126,True
+2601.11202v1_Epistemic Control and the Normativity of Machine L.pdf,AMD RX 6800 (Vulkan),670,105,3.907323122024536,26.87261757496918,True
+2601.11207v1_LoRA as Oracle.pdf,AMD RX 6800 (Vulkan),802,89,3.6054272651672363,24.68500775479429,True
+2601.11219v1_SDFLoRA Selective Dual-Module LoRA for Federated F.pdf,AMD RX 6800 (Vulkan),866,162,5.951946973800659,27.217984419735803,True
+2601.11232v1_FactCorrector A Graph-Inspired Approach to Long-Fo.pdf,AMD RX 6800 (Vulkan),1003,187,6.9267473220825195,26.996798252455765,True
+2601.11252v1_Beyond Model Scaling Test-Time Intervention for Ef.pdf,AMD RX 6800 (Vulkan),925,185,6.752288103103638,27.39812004096303,True
+2601.11258v1_Knowledge is Not Enough Injecting RL Skills for Co.pdf,AMD RX 6800 (Vulkan),978,123,4.829942464828491,25.466141863113823,True
+2601.11269v1_X-Distill Cross-Architecture Vision Distillation f.pdf,AMD RX 6800 (Vulkan),1005,151,5.785715818405151,26.09875851828885,True
+2601.11282v1_From SERPs to Sound How Search Engine Result Pages.pdf,AMD RX 6800 (Vulkan),1015,152,5.720270395278931,26.5721704563912,True
+2601.11286v1_XChoice Explainable Evaluation of AI-Human Alignme.pdf,AMD RX 6800 (Vulkan),982,134,5.146268367767334,26.038284524624352,True
+2601.11344v1_How Much Would a Clinician Edit This Draft Evaluat.pdf,AMD RX 6800 (Vulkan),895,148,5.56329345703125,26.602946823333223,True
+2601.11350v1_FEATHer Fourier-Efficient Adaptive Temporal Hierar.pdf,AMD RX 6800 (Vulkan),796,139,5.064690113067627,27.444917042675534,True
+2601.11354v1_AstroReason-Bench Evaluating Unified Agentic Plann.pdf,AMD RX 6800 (Vulkan),702,141,5.120885848999023,27.534298587726024,True
+2601.11359v1_Think-Clip-Sample Slow-Fast Frame Selection for Vi.pdf,AMD RX 6800 (Vulkan),872,140,5.265615463256836,26.587585245620765,True
+2601.11369v2_Institutional AI Governing LLM Collusion in Multi-.pdf,AMD RX 6800 (Vulkan),814,217,7.66644811630249,28.305154708939526,True
+2601.11379v1_Evaluating LLM Behavior in Hiring Implicit Weights.pdf,AMD RX 6800 (Vulkan),791,127,4.769554376602173,26.62722551671058,True
+2601.11389v1_Hyperparameter Optimization of Constraint Programm.pdf,AMD RX 6800 (Vulkan),576,127,4.517010927200317,28.115938182756558,True
+2601.11400v1_Wetland mapping from sparse annotations with satel.pdf,AMD RX 6800 (Vulkan),758,170,6.212680339813232,27.3633907913425,True
+2601.11409v1_Topology-Guaranteed Image Segmentation Enforcing C.pdf,AMD RX 6800 (Vulkan),778,129,4.797717094421387,26.887787975242762,True
+2601.11421v1_The Great March 100 100 Detail-oriented Tasks for .pdf,AMD RX 6800 (Vulkan),960,253,8.989147186279297,28.145050332045944,True
+2601.11429v1_Relational Linearity is a Predictor of Hallucinati.pdf,AMD RX 6800 (Vulkan),948,119,4.6818718910217285,25.417184145555623,True
+2601.11440v1_GenDA Generative Data Assimilation on Complex Urba.pdf,AMD RX 6800 (Vulkan),835,191,6.887901306152344,27.729781759415868,True
+2601.11441v1_Hierarchical Orthogonal Residual Spread for Precis.pdf,AMD RX 6800 (Vulkan),875,141,5.313619136810303,26.535586456172034,True
+2601.11442v1_Map2Thought Explicit 3D Spatial Reasoning via Metr.pdf,AMD RX 6800 (Vulkan),924,162,5.962956428527832,27.16773163475814,True
+2601.11451v1_PRISM-CAFO Prior-conditioned Remote-sensing Infras.pdf,AMD RX 6800 (Vulkan),866,206,7.362555980682373,27.97941374442461,True
+2601.11459v1_Interactive Narrative Analytics Bridging Computati.pdf,AMD RX 6800 (Vulkan),848,117,4.476788759231567,26.134804721070385,True
+2601.11464v1_MHA2MLA-VLM Enabling DeepSeeks Economical Multi-He.pdf,AMD RX 6800 (Vulkan),970,146,5.570730924606323,26.2084099871181,True
+2601.11468v1_Exploring LLM Features in Predictive Process Monit.pdf,AMD RX 6800 (Vulkan),864,133,5.035050630569458,26.41482871940016,True
+2601.11479v1_Health Facility Location in Ethiopia Leveraging LL.pdf,AMD RX 6800 (Vulkan),939,129,4.9597132205963135,26.00956834848813,True
+2601.11492v1_BoxMind Closed-loop AI strategy optimization for e.pdf,AMD RX 6800 (Vulkan),791,194,6.8775575160980225,28.207688492013624,True
+2601.11496v1_The Poisoned Apple Effect Strategic Manipulation o.pdf,AMD RX 6800 (Vulkan),756,141,5.137114524841309,27.44731489208052,True
+2601.11505v1_MetaboNet The Largest Publicly Available Consolida.pdf,AMD RX 6800 (Vulkan),729,139,5.072567701339722,27.40229567823975,True
+2601.11516v2_Building Production-Ready Probes For Gemini.pdf,AMD RX 6800 (Vulkan),849,141,5.30227518081665,26.592358033421295,True
+2601.11517v1_Do explanations generalize across large reasoning .pdf,AMD RX 6800 (Vulkan),892,107,4.210259675979614,25.414109398158196,True
+2601.11625v1_Reasoning Stabilization Point A Training-Time Sign.pdf,AMD RX 6800 (Vulkan),922,147,5.4998650550842285,26.72792850873843,True
+2601.11643v1_Syllabic Agglutinative Tokenizations for Indonesia.pdf,AMD RX 6800 (Vulkan),838,160,5.8377814292907715,27.407672236101224,True
+2601.11644v1_Predicting When to Trust Vision-Language Models fo.pdf,AMD RX 6800 (Vulkan),980,109,4.39604115486145,24.795036297478735,True
+2601.11647v1_Reinforcement Learning for Dynamic Workflow Optimi.pdf,AMD RX 6800 (Vulkan),902,144,5.3654115200042725,26.838575095892242,True
+2601.11650v1_Large Language Model Agent for User-friendly Chemi.pdf,AMD RX 6800 (Vulkan),655,117,4.263893365859985,27.439710602706935,True
+2601.11651v1_Aesthetics as Structural Harm Algorithmic Lookism .pdf,AMD RX 6800 (Vulkan),868,130,4.954617977142334,26.238148046881278,True
+2601.11652v1_WISP Waste- and Interference-Suppressed Distribute.pdf,AMD RX 6800 (Vulkan),982,213,7.779394149780273,27.380024189417902,True
+2601.11657v1_Size is Not the Solution Deformable Convolutions f.pdf,AMD RX 6800 (Vulkan),806,163,6.03634238243103,27.003107125668812,True
+2601.11658v1_Towards AGI A Pragmatic Approach Towards Self Evol.pdf,AMD RX 6800 (Vulkan),829,201,7.152284145355225,28.10291033117465,True
+2601.11663v1_Activation Sensitivity as a Unifying Principle for.pdf,AMD RX 6800 (Vulkan),759,122,4.491537570953369,27.162190691439413,True
+2601.11664v1_Serverless AI Security Attack Surface Analysis and.pdf,AMD RX 6800 (Vulkan),834,162,5.912739038467407,27.398469465006304,True
+2601.11666v1_MATEX Multi-scale Attention and Text-guided Explai.pdf,AMD RX 6800 (Vulkan),768,138,5.044219970703125,27.358045604970687,True
+2601.11667v1_Distill-then-Replace Efficient Task-Specific Hybri.pdf,AMD RX 6800 (Vulkan),689,137,4.9698991775512695,27.56595156272397,True
+2601.11670v1_A Confidence-Variance Theory for Pseudo-Label Sele.pdf,AMD RX 6800 (Vulkan),950,150,5.664239883422852,26.481929276864644,True
+2601.11674v1_Pigment Network Detection and Classification in De.pdf,AMD RX 6800 (Vulkan),884,141,5.260679483413696,26.802621304825056,True
+2601.11675v1_Generating metamers of human scene understanding.pdf,AMD RX 6800 (Vulkan),898,172,6.2456793785095215,27.53903772131293,True
+2601.11676v1_HALO Semantic-Aware Distributed LLM Inference in L.pdf,AMD RX 6800 (Vulkan),884,134,5.063864231109619,26.462004880932056,True
+2601.11683v1_Attesting Model Lineage by Consisted Knowledge Evo.pdf,AMD RX 6800 (Vulkan),850,132,4.9711754322052,26.553076188953796,True
+2601.11684v1_Mobile-friendly Image de-noising Hardware Consciou.pdf,AMD RX 6800 (Vulkan),911,182,6.607076406478882,27.546222989268184,True
+2601.11685v1_Towards Efficient Image Deblurring for Edge Deploy.pdf,AMD RX 6800 (Vulkan),729,129,4.755803823471069,27.124752153012086,True
+2601.11686v1_Proof of Concept Multi-Target Wildfire Risk Predic.pdf,AMD RX 6800 (Vulkan),741,142,5.118206262588501,27.744094847827487,True
+2601.11687v1_Semantic Caching and Intent-Driven Context Optimiz.pdf,AMD RX 6800 (Vulkan),435,118,4.002540588378906,29.481275053800744,True
+2601.11688v1_SpecMap Hierarchical LLM Agent for Datasheet-to-Co.pdf,AMD RX 6800 (Vulkan),694,135,4.891540765762329,27.598666036867982,True
+2601.11700v1_Telling Human and Machine Handwriting Apart.pdf,AMD RX 6800 (Vulkan),985,153,5.695302486419678,26.864244763965583,True
+2601.11702v1_PASTA A Scalable Framework for Multi-Policy AI Com.pdf,AMD RX 6800 (Vulkan),801,114,4.335183620452881,26.29646399800958,True
+2601.11713v1_Inter-Cell Interference Rejection Based on Ultrawi.pdf,AMD RX 6800 (Vulkan),867,155,5.6876020431518555,27.252258302183325,True
+2601.11746v1_LIME-LLM Probing Models with Fluent Counterfactual.pdf,AMD RX 6800 (Vulkan),835,177,6.3770904541015625,27.755604420846602,True
+2601.11747v1_PRISM Learning Design Knowledge from Data for Styl.pdf,AMD RX 6800 (Vulkan),926,127,4.827799320220947,26.30598158213995,True
+2601.11758v1_Early Linguistic Pattern of Anxiety from Social Me.pdf,AMD RX 6800 (Vulkan),791,118,4.409018516540527,26.763326023086652,True
+2601.11762v1_Industry-Aligned Granular Topic Modeling.pdf,AMD RX 6800 (Vulkan),930,150,5.627835273742676,26.653232140578556,True
+2601.11768v1_Lightweight Self-Supervised Detection of Fundament.pdf,AMD RX 6800 (Vulkan),987,221,7.967933893203735,27.736173889256584,True
+2601.11776v1_Cleansing the Artificial Mind A Self-Reflective De.pdf,AMD RX 6800 (Vulkan),951,128,4.97082257270813,25.750265298699837,True
+2601.11778v1_Translation as a Scalable Proxy for Multilingual E.pdf,AMD RX 6800 (Vulkan),1048,158,5.893860101699829,26.807558590410338,True
+2601.11781v1_Risk-Aware Human-in-the-Loop Framework with Adapti.pdf,AMD RX 6800 (Vulkan),978,183,6.652749061584473,27.507425622997307,True
+2601.11792v1_A self-evolving multi-role collaborative framework.pdf,AMD RX 6800 (Vulkan),824,134,5.004423379898071,26.77631164026919,True
+2601.11801v1_RobotDesignGPT Automated Robot Design Synthesis us.pdf,AMD RX 6800 (Vulkan),842,125,4.700849771499634,26.590936974385237,True
+2601.11809v1_Multi-agent DRL-based Lane Change Decision Model f.pdf,AMD RX 6800 (Vulkan),855,112,4.310319185256958,25.984154580265304,True
+2601.11816v1_POLARIS Typed Planning and Governed Execution for .pdf,AMD RX 6800 (Vulkan),904,157,5.7642436027526855,27.236878039822162,True
+2601.11825v1_AI Co-Scientist for Knowledge Synthesis in Medical.pdf,AMD RX 6800 (Vulkan),545,134,4.716033458709717,28.41370850593196,True
+2601.11840v1_Imandra CodeLogician Neuro-Symbolic Reasoning for .pdf,AMD RX 6800 (Vulkan),799,187,6.717087745666504,27.83944576585919,True
+2601.11850v1_Human-AI Collaborative Inductive Thematic Analysis.pdf,AMD RX 6800 (Vulkan),800,178,6.333780288696289,28.10327985605553,True
+2601.11854v1_ATOD An Evaluation Framework and Benchmark for Age.pdf,AMD RX 6800 (Vulkan),960,183,6.671718120574951,27.42921638665237,True
+2601.11859v1_Cascaded Transformer for Robust and Scalable SLA D.pdf,AMD RX 6800 (Vulkan),810,117,4.447172403335571,26.308851870065787,True
+2601.11863v1_Utilizing Metadata for Better Retrieval-Augmented .pdf,AMD RX 6800 (Vulkan),691,141,5.087641477584839,27.714217014154524,True
+2601.11868v1_Terminal-Bench Benchmarking Agents on Hard Realist.pdf,AMD RX 6800 (Vulkan),1303,600,20.980907917022705,28.597427831671403,False
+2601.11876v1_AI for Green Spaces Leveraging Autonomous Navigati.pdf,AMD RX 6800 (Vulkan),881,118,4.56933856010437,25.82430661415133,True
+2601.11880v1_TF-CoDiT Conditional Time Series Synthesis with Di.pdf,AMD RX 6800 (Vulkan),952,129,4.9753313064575195,25.927921590381317,True
+2601.11885v1_MyGram Modality-aware Graph Transformer with Globa.pdf,AMD RX 6800 (Vulkan),1096,144,5.5588603019714355,25.904590541505563,True
+2601.11895v1_DevBench A Realistic Developer-Informed Benchmark .pdf,AMD RX 6800 (Vulkan),839,156,5.730814456939697,27.221261684906356,True
+2601.11903v1_AEMA Verifiable Evaluation Framework for Trustwort.pdf,AMD RX 6800 (Vulkan),802,148,5.407371759414673,27.3700434489861,True
+2601.11905v1_LIBRA Language Model Informed Bandit Recourse Algo.pdf,AMD RX 6800 (Vulkan),861,153,5.59262490272522,27.357457841566475,True
+2601.11907v1_Towards Airborne Object Detection A Deep Learning .pdf,AMD RX 6800 (Vulkan),843,130,4.879343271255493,26.642929749550085,True
+2601.11913v1_LSTM-MAS A Long Short-Term Memory Inspired Multi-A.pdf,AMD RX 6800 (Vulkan),867,140,5.200573682785034,26.920106999623663,True
+2601.11920v1_Enhancing LLM-Based Data Annotation with Error Dec.pdf,AMD RX 6800 (Vulkan),835,127,4.76449179649353,26.655518662759956,True
+2601.11935v1_Big Data Workload Profiling for Energy-Aware Cloud.pdf,AMD RX 6800 (Vulkan),833,148,5.453966379165649,27.136214217484984,True
+2601.11940v1_Thinking Traps in Long Chain-of-Thought A Measurab.pdf,AMD RX 6800 (Vulkan),789,179,6.436158895492554,27.81161915150345,True
+2601.11956v1_Double-Calibration Towards Trustworthy LLMs via Ca.pdf,AMD RX 6800 (Vulkan),954,157,5.923401117324829,26.505042776995914,True
+2601.11960v1_R2PO Decoupling Training Trajectories from Inferen.pdf,AMD RX 6800 (Vulkan),959,150,5.716438293457031,26.240115313006747,True
+2601.11969v1_textttMemoryRewardBench Benchmarking Reward Models.pdf,AMD RX 6800 (Vulkan),955,162,6.028810501098633,26.87097230381991,True
+2601.11974v1_Learn Like Humans Use Meta-cognitive Reflection fo.pdf,AMD RX 6800 (Vulkan),965,142,5.428634405136108,26.157591284034854,True
+2601.11977v1_One-Shot Price Forecasting with Covariate-Guided E.pdf,AMD RX 6800 (Vulkan),838,141,5.28747296333313,26.6668030225002,True
+2601.11979v1_Process In-Context Learning Enhancing Mathematical.pdf,AMD RX 6800 (Vulkan),915,145,5.453691244125366,26.58749707479165,True
+2601.11995v1_Learning Audio-Visual Embeddings with Inferred Lat.pdf,AMD RX 6800 (Vulkan),684,122,4.4524452686309814,27.400673706094096,True
+2601.11998v1_Hybrid IDS Using Signature-Based and Anomaly-Based.pdf,AMD RX 6800 (Vulkan),911,175,6.427713871002197,27.22585409246201,True
+2601.12002v1_Kernel-Based Learning of Safety Barriers.pdf,AMD RX 6800 (Vulkan),778,147,5.378474950790405,27.33116754190652,True
+2601.12003v1_Robust Verification of Concurrent Stochastic Games.pdf,AMD RX 6800 (Vulkan),665,115,4.190814256668091,27.440968021195673,True
+2601.12014v1_Are LLMs Ready for TOON Benchmarking Structural Co.pdf,AMD RX 6800 (Vulkan),916,167,6.070954322814941,27.508031047508606,True
+2601.12019v1_Acting Flatterers via LLMs Sycophancy Combating Cl.pdf,AMD RX 6800 (Vulkan),1023,154,5.849592924118042,26.326618278864075,True
+2601.12024v1_A Multi-Agent System for Generating Actionable Bus.pdf,AMD RX 6800 (Vulkan),968,132,5.128857135772705,25.736727794449102,True
+2601.12030v1_ARC Active and Reflection-driven Context Managemen.pdf,AMD RX 6800 (Vulkan),914,158,5.885655879974365,26.844926584577717,True
+2601.12038v1_Abstract Argumentation with Subargument Relations.pdf,AMD RX 6800 (Vulkan),803,87,3.52660870552063,24.669592592965675,True
+2601.12040v1_Partial Reasoning in Language Models Search and Re.pdf,AMD RX 6800 (Vulkan),883,173,6.2622456550598145,27.625872495151672,True
+2601.12042v1_Less Is More -- Until It Breaks Security Pitfalls .pdf,AMD RX 6800 (Vulkan),867,169,6.161891937255859,27.42664131744942,True
+2601.12049v1_textitFocaLogic Logic-Based Interpretation of Visu.pdf,AMD RX 6800 (Vulkan),850,113,4.343478202819824,26.016016363715007,True
+2601.12053v1_A New Strategy for Artificial Intelligence Trainin.pdf,AMD RX 6800 (Vulkan),816,150,5.557653188705444,26.989809350615456,True
+2601.12055v1_Automating Parameter Selection in Deep Image Prior.pdf,AMD RX 6800 (Vulkan),880,187,6.823878288269043,27.40377130135402,True
+2601.12061v1_Codebook-Injected Dialogue Segmentation for Multi-.pdf,AMD RX 6800 (Vulkan),904,168,6.147080421447754,27.330047515537924,True
+2601.12068v1_Bridging the Gap in Bangla Healthcare Machine Lear.pdf,AMD RX 6800 (Vulkan),871,134,5.061280965805054,26.47551102286727,True
+2601.12082v1_Conditional Random Fields for Interactive Refineme.pdf,AMD RX 6800 (Vulkan),922,158,5.839510917663574,27.05706046752573,True
+2601.12095v1_Neural Isomorphic Fields A Transformer-based Algeb.pdf,AMD RX 6800 (Vulkan),867,129,4.91259241104126,26.25904801506981,True
+2601.12099v1_Large language models struggle with ethnographic t.pdf,AMD RX 6800 (Vulkan),850,138,5.144728183746338,26.82357455462493,True
+2601.12104v1_Powerful Training-Free Membership Inference Agains.pdf,AMD RX 6800 (Vulkan),930,112,4.419203758239746,25.343932103418503,True
+2601.12124v1_SynQP A Framework and Metrics for Evaluating the Q.pdf,AMD RX 6800 (Vulkan),812,146,5.3909218311309814,27.082566687740325,True
+2601.12126v1_UniMo Unified Motion Generation and Understanding .pdf,AMD RX 6800 (Vulkan),955,151,5.757563829421997,26.226370123483097,True
+2601.12132v1_Bengali Text Classification An Evaluation of Large.pdf,AMD RX 6800 (Vulkan),734,136,4.998204469680786,27.20977119383148,True
+2601.12134v1_Human-Human-AI Triadic Programming Uncovering the .pdf,AMD RX 6800 (Vulkan),721,165,5.9390716552734375,27.782119761679038,True
+2601.12138v1_DriveSafe A Hierarchical Risk Taxonomy for Safety-.pdf,AMD RX 6800 (Vulkan),861,129,4.94484281539917,26.08778576303169,True
+2601.12141v1_TIDE A Trace-Informed Depth-First Exploration for .pdf,AMD RX 6800 (Vulkan),726,149,5.467457294464111,27.25215616240202,True
+2601.12147v1_Segment and Matte Anything in a Unified Model.pdf,AMD RX 6800 (Vulkan),887,128,4.951602458953857,25.85021739145089,True
+2601.12150v1_Enhanced Diagnostic Performance via Large-Resoluti.pdf,AMD RX 6800 (Vulkan),822,122,4.706692218780518,25.920539166168304,True
+2601.12186v1_Aletheia What Makes RLVR For Code Verifiers Tick.pdf,AMD RX 6800 (Vulkan),990,132,5.134340286254883,25.70924259799775,True
+2601.12205v1_Do Neural Codecs Generalize A Controlled Study Acr.pdf,AMD RX 6800 (Vulkan),1009,186,6.883992433547974,27.01920459609462,True
+2601.12212v1_Speculative Sampling with Reinforcement Learning.pdf,AMD RX 6800 (Vulkan),1012,112,4.442967653274536,25.208376189156873,True
+2601.12215v1_Wavelet-Driven Masked Multiscale Reconstruction fo.pdf,AMD RX 6800 (Vulkan),662,212,7.266821384429932,29.173690776855526,True
+2601.12224v1_Where It Moves It Matters Referring Surgical Instr.pdf,AMD RX 6800 (Vulkan),963,172,6.347031593322754,27.099282155921294,True
+2601.12234v1_Proc3D Procedural 3D Generation and Parametric Edi.pdf,AMD RX 6800 (Vulkan),691,145,5.24995231628418,27.619298474434213,True
+2601.12242v1_Optimal Power Allocation and Sub-Optimal Channel A.pdf,AMD RX 6800 (Vulkan),745,170,6.103823661804199,27.85139437494014,True
+2601.12243v1_Less is More Label-Guided Summarization of Procedu.pdf,AMD RX 6800 (Vulkan),787,147,5.383176565170288,27.30729676435012,True
+2601.12247v1_Plan Verify and Fill A Structured Parallel Decodin.pdf,AMD RX 6800 (Vulkan),920,181,6.6259543895721436,27.316819488654474,True
+2601.12248v1_AQUA-Bench Beyond Finding Answers to Knowing When .pdf,AMD RX 6800 (Vulkan),842,109,4.206905126571655,25.909783254091987,True
+2601.12249v1_An Innovative Framework for Breast Cancer Detectio.pdf,AMD RX 6800 (Vulkan),828,155,5.695094108581543,27.21640714706386,True
+2601.12256v1_Improving Large Molecular Language Model via Relat.pdf,AMD RX 6800 (Vulkan),986,143,5.460242986679077,26.18931068614818,True
+2601.12257v1_Soft Shadow Diffusion SSD Physics-inspired Learnin.pdf,AMD RX 6800 (Vulkan),667,124,4.510048151016235,27.494163221308284,True
+2601.12259v1_FutureX-Pro Extending Future Prediction to High-Va.pdf,AMD RX 6800 (Vulkan),703,208,7.278706073760986,28.5765076776241,True
+2601.12260v1_Docs2Synth A Synthetic Data Trained Retriever Fram.pdf,AMD RX 6800 (Vulkan),951,153,5.839700698852539,26.199972890744803,True
+2601.12263v1_Multimodal Generative Engine Optimization Rank Man.pdf,AMD RX 6800 (Vulkan),1121,161,6.216733932495117,25.897843103505934,True
+2601.12269v1_Simulated Annealing Enhances Theory-of-Mind Reason.pdf,AMD RX 6800 (Vulkan),952,124,4.893192529678345,25.341328641354558,True
+2601.12276v1_Predictive Prototyping Evaluating Design Concepts .pdf,AMD RX 6800 (Vulkan),766,135,5.030569076538086,26.835930079883465,True
+2601.12282v1_CytoCLIP Learning Cytoarchitectural Characteristic.pdf,AMD RX 6800 (Vulkan),864,152,5.666644334793091,26.82363512153442,True
+2601.12286v1_Conversational Context Classification A Representa.pdf,AMD RX 6800 (Vulkan),822,106,4.147146224975586,25.55974500287219,True
+2601.12288v1_TimeGMM Single-Pass Probabilistic Forecasting via .pdf,AMD RX 6800 (Vulkan),910,195,7.107485055923462,27.435864931926194,True
+2601.12294v1_ToolPRMBench Evaluating and Advancing Process Rewa.pdf,AMD RX 6800 (Vulkan),1100,149,5.762601137161255,25.85637916862656,True
+2601.12304v1_A Two-Stage Globally-Diverse Adversarial Attack fo.pdf,AMD RX 6800 (Vulkan),927,143,5.4788525104522705,26.10035581852076,True
+2601.12310v1_Survival is the Only Reward Sustainable Self-Train.pdf,AMD RX 6800 (Vulkan),518,174,6.011411666870117,28.944948315375363,True
+2601.12316v1_GazeFormer-MoE Context-Aware Gaze Estimation via C.pdf,AMD RX 6800 (Vulkan),926,129,4.913005113601685,26.256842200888965,True
+2601.12317v1_Explanova Automatically Discover Data Insights in .pdf,AMD RX 6800 (Vulkan),936,114,4.482560873031616,25.431891106232822,True
+2601.12318v1_Beyond Human Annotation Recent Advances in Data Ge.pdf,AMD RX 6800 (Vulkan),880,123,4.758934020996094,25.846124249113846,True
+2601.12323v1_MARO Learning Stronger Reasoning from Social Inter.pdf,AMD RX 6800 (Vulkan),865,136,5.200571060180664,26.150974273059056,True
+2601.12327v1_The Expert Validation Framework EVF Enabling Domai.pdf,AMD RX 6800 (Vulkan),871,105,4.137587070465088,25.377109463027544,True
+2601.12330v1_IceWatch Forecasting Glacial Lake Outburst Floods .pdf,AMD RX 6800 (Vulkan),934,176,6.581278562545776,26.74252401374111,True
+2601.12331v1_Efficient Privacy-Preserving Retrieval Augmented G.pdf,AMD RX 6800 (Vulkan),823,133,5.073486804962158,26.214712901178427,True
+2601.12338v1_Actionable Advice from Reviews via Mixture of LoRA.pdf,AMD RX 6800 (Vulkan),919,177,6.440436363220215,27.482609875753838,True
+2601.12341v1_Time-Continuous Modeling for Temporal Affective Pa.pdf,AMD RX 6800 (Vulkan),857,119,4.527950048446655,26.28120865441609,True
+2601.12343v1_How Well Do LLMs Predict Human Behavior A Measure .pdf,AMD RX 6800 (Vulkan),408,128,4.300044775009155,29.767131901487577,True
+2601.12349v1_Zero-Permission Manipulation Can We Trust Large Mu.pdf,AMD RX 6800 (Vulkan),896,160,5.9254748821258545,27.002055224744716,True
+2601.12357v1_SimpleMatch A Simple and Strong Baseline for Seman.pdf,AMD RX 6800 (Vulkan),831,110,4.289512634277344,25.643938922336744,True
+2601.12358v1_From Prompts to Pavement LMMs-based Agentic Behavi.pdf,AMD RX 6800 (Vulkan),901,170,6.402045965194702,26.554011158967036,True
+2601.12374v1_A Scalable Entity-Based Framework for Auditing Bia.pdf,AMD RX 6800 (Vulkan),935,125,4.95251727104187,25.239689870622808,True
+2601.12389v1_NADIR Differential Attention Flow for Non-Autoregr.pdf,AMD RX 6800 (Vulkan),976,136,5.2557313442230225,25.876512913752343,True
+2601.12392v1_PsychēChat An Empathic Framework Focused on Emotio.pdf,AMD RX 6800 (Vulkan),949,189,7.008288145065308,26.968069247135496,True
+2601.12401v1_Beyond the Dirac Delta Mitigating Diversity Collap.pdf,AMD RX 6800 (Vulkan),985,149,5.588713884353638,26.660874591763537,True
+2601.12402v1_Weaknesses of Facial Emotion Recognition Systems.pdf,AMD RX 6800 (Vulkan),611,104,3.740173816680908,27.806194336789222,True
+2601.12405v1_Explainable Machine Learning for Pediatric Dental .pdf,AMD RX 6800 (Vulkan),593,125,4.390422344207764,28.471065013804683,True
+2601.12410v1_Are LLMs Smarter Than Chimpanzees An Evaluation on.pdf,AMD RX 6800 (Vulkan),968,115,4.546661615371704,25.29328323251485,True
+2601.12415v1_Orthogonalized Policy OptimizationDecoupling Sampl.pdf,AMD RX 6800 (Vulkan),707,89,3.4557912349700928,25.753870517230542,True
+2601.12436v1_Purification Before Fusion Toward Mask-Free Speech.pdf,AMD RX 6800 (Vulkan),902,170,6.187727451324463,27.473737545374927,True
+2601.12442v1_Constraint-Aware Neurosymbolic Uncertainty Quantif.pdf,AMD RX 6800 (Vulkan),807,147,5.4412760734558105,27.015721682843925,True
+2601.12443v1_Adversarial Defense in Vision-Language Models An O.pdf,AMD RX 6800 (Vulkan),844,89,3.6032350063323975,24.700026460552703,True
+2601.12444v1_Large Language Model for OWL Proofs.pdf,AMD RX 6800 (Vulkan),961,113,4.510741472244263,25.051313779634164,True
+2601.12449v1_AgenTRIM Tool Risk Mitigation for Agentic AI.pdf,AMD RX 6800 (Vulkan),957,180,6.688478946685791,26.911948356986578,True
+2601.12465v1_Incentivizing In-depth Reasoning over Long Context.pdf,AMD RX 6800 (Vulkan),915,167,6.2534589767456055,26.705220362204937,True
+2601.12467v1_Patch-Level Tokenization with CNN Encoders and Att.pdf,AMD RX 6800 (Vulkan),759,137,5.209393501281738,26.29864685136418,True
+2601.12471v1_Knowing When to Abstain Medical LLMs Under Clinica.pdf,AMD RX 6800 (Vulkan),1077,176,6.655236482620239,26.445341267679023,True
+2601.12494v1_Harmonizing the Arabic Audio Space with Data Sched.pdf,AMD RX 6800 (Vulkan),955,147,5.628217935562134,26.11839159091091,True
+2601.12499v1_Failure Modes in Multi-Hop QA The Weakest Link Law.pdf,AMD RX 6800 (Vulkan),979,145,5.5418596267700195,26.16450248930445,True
+2601.12518v1_Cooperative Multi-agent RL with Communication Cons.pdf,AMD RX 6800 (Vulkan),826,116,4.4770848751068115,25.90971653116863,True
+2601.12522v1_Improved Bug Localization with AI Agents Leveragin.pdf,AMD RX 6800 (Vulkan),908,140,5.318709135055542,26.32217638623286,True
+2601.12534v1_Encoding Emotion Through Self-Supervised Eye Movem.pdf,AMD RX 6800 (Vulkan),840,147,5.408027410507202,27.181814891395554,True
+2601.12535v1_Improving Low-Resource Machine Translation via Rou.pdf,AMD RX 6800 (Vulkan),923,126,4.795343399047852,26.275490515448418,True
+2601.12538v1_Agentic Reasoning for Large Language Models.pdf,AMD RX 6800 (Vulkan),816,299,10.371214628219604,28.829795806793406,True
+2601.12539v1_MemeLens Multilingual Multitask VLMs for Memes.pdf,AMD RX 6800 (Vulkan),969,190,7.0619494915008545,26.904752041722674,True
+2601.12542v1_Rethinking the AI Scientist Interactive Multi-Agen.pdf,AMD RX 6800 (Vulkan),1137,152,5.986804723739624,25.38916951763445,True
+2601.12547v1_How Clinicians Think and What AI Can Learn From It.pdf,AMD RX 6800 (Vulkan),855,132,5.073196649551392,26.019097842712718,True
+2601.12549v1_Benchmarking Concept-Spilling Across Languages in .pdf,AMD RX 6800 (Vulkan),749,132,4.9469709396362305,26.682994828691363,True
+2601.12554v1_Artificial Intelligence in Materials Science and E.pdf,AMD RX 6800 (Vulkan),818,284,9.8901846408844,28.715338521182975,True
+2601.12557v1_Life Machine Learning and the Search for Habitabil.pdf,AMD RX 6800 (Vulkan),904,165,6.093484878540039,27.078101166886455,True
+2601.12560v1_Agentic Artificial Intelligence AI Architectures T.pdf,AMD RX 6800 (Vulkan),726,151,5.460296630859375,27.654175259748605,True
+2601.12577v1_Primate-like perceptual decision making emerges th.pdf,AMD RX 6800 (Vulkan),774,159,5.779476642608643,27.51114155004756,True
+2601.12582v1_Ontology-aligned structuring and reuse of multimod.pdf,AMD RX 6800 (Vulkan),813,154,5.625773906707764,27.37401156779187,True
+2601.12585v1_Do MLLMs See What We See Analyzing Visualization L.pdf,AMD RX 6800 (Vulkan),877,146,5.435302495956421,26.861430455548025,True
+2601.12594v1_SLAP Scalable Language-Audio Pretraining with Vari.pdf,AMD RX 6800 (Vulkan),833,228,8.04064130783081,28.355947152865774,True
+2601.12607v1_A Cloud-based Multi-Agentic Workflow for Science.pdf,AMD RX 6800 (Vulkan),949,146,5.539946794509888,26.35404371476756,True
+2601.12617v1_Creating Disability Story Videos with Generative A.pdf,AMD RX 6800 (Vulkan),1011,113,4.5324811935424805,24.93115694798545,True
+2601.12637v1_Topology-Aware Multiscale Mixture of Experts for E.pdf,AMD RX 6800 (Vulkan),820,136,5.073695421218872,26.804920025595116,True
+2601.12638v1_Mixed Precision PointPillars for Efficient 3D Obje.pdf,AMD RX 6800 (Vulkan),923,133,5.059068918228149,26.289422450995374,True
+2601.12641v1_STEP-LLM Generating CAD STEP Models from Natural L.pdf,AMD RX 6800 (Vulkan),849,172,6.317672491073608,27.225216287014394,True
+2601.12646v1_Unbounded Harms Bounded Law Liability in the Age o.pdf,AMD RX 6800 (Vulkan),762,116,4.379792928695679,26.485270397143022,True
+2601.12648v1_Intelligent Documentation in Medical Education Can.pdf,AMD RX 6800 (Vulkan),886,118,4.597616910934448,25.665470239454322,True
+2601.12654v1_Explanation Multiplicity in SHAP Characterization .pdf,AMD RX 6800 (Vulkan),846,199,7.199995517730713,27.638906095141657,True
+2601.12658v1_Augmenting Question Answering with A Hybrid RAG Ap.pdf,AMD RX 6800 (Vulkan),924,175,6.4621758460998535,27.080662019684677,True
+2601.12661v1_MedConsultBench A Full-Cycle Fine-Grained Process-.pdf,AMD RX 6800 (Vulkan),896,154,5.867513179779053,26.2462128812464,True
+2601.12664v1_Generalizable Hyperparameter Optimization for Fede.pdf,AMD RX 6800 (Vulkan),993,146,5.693979024887085,25.641120095783155,True
+2601.12667v1_Empowering All-in-Loop Health Management of Spacec.pdf,AMD RX 6800 (Vulkan),1003,224,8.208311557769775,27.28941249652828,True
+2601.12671v1_Exploiting Test-Time Augmentation in Federated Lea.pdf,AMD RX 6800 (Vulkan),993,141,5.4376959800720215,25.930099902005274,True
+2601.12688v1_Logic-Guided Multistage Inference for Explainable .pdf,AMD RX 6800 (Vulkan),925,159,5.88593864440918,27.013533372630008,True
+2601.12711v1_Neurosymbolic LoRA Why and When to Tune Weights vs.pdf,AMD RX 6800 (Vulkan),964,174,6.399238586425781,27.190734905414057,True
+2601.12715v1_RSOD Reliability-Guided Sonar Image Object Detecti.pdf,AMD RX 6800 (Vulkan),975,156,5.825889587402344,26.777026522666645,True
+2601.12720v1_Teaching Large Reasoning Models Effective Reflecti.pdf,AMD RX 6800 (Vulkan),1052,165,6.157714128494263,26.795657699742424,True
+2601.12723v1_An Evolutionary Framework for Automatic Optimizati.pdf,AMD RX 6800 (Vulkan),570,116,4.116566896438599,28.17882058478294,True
+2601.12727v1_AI-exhibited Personality Traits Can Shape Human Se.pdf,AMD RX 6800 (Vulkan),675,130,4.754652261734009,27.341642005295537,True
+2601.12731v1_A Shared Geometry of Difficulty in Multilingual La.pdf,AMD RX 6800 (Vulkan),876,128,4.868823766708374,26.289717215732356,True
+2601.12740v1_TreeWriter AI-Assisted Hierarchical Planning and W.pdf,AMD RX 6800 (Vulkan),904,142,5.437159299850464,26.11657892824758,True
+2601.12742v1_AirHunt Bridging VLM Semantics and Continuous Plan.pdf,AMD RX 6800 (Vulkan),881,160,6.013417959213257,26.60716435897514,True
+2601.12744v1_Vision Language Models for Optimization-Driven Int.pdf,AMD RX 6800 (Vulkan),867,169,6.249443292617798,27.042408753373685,True
+2601.12745v1_A Graph Prompt Fine-Tuning Method for WSN Spatio-T.pdf,AMD RX 6800 (Vulkan),864,134,5.112624645233154,26.20962994514711,True
+2601.12754v1_PAIR-SAFE A Paired-Agent Approach for Runtime Audi.pdf,AMD RX 6800 (Vulkan),924,169,6.257124423980713,27.009211987586475,True
+2601.12758v1_VISPA Pluralistic Alignment via Automatic Value Se.pdf,AMD RX 6800 (Vulkan),949,136,5.2210142612457275,26.0485785318561,True
+2601.12762v1_Teaching LLMs to Learn Tool Trialing and Execution.pdf,AMD RX 6800 (Vulkan),957,160,6.0172929763793945,26.590029873578136,True
+2601.12781v1_VIRO Robust and Efficient Neuro-Symbolic Reasoning.pdf,AMD RX 6800 (Vulkan),890,166,6.1417396068573,27.028172899850674,True
+2601.12785v1_Distilling Time Series Foundation Models for Effic.pdf,AMD RX 6800 (Vulkan),877,124,4.789292097091675,25.89109151962139,True
+2601.12804v1_SL-CBM Enhancing Concept Bottleneck Models with Se.pdf,AMD RX 6800 (Vulkan),992,138,5.346639394760132,25.81060546840772,True
+2601.12805v1_SciHorizon-GENE Benchmarking LLM for Life Sciences.pdf,AMD RX 6800 (Vulkan),927,137,5.1565492153167725,26.56815522928815,True
+2601.12809v1_Left-Right Symmetry Breaking in CLIP-style Vision-.pdf,AMD RX 6800 (Vulkan),1012,143,5.431426286697388,26.32825936535945,True
+2601.12816v1_Fisher-Orthogonal Projected Natural Gradient Desce.pdf,AMD RX 6800 (Vulkan),823,133,4.961045980453491,26.80886259148165,True
+2601.12822v1_MirrorGuard Toward Secure Computer-Use Agents via .pdf,AMD RX 6800 (Vulkan),941,127,4.897873163223267,25.929622055876578,True
+2601.12837v1_Cognition spaces natural artificial and hybrid.pdf,AMD RX 6800 (Vulkan),953,157,5.8851823806762695,26.67716815633487,True
+2601.12842v1_SCULPT Constraint-Guided Pruned MCTS that Carves E.pdf,AMD RX 6800 (Vulkan),955,144,5.466213226318359,26.34364852557862,True
+2601.12849v1_The Cost of EFX Generalized-Mean Welfare and Compl.pdf,AMD RX 6800 (Vulkan),927,158,5.824705362319946,27.125835586826923,True
+2601.12856v1_Mining Citywide Dengue Spread Patterns in Singapor.pdf,AMD RX 6800 (Vulkan),975,131,5.002225160598755,26.188345345158275,True
+2601.12879v1_Hierarchical Sparse Circuit Extraction from Billio.pdf,AMD RX 6800 (Vulkan),790,152,5.480383634567261,27.735284632496743,True
+2601.12882v1_YOLO26 An Analysis of NMS-Free End to End Framewor.pdf,AMD RX 6800 (Vulkan),631,151,5.3109450340271,28.43185139980673,True
+2601.12886v1_Communication Methods in Multi-Agent Reinforcement.pdf,AMD RX 6800 (Vulkan),610,75,2.8887414932250977,25.962863127730834,True
+2601.12893v1_AdaNODEs Test Time Adaptation for Time Series Fore.pdf,AMD RX 6800 (Vulkan),862,136,5.111999750137329,26.60407015793506,True
+2601.12904v1_From Prefix Cache to Fusion RAG Cache Accelerating.pdf,AMD RX 6800 (Vulkan),1087,185,6.920018434524536,26.734032828152582,True
+2601.12910v1_SciCoQA Quality Assurance for Scientific Paper--Co.pdf,AMD RX 6800 (Vulkan),992,137,5.3093931674957275,25.80332547958933,True
+2601.12912v1_Human Emotion Verification by Action Languages via.pdf,AMD RX 6800 (Vulkan),702,128,4.719210147857666,27.123182903415927,True
+2601.12913v1_Actionable Interpretability Must Be Defined in Ter.pdf,AMD RX 6800 (Vulkan),995,192,7.083551406860352,27.105047873874373,True
+2601.12922v1_Your Privacy Depends on Others Collusion Vulnerabi.pdf,AMD RX 6800 (Vulkan),856,159,5.87233829498291,27.076096780024272,True
+2601.12925v1_ForeDiffusion Foresight-Conditioned Diffusion Poli.pdf,AMD RX 6800 (Vulkan),973,140,5.451967716217041,25.678802092603338,True
+2601.12929v1_Membership Inference Test Auditing Training Data i.pdf,AMD RX 6800 (Vulkan),835,139,5.327988386154175,26.088645455988384,True
+2601.12931v1_Online Continual Learning for Time Series a Natura.pdf,AMD RX 6800 (Vulkan),944,146,5.576504707336426,26.1812744115365,True
+2601.12937v1_On the Evidentiary Limits of Membership Inference .pdf,AMD RX 6800 (Vulkan),989,135,5.258605003356934,25.672207726919993,True
+2601.12938v1_The Post-Turing Condition Conceptualising Artifici.pdf,AMD RX 6800 (Vulkan),448,136,4.668526649475098,29.131246367693127,True
+2601.12939v1_Active Inference-Driven World Modeling for Adaptiv.pdf,AMD RX 6800 (Vulkan),897,150,5.578706741333008,26.887952164368144,True
+2601.12946v1_AI-generated data contamination erodes pathologica.pdf,AMD RX 6800 (Vulkan),577,196,6.680704832077026,29.338221778474193,True
+2601.12951v1_Beyond Accuracy Characterizing Code Comprehension .pdf,AMD RX 6800 (Vulkan),808,140,5.181363582611084,27.01991430785653,True
+2601.13007v1_ArchAgent Scalable Legacy Software Architecture Re.pdf,AMD RX 6800 (Vulkan),838,130,4.884614944458008,26.614175626575346,True
+2601.13013v1_HT-GNN Hyper-Temporal Graph Neural Network for Cus.pdf,AMD RX 6800 (Vulkan),936,139,5.291795969009399,26.267074697141087,True
+2601.13018v1_Bi-Attention HateXplain  Taking into account the s.pdf,AMD RX 6800 (Vulkan),838,125,4.720055818557739,26.482737663512424,True
+2601.13020v1_PASs-MoE Mitigating Misaligned Co-drift among Rout.pdf,AMD RX 6800 (Vulkan),1063,203,7.4670326709747314,27.186167376645585,True
+2601.13048v1_Analysis of Long Range Dependency Understanding in.pdf,AMD RX 6800 (Vulkan),845,131,4.9673497676849365,26.372211768178616,True
+2601.13054v1_TinyML-Enabled IoT for Sustainable Precision Irrig.pdf,AMD RX 6800 (Vulkan),830,151,5.632601261138916,26.808217553370305,True
+2601.13060v1_MagicGUI-RMS A Multi-Agent Reward Model System for.pdf,AMD RX 6800 (Vulkan),883,249,8.796009302139282,28.308292027322047,True
+2601.13075v1_METIS Mentoring Engine for Thoughtful Inquiry  Sol.pdf,AMD RX 6800 (Vulkan),968,160,6.079420804977417,26.318296616184696,True
+2601.13111v1_CORE-T COherent REtrieval of Tables for Text-to-SQ.pdf,AMD RX 6800 (Vulkan),1009,138,5.358294248580933,25.75446468557551,True
+2601.13114v1_IntAgent NWDAF-Based Intent LLM Agent Towards Adva.pdf,AMD RX 6800 (Vulkan),849,132,5.03384804725647,26.22248402431261,True
+2601.13122v1_Responsible AI for General-Purpose Systems Overvie.pdf,AMD RX 6800 (Vulkan),798,220,7.8131091594696045,28.157804468065923,True
+2601.13142v1_TVWorld Foundations for Remote-Control TV Agents.pdf,AMD RX 6800 (Vulkan),899,149,5.610475540161133,26.557463611314617,True
+2601.13160v1_Training instability in deep learning follows low-.pdf,AMD RX 6800 (Vulkan),638,125,4.55093240737915,27.466898826560822,True
+2601.13166v1_From 100000 images to winning the first brain MRI .pdf,AMD RX 6800 (Vulkan),1206,176,6.836856842041016,25.742823649274847,True
+2601.13186v1_Prompt Injection Mitigation with Agentic AI Nested.pdf,AMD RX 6800 (Vulkan),668,125,4.5832836627960205,27.273022836152382,True
+2601.13187v1_Scientific production in the era of Large Language.pdf,AMD RX 6800 (Vulkan),516,134,4.595664978027344,29.15791308563109,True
+2601.13197v1_Diffusion-Driven Synthetic Tabular Data Generation.pdf,AMD RX 6800 (Vulkan),897,178,6.492563009262085,27.415983448458004,True
+2601.13206v1_Real-Time Deadlines Reveal Temporal Awareness Fail.pdf,AMD RX 6800 (Vulkan),889,117,4.549131631851196,25.719194226171187,True
+2601.13217v1_Beyond Single-shot Writing Deep Research Agents ar.pdf,AMD RX 6800 (Vulkan),900,160,5.895137786865234,27.14101108145272,True
+2601.13222v1_Incorporating QA Nuggets into Retrieval-Augmented .pdf,AMD RX 6800 (Vulkan),701,141,5.115379095077515,27.563939520275845,True
+2601.13227v1_Insider Knowledge How Much Can RAG Systems Gain fr.pdf,AMD RX 6800 (Vulkan),663,147,5.262263298034668,27.934748163380775,True
+2601.13228v1_Autoregressive Models Rival Diffusion Models at AN.pdf,AMD RX 6800 (Vulkan),831,170,6.250999212265015,27.195652123334927,True
+2601.13233v1_RAG A Random-Forest-Based Generative Design Framew.pdf,AMD RX 6800 (Vulkan),814,134,5.045345783233643,26.55913107983597,True
+2601.13235v1_RubRIX Rubric-Driven Risk Mitigation in Caregiver-.pdf,AMD RX 6800 (Vulkan),933,239,8.522236108779907,28.04428285597178,True
+2601.13236v1_Pixelwise Uncertainty Quantification of Accelerate.pdf,AMD RX 6800 (Vulkan),954,139,5.361276865005493,25.92665954397742,True
+2601.13238v1_A Semantic Decoupling-Based Two-Stage Rainy-Day At.pdf,AMD RX 6800 (Vulkan),963,163,6.205569744110107,26.26672597704799,True
+2601.13240v1_KOCO-BENCH Can Large Language Models Leverage Doma.pdf,AMD RX 6800 (Vulkan),877,176,6.568869113922119,26.793044121854102,True
+2601.13247v1_Aligning Agentic World Models via Knowledgeable Ex.pdf,AMD RX 6800 (Vulkan),924,151,5.748811960220337,26.266296592211475,True
+2601.13260v1_Stop Taking Tokenizers for Granted They Are Core D.pdf,AMD RX 6800 (Vulkan),1015,167,6.379073143005371,26.17935180491148,True
+2601.13262v1_CURE-Med Curriculum-Informed Reinforcement Learnin.pdf,AMD RX 6800 (Vulkan),840,188,6.913163900375366,27.194494837565202,True
+2601.13268v1_Improving the Safety and Trustworthiness of Medica.pdf,AMD RX 6800 (Vulkan),915,177,6.496307849884033,27.246245727588118,True
+2601.13295v1_CooperBench Why Coding Agents Cannot be Your Teamm.pdf,AMD RX 6800 (Vulkan),1337,207,7.879163026809692,26.271825991626322,True
+2601.13317v1_Paid Voices vs. Public Feeds Interpretable Cross-P.pdf,AMD RX 6800 (Vulkan),922,158,5.860263109207153,26.961246799954026,True
+2601.13327v1_PepEDiff Zero-Shot Peptide Binder Design via Prote.pdf,AMD RX 6800 (Vulkan),545,115,4.103328466415405,28.02602836727374,True
+2601.13348v1_The AI Genie Phenomenon and Three Types of AI Chat.pdf,AMD RX 6800 (Vulkan),876,124,4.778692960739136,25.948517935502707,True
+2601.13352v1_LLM-as-RNN A Recurrent Language Model for Memory U.pdf,AMD RX 6800 (Vulkan),975,205,7.572559356689453,27.07142860741091,True
+2601.13358v1_The Geometry of Thought How Scale Restructures Rea.pdf,AMD RX 6800 (Vulkan),763,134,4.998073577880859,26.8103296023935,True
+2601.13376v1_Bounded Minds Generative Machines Envisioning Conv.pdf,AMD RX 6800 (Vulkan),812,148,5.515608549118042,26.832941221629213,True
+2601.13383v1_A Lightweight Modular Framework for Constructing A.pdf,AMD RX 6800 (Vulkan),767,145,5.3946521282196045,26.878470854774896,True
+2601.13385v1_Organ-Aware Attention Improves CT Triage and Class.pdf,AMD RX 6800 (Vulkan),1007,126,4.9788596630096436,25.30699970037616,True
+2601.13392v1_Beyond Memorization Testing LLM Reasoning on Unsee.pdf,AMD RX 6800 (Vulkan),933,158,6.1592326164245605,25.652546321869416,True
+2601.13398v1_Can LLMs Compress and Decompress Evaluating Code U.pdf,AMD RX 6800 (Vulkan),914,136,5.290529727935791,25.706310519695954,True
+2601.13400v1_Deep Image Prior with L0 Gradient Regularizer for .pdf,AMD RX 6800 (Vulkan),881,106,4.232293128967285,25.045524204006373,True
+2601.13401v1_Reasoning with Pixel-level Precision QVLM Architec.pdf,AMD RX 6800 (Vulkan),880,118,4.589846611022949,25.708920144871918,True
+2601.13404v1_Local-to-Global Logical Explanations for Deep Visi.pdf,AMD RX 6800 (Vulkan),700,120,4.461164236068726,26.898807945646627,True
+2601.13406v1_Integrating Virtual Reality and Large Language Mod.pdf,AMD RX 6800 (Vulkan),541,190,6.506812810897827,29.2001638162668,True
+2601.13412v1_Using deep learning for predicting cleansing quali.pdf,AMD RX 6800 (Vulkan),594,150,5.276628017425537,28.42724548795935,True
+2601.13422v1_TrustEnergy A Unified Framework for Accurate and R.pdf,AMD RX 6800 (Vulkan),915,153,5.798924684524536,26.38420195528798,True
+2601.13435v1_A Learnable Wavelet Transformer for Long-Short Equ.pdf,AMD RX 6800 (Vulkan),864,125,4.756594657897949,26.279304626566695,True
+2601.13437v1_MOSLD-Bench Multilingual Open-Set Learning and Dis.pdf,AMD RX 6800 (Vulkan),1092,167,6.315917015075684,26.441132713014095,True
+2601.13443v1_Explicit Cognitive Allocation A Principle for Gove.pdf,AMD RX 6800 (Vulkan),730,166,5.904637813568115,28.113494043369244,True
+2601.13458v1_Labels or Preferences Budget-Constrained Learning .pdf,AMD RX 6800 (Vulkan),727,127,4.646566867828369,27.33200739653942,True
+2601.13462v1_SpatialBench-UC Uncertainty-Aware Evaluation of Sp.pdf,AMD RX 6800 (Vulkan),831,105,4.061188459396362,25.854500732922588,True
+2601.13464v1_Context and Transcripts Improve Detection of Deepf.pdf,AMD RX 6800 (Vulkan),997,185,6.786542654037476,27.259830141926404,True
+2601.13465v1_Graph Neural Networks are Heuristics.pdf,AMD RX 6800 (Vulkan),890,120,4.640821933746338,25.857488546889606,True
+2601.13474v1_Preconditioning Benefits of Spectral Orthogonaliza.pdf,AMD RX 6800 (Vulkan),726,128,4.7352988719940186,27.031028760830807,True
+2601.13476v1_A Unified Variational Imputation Framework for Ele.pdf,AMD RX 6800 (Vulkan),824,127,3.7851881980895996,33.551832393458646,True
+2601.13481v1_Towards Efficient and Robust Linguistic Emotion Di.pdf,AMD RX 6800 (Vulkan),789,160,4.733262300491333,33.80332418581394,True
+2601.13487v1_The Hidden Toll of Social Media News Causal Effect.pdf,AMD RX 6800 (Vulkan),894,148,5.556874752044678,26.633675690736546,True
+2601.13508v1_CatMaster An Agentic Autonomous System for Computa.pdf,AMD RX 6800 (Vulkan),492,147,5.068051815032959,29.00522831356333,True
+2601.13515v1_Automatic Adjustment of HPA Parameters and Attack .pdf,AMD RX 6800 (Vulkan),603,131,4.693136930465698,27.91309990330943,True
+2601.13518v1_AgenticRed Optimizing Agentic Systems for Automate.pdf,AMD RX 6800 (Vulkan),942,137,5.291934490203857,25.888453504782984,True
+2601.13528v1_Eliciting Harmful Capabilities by Fine-Tuning On S.pdf,AMD RX 6800 (Vulkan),892,171,6.343777656555176,26.955547507769545,True
+2601.13533v1_Reasoning While Recommending Entropy-Guided Latent.pdf,AMD RX 6800 (Vulkan),890,102,4.097776412963867,24.891548420579824,True
+2601.13534v1_MN-TSGContinuous Time Series Generation with Irreg.pdf,AMD RX 6800 (Vulkan),867,152,5.830406665802002,26.070222664149558,True
+2601.13537v1_When Wording Steers the Evaluation Framing Bias in.pdf,AMD RX 6800 (Vulkan),964,125,5.129290342330933,24.369842932930084,True
+2601.13545v1_TruthTensor Evaluating LLMs Human Imitation throug.pdf,AMD RX 6800 (Vulkan),1121,160,6.16112756729126,25.969272386019433,True
+2601.13546v1_ChatAD Reasoning-Enhanced Time-Series Anomaly Dete.pdf,AMD RX 6800 (Vulkan),1046,185,6.852197885513306,26.99863650918795,True
+2601.13547v1_HateXScore A Metric Suite for Evaluating Reasoning.pdf,AMD RX 6800 (Vulkan),906,104,4.09400749206543,25.402982334927756,True
+2601.13558v1_Leveraging ChatGPT and Other NLP Methods for Ident.pdf,AMD RX 6800 (Vulkan),877,242,8.4954252243042,28.485919610906883,True
+2601.13559v1_AgentGC Evolutionary Learning-based Lossless Compr.pdf,AMD RX 6800 (Vulkan),1052,181,6.669402122497559,27.13886442525962,True
+2601.13562v1_Reasoning is a Modality.pdf,AMD RX 6800 (Vulkan),914,111,4.325263977050781,25.663173528586874,True
+2601.13563v1_ButterflyMoE Sub-Linear Ternary Experts via Struct.pdf,AMD RX 6800 (Vulkan),975,116,4.5504090785980225,25.49221355626767,True
+2601.13564v1_Multi-objective fluorescent molecule design with a.pdf,AMD RX 6800 (Vulkan),429,91,3.1982908248901367,28.45269707551561,True
+2601.13566v1_Self-Improvement as Coherence Optimization A Theor.pdf,AMD RX 6800 (Vulkan),748,136,4.971067428588867,27.358309247196473,True
+2601.13570v1_GeoDynamics A Geometric State-Space Neural Network.pdf,AMD RX 6800 (Vulkan),768,154,5.581827878952026,27.589528616728522,True
+2601.13580v1_Neural Organ Transplantation NOT Checkpoint-Based .pdf,AMD RX 6800 (Vulkan),488,115,4.016537427902222,28.631626634701323,True
+2601.13581v1_SCRIPTMIND Crime Script Inference and Cognitive Ev.pdf,AMD RX 6800 (Vulkan),890,125,4.819819450378418,25.934581427149908,True
+2601.13588v1_TREX Tokenizer Regression for Optimal Data Mixture.pdf,AMD RX 6800 (Vulkan),988,133,5.142037630081177,25.86523272835332,True
+2601.13589v1_Motion-to-Response Content Generation via Multi-Ag.pdf,AMD RX 6800 (Vulkan),722,130,4.870059967041016,26.693716479837576,True
+2601.13590v1_Vulnerability of LLMs Belief Systems LLMs Belief R.pdf,AMD RX 6800 (Vulkan),939,133,5.187751770019531,25.637309936188267,True
+2601.13591v1_DSAEval Evaluating Data Science Agents on a Wide R.pdf,AMD RX 6800 (Vulkan),965,168,6.382556915283203,26.321739426673894,True
+2601.13592v1_Machine learning based radiative parameterization .pdf,AMD RX 6800 (Vulkan),716,131,4.882615089416504,26.829884723855045,True
+2601.13599v1_Diffusion In Diffusion Breaking the Autoregressive.pdf,AMD RX 6800 (Vulkan),882,136,5.2231764793396,26.037795302906435,True
+2601.13600v1_Foundations of Global Consistency Checking with No.pdf,AMD RX 6800 (Vulkan),930,149,5.739820718765259,25.958998947976312,True
+2601.13614v1_CauScientist Teaching LLMs to Respect Data for Cau.pdf,AMD RX 6800 (Vulkan),950,119,4.772179126739502,24.936197246498672,True
+2601.13622v1_CARPE Context-Aware Image Representation Prioritiz.pdf,AMD RX 6800 (Vulkan),812,133,5.041426658630371,26.38142117416675,True
+2601.13632v1_Resilient Routing Risk-Aware Dynamic Routing in Sm.pdf,AMD RX 6800 (Vulkan),843,149,5.487477540969849,27.15273071963516,True
+2601.13645v1_Quadratic Upper Bound for Boosting Robustness.pdf,AMD RX 6800 (Vulkan),924,105,4.126187801361084,25.447217881203613,True
+2601.13647v1_Fusion Segment Transformer Bi-Directional Attentio.pdf,AMD RX 6800 (Vulkan),842,140,5.231907844543457,26.75888111179385,True
+2601.13649v1_Fairness or Fluency An Investigation into Language.pdf,AMD RX 6800 (Vulkan),965,146,5.5484230518341064,26.3137829678899,True
+2601.13655v1_Why Does the LLM Stop Computing An Empirical Study.pdf,AMD RX 6800 (Vulkan),974,170,6.341354131698608,26.80815429471425,True
+2601.13657v1_Communication-Free Collective Navigation for a Swa.pdf,AMD RX 6800 (Vulkan),908,140,5.303099632263184,26.399654863782512,True
+2601.13659v1_Temporal-Spatial Decouple before Act Disentangled .pdf,AMD RX 6800 (Vulkan),869,159,5.858838081359863,27.138486811210075,True
+2601.13671v1_The Orchestration of Multi-Agent Systems Architect.pdf,AMD RX 6800 (Vulkan),814,170,6.206146955490112,27.39219699746455,True
+2601.13684v1_HeteroCache A Dynamic Retrieval Approach to Hetero.pdf,AMD RX 6800 (Vulkan),926,200,7.294313669204712,27.418617990663638,True
+2601.13687v1_Understanding Mental States to Guide Social Influe.pdf,AMD RX 6800 (Vulkan),924,122,4.739511013031006,25.741052117943855,True
+2601.13693v1_End-to-End Reverse Screening Identifies Protein Ta.pdf,AMD RX 6800 (Vulkan),566,146,5.135779142379761,28.428013735097675,True
+2601.13697v1_Uncertainty-Aware Gradient Signal-to-Noise Data Se.pdf,AMD RX 6800 (Vulkan),938,153,5.853921413421631,26.136326266561742,True
+2601.13698v1_Does Privacy Always Harm Fairness Data-Dependent T.pdf,AMD RX 6800 (Vulkan),912,138,5.299324035644531,26.04105713705724,True
+2601.13704v1_Performance and Complexity Trade-off Optimization .pdf,AMD RX 6800 (Vulkan),811,116,4.504231214523315,25.753562478314365,True
+2601.13707v1_Attention-space Contrastive Guidance for Efficient.pdf,AMD RX 6800 (Vulkan),847,151,5.611884117126465,26.907184262621364,True
+2601.13709v1_Hidden in Plain Text Measuring LLM Deception Quali.pdf,AMD RX 6800 (Vulkan),861,115,4.442256927490234,25.887741721632512,True
+2601.13710v1_Who Should Have Surgery A Comparative Study of Gen.pdf,AMD RX 6800 (Vulkan),934,174,6.442630767822266,27.007600818759226,True
+2601.13717v1_Simulated Ignorance Fails A Systematic Study of LL.pdf,AMD RX 6800 (Vulkan),1044,149,5.740912914276123,25.954060307982836,True
+2601.13719v1_Hierarchical Long Video Understanding with Audiovi.pdf,AMD RX 6800 (Vulkan),823,154,5.761309862136841,26.730032524735993,True
+2601.13722v1_OP-Bench Benchmarking Over-Personalization for Mem.pdf,AMD RX 6800 (Vulkan),875,189,6.9729719161987305,27.104655270579677,True
+2601.13734v1_Towards robust long-context understanding of large.pdf,AMD RX 6800 (Vulkan),819,124,4.810754776000977,25.77558112473094,True
+2601.13735v1_Reasoning or Fluency Dissecting Probabilistic Conf.pdf,AMD RX 6800 (Vulkan),942,134,5.22167444229126,25.66226628659773,True
+2601.13749v1_Pro-AI Bias in Large Language Models.pdf,AMD RX 6800 (Vulkan),860,103,4.09518837928772,25.151468128046137,True
+2601.13752v1_Finding RELIEF Shaping Reasoning Behavior without .pdf,AMD RX 6800 (Vulkan),969,171,6.370675086975098,26.84173932360968,True
+2601.13761v1_DARC Decoupled Asymmetric Reasoning Curriculum for.pdf,AMD RX 6800 (Vulkan),919,131,5.00044584274292,26.197663992325513,True
+2601.13768v1_vLinear A Powerful Linear Model for Multivariate T.pdf,AMD RX 6800 (Vulkan),999,179,6.634064197540283,26.9819517372726,True
+2601.13770v1_Look-Ahead-Bench a Standardized Benchmark of Look-.pdf,AMD RX 6800 (Vulkan),1005,118,4.694007873535156,25.13843248224714,True
+2601.13798v1_Insight Interpretable Semantic Hierarchies in Visi.pdf,AMD RX 6800 (Vulkan),838,142,5.4091715812683105,26.25170931751155,True
+2601.13809v1_DroneVLA VLA based Aerial Manipulation.pdf,AMD RX 6800 (Vulkan),922,165,6.113482713699341,26.989525893360472,True
+2601.13846v1_Virtual Urbanism An AI-Driven Framework for Quanti.pdf,AMD RX 6800 (Vulkan),1029,165,6.149970054626465,26.82939892949149,True
+2601.13864v1_HardSecBench Benchmarking the Security Awareness o.pdf,AMD RX 6800 (Vulkan),952,196,7.17536997795105,27.315664642001977,True
+2601.13880v1_LifeAgentBench A Multi-dimensional Benchmark and A.pdf,AMD RX 6800 (Vulkan),936,174,6.469544887542725,26.895245805472573,True
+2601.13885v1_Confident Rankings with Fewer Items Adaptive LLM E.pdf,AMD RX 6800 (Vulkan),952,147,5.552736759185791,26.473432178613653,True
+2601.13887v1_Human Simulation Computation A Human-Inspired Fram.pdf,AMD RX 6800 (Vulkan),782,105,4.004301309585571,26.221802976876152,True
+2601.13895v1_OmniOVCD Streamlining Open-Vocabulary Change Detec.pdf,AMD RX 6800 (Vulkan),1017,157,5.949258804321289,26.389842023003247,True
+2601.13897v1_TractRLFusion A GPT-Based Multi-Critic Policy Fusi.pdf,AMD RX 6800 (Vulkan),908,162,5.996775388717651,27.0145185535525,True
+2601.13904v1_PREFAB PREFerence-based Affective Modeling for Low.pdf,AMD RX 6800 (Vulkan),997,157,6.010027647018433,26.123007949537055,True
+2601.13920v1_Asymmetric regularization mechanism for GAN traini.pdf,AMD RX 6800 (Vulkan),914,185,6.83598518371582,27.062668368663722,True
+2601.13938v1_IF-GEO Conflict-Aware Instruction Fusion for Multi.pdf,AMD RX 6800 (Vulkan),910,134,5.1689043045043945,25.924256303841208,True
+2601.13942v1_Glance-or-Gaze Incentivizing LMMs to Adaptively Fo.pdf,AMD RX 6800 (Vulkan),962,203,7.392551422119141,27.460072769004594,True
+2601.13948v1_Stream-Voice-Anon Enhancing Utility of Real-Time S.pdf,AMD RX 6800 (Vulkan),889,152,5.696968078613281,26.6808586431467,True
+2601.13964v1_RL-BioAug Label-Efficient Reinforcement Learning f.pdf,AMD RX 6800 (Vulkan),853,144,5.377462863922119,26.77842760497872,True
+2601.13969v1_Autonomous Knowledge Graph Exploration with Adapti.pdf,AMD RX 6800 (Vulkan),1073,141,5.514996767044067,25.566651433519027,True
+2601.13992v1_The Whole Is Greater Than the Sum of Its Parts A C.pdf,AMD RX 6800 (Vulkan),923,180,6.629445314407349,27.15159285028229,True
+2601.13994v1_torch-sla Differentiable Sparse Linear Algebra wit.pdf,AMD RX 6800 (Vulkan),910,131,5.068248987197876,25.84719107741134,True
+2601.13999v1_DAME Duration-Aware Matryoshka Embedding for Durat.pdf,AMD RX 6800 (Vulkan),821,134,5.057603120803833,26.494763784213784,True
+2601.14012v1_MATE Matryoshka Audio-Text Embeddings for Open-Voc.pdf,AMD RX 6800 (Vulkan),897,159,6.031614542007446,26.36110097763003,True
+2601.14022v1_Credible CO2 Comparisons A Machine Learning Approa.pdf,AMD RX 6800 (Vulkan),856,118,4.60208797454834,25.640535481415,True
+2601.14027v1_Numina-Lean-Agent An Open and General Agentic Reas.pdf,AMD RX 6800 (Vulkan),889,185,6.864010334014893,26.95217387468441,True
+2601.14039v1_Generalizing Abstention for Noise-Robust Learning .pdf,AMD RX 6800 (Vulkan),899,139,5.234797954559326,26.553078305330935,True
+2601.14041v1_Top 10 Open Challenges Steering the Future of Diff.pdf,AMD RX 6800 (Vulkan),595,219,7.407421588897705,29.564943397880675,True
+2601.14047v1_Collective intelligence in science direct elicitat.pdf,AMD RX 6800 (Vulkan),796,171,6.139429092407227,27.85275266253659,True
+2601.14051v1_Kakugo Distillation of Low-Resource Languages into.pdf,AMD RX 6800 (Vulkan),1056,147,5.600436687469482,26.247953187097078,True
+2601.14053v1_LLMOrbit A Circular Taxonomy of Large Language Mod.pdf,AMD RX 6800 (Vulkan),1018,115,4.534696817398071,25.36001956267166,True
+2601.14055v1_Decoder-Free Supervoxel GNN for Accurate Brain-Tum.pdf,AMD RX 6800 (Vulkan),679,166,5.839876651763916,28.425257911887613,True
+2601.14056v1_POCI-Diff Position Objects Consistently and Intera.pdf,AMD RX 6800 (Vulkan),706,151,5.416474342346191,27.877912910890497,True
+2601.14063v1_XCR-Bench A Multi-Task Benchmark for Evaluating Cu.pdf,AMD RX 6800 (Vulkan),929,183,6.6506028175354,27.516302660187527,True
+2601.14069v1_Unsupervised Video Class-Incremental Learning via .pdf,AMD RX 6800 (Vulkan),861,114,4.363045692443848,26.128536814874803,True
+2601.14084v1_DermaBench A Clinician-Annotated Benchmark Dataset.pdf,AMD RX 6800 (Vulkan),873,194,6.953559398651123,27.89938057301025,True
+2601.14086v1_Two-Stream temporal transformer for video action c.pdf,AMD RX 6800 (Vulkan),863,107,4.2036683559417725,25.45395852856907,True
+2601.14087v1_1-bit Count-based Sorting Unit to Reduce Link Powe.pdf,AMD RX 6800 (Vulkan),885,133,5.065973520278931,26.253591628066204,True
+2601.14091v1_Zero-shot adaptable task planning for autonomous c.pdf,AMD RX 6800 (Vulkan),834,172,6.271768569946289,27.42448132161755,True
+2601.14096v1_Remapping and navigation of an embedding space via.pdf,AMD RX 6800 (Vulkan),283,124,4.0612266063690186,30.532647403997846,True
+2601.14099v1_Causal feature selection framework for stable soft.pdf,AMD RX 6800 (Vulkan),288,80,2.7789013385772705,28.788355631566986,True
+2601.14115v1_Riemannian Liquid Spatio-Temporal Graph Network.pdf,AMD RX 6800 (Vulkan),1053,144,5.46376895904541,26.355433598927036,True
+2601.14124v1_Style Transfer as Bias Mitigation Diffusion Models.pdf,AMD RX 6800 (Vulkan),844,124,4.6933910846710205,26.42012944648777,True
+2601.14152v1_Lost in the Prompt Order Revealing the Limitations.pdf,AMD RX 6800 (Vulkan),981,137,5.213827610015869,26.276281121535398,True
+2601.14154v1_LLM Augmented Intervenable Multimodal Adaptor for .pdf,AMD RX 6800 (Vulkan),885,168,6.14331841468811,27.346783718442367,True
+2601.14157v1_ConceptCaps -- a Distilled Concept Dataset for Int.pdf,AMD RX 6800 (Vulkan),869,166,6.048260688781738,27.445906937823526,True
+2601.14160v1_Domain-Adaptation through Synthetic Data Fine-Tuni.pdf,AMD RX 6800 (Vulkan),894,168,6.138598918914795,27.367808553568064,True
+2601.14171v1_Paper2Rebuttal A Multi-Agent Framework for Transpa.pdf,AMD RX 6800 (Vulkan),979,142,5.4158935546875,26.21912682849866,True
+2601.14172v1_Human Values in a Single Sentence Moral Presence H.pdf,AMD RX 6800 (Vulkan),621,144,5.040968656539917,28.565938376383503,True
+2601.14175v1_A model of errors in transformers.pdf,AMD RX 6800 (Vulkan),1030,95,3.910672426223755,24.292497464875733,True
+2601.14192v1_Toward Efficient Agents Memory Tool learning and P.pdf,AMD RX 6800 (Vulkan),677,209,7.317643404006958,28.561107512502844,True
+2601.14209v1_InT Self-Proposed Interventions Enable Credit Assi.pdf,AMD RX 6800 (Vulkan),819,137,5.166506290435791,26.51695213332338,True
+2601.14230v1_MASCOT Towards Multi-Agent Socio-Collaborative Com.pdf,AMD RX 6800 (Vulkan),897,141,5.400039196014404,26.110921584433605,True
+2601.14232v1_KAGE-Bench Fast Known-Axis Visual Generalization E.pdf,AMD RX 6800 (Vulkan),964,172,6.451842784881592,26.659050093880527,True
+2601.14234v1_Q-learning with Adjoint Matching.pdf,AMD RX 6800 (Vulkan),941,144,5.5248703956604,26.06395981942077,True
+2601.14235v1_Opportunities in AIML for the Rubin LSST Dark Ener.pdf,AMD RX 6800 (Vulkan),1445,542,19.590014696121216,27.66715637570782,True
+2601.14242v1_APEX-Agents.pdf,AMD RX 6800 (Vulkan),844,307,10.843454360961914,28.312011078798534,True
+2601.14255v1_VideoMaMa Mask-Guided Video Matting via Generative.pdf,AMD RX 6800 (Vulkan),598,150,5.221529722213745,28.727213667263253,True
