@@ -1,112 +1,126 @@
 # Project PNEUMA: Private Intelligence Benchmark
 
-A cross-platform framework for benchmarking Quantized Small Language Models (SLMs) on heterogeneous hardware.
+**A Heterogeneous Hardware Analysis of SLM-based Metadata Extraction**
+
+Project PNEUMA (Private Neural Metadata Analysis) evaluates the "Private Intelligence" paradigm—running local, air-gapped metadata extraction tasks on diverse hardware tiers using Small Language Models (SLMs).
+
+---
 
 ## Project Structure
 ```
 ProjectPNEUMA/
 ├── dataset/              # [GITIGNORE] Stores the 1,000 PDFs
-├── models/               # [GITIGNORE] Stores Qwen2.5-3B.gguf
-├── logs/                 # Stores benchmark CSVs (e.g., rx6800_results.csv)
-├── src/                  # Source code
-│   ├── pneuma_fetch.py   # The Crawler (optional - dataset pre-downloaded)
-│   └── pneuma_extract.py # The Benchmarker
-├── .gitignore            # Critical to avoid uploading 2GB of PDFs to GitHub
-├── requirements.txt      # Common libraries
-└── README.md             # The Manual for M1/H100 setup
+├── logs/                 # Stores benchmark CSVs and Clash Reports
+├── src/                  
+│   ├── download.py       # Multi-model harvester (External SSD support)
+│   ├── pneuma_bench.py   # The Master Benchmarker (Linux/Mac aware)
+│   └── clash_inspector.py # Semantic Accuracy Evaluator
+├── .gitignore            # Excludes massive .pdf and .gguf files
+└── README.md             
 ```
+
+---
 
 ## 1. Installation
 
-### Common Requirements
-```bash
-pip install -r requirements.txt
-```
-
 ### Hardware-Specific Engine
-You must install `llama-cpp-python` with the correct hardware acceleration.
+
+You must install `llama-cpp-python` with the correct acceleration for your current machine.
 
 **For AMD RX 6800 (Linux/Vulkan):**
 ```bash
-CMAKE_ARGS="-DGGML_VULKAN=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
+CMAKE_ARGS="-DGGML_VULKAN=on" pip install llama-cpp-python --upgrade --no-cache-dir
 ```
 
-**For Apple M1/M2/M3 (macOS Metal):**
+**For Apple M1 (macOS Metal):**
 ```bash
-CMAKE_ARGS="-DGGML_METAL=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
+CMAKE_ARGS="-DGGML_METAL=on" pip install llama-cpp-python --upgrade --no-cache-dir
 ```
 
-**For NVIDIA H100/4080 (CUDA):**
+**For NVIDIA RTX 4080 (CUDA):**
 ```bash
-CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --upgrade --force-reinstall --no-cache-dir
+CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --upgrade --no-cache-dir
 ```
-
-## 2. Setup Data & Model
-
-### Option A: Download Pre-Collected Dataset (Recommended)
-
-1. **Download Dataset from Google Drive:**
-```bash
-   # Download dataset.zip from:
-   # https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing
-```
-
-2. **Extract the Dataset:**
-```bash
-   unzip dataset.zip
-   # This will create the dataset/ folder with 1,000 PDFs
-```
-
-3. **Download the Model:** Place `qwen2.5-3b-instruct-q4_k_m.gguf` inside the `models/` folder.
-   - Download from: [Hugging Face - Qwen2.5-3B-Instruct GGUF](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF)
-
-### Option B: Collect Dataset Yourself (Optional)
-
-If you want to collect your own dataset:
-```bash
-python3 src/pneuma_fetch.py
-```
-**Note:** This will download 1,000 random arXiv PDFs. For scientific consistency across hardware platforms, use Option A instead.
-
-## 3. Run Benchmark
-
-1. Open `src/pneuma_extract.py`.
-2. Edit the `PLATFORM_NAME` variable (e.g., set to "Apple M1", "RX 6800", "H100").
-3. Run the benchmark:
-```bash
-   python3 src/pneuma_extract.py
-```
-
-4. Results are saved to `logs/PLATFORM_NAME_results.csv`.
 
 ---
 
-## Dataset Information
+## 2. Setup (The External SSD Workflow)
 
-- **Size:** 1,000 arXiv PDFs (~2GB compressed, ~2.5GB uncompressed)
-- **Source:** arXiv.org open-access repository
-- **Fields:** Computer Science (cs.*) and related domains
-- **Purpose:** Standardized benchmark corpus for cross-platform comparison
+To support the 20GB+ model library across platforms, all `.gguf` files should be stored on an external SSD (e.g., `/run/media/taurus/Games/models/` or `/Volumes/Games/models/`).
 
-**Critical:** All hardware platforms (RX 6800, M1, H100) must use the **exact same dataset** to ensure valid performance comparisons.
+1. **Harvest Models:** Update the `LOCAL_DIR` in `src/download.py` to point to your SSD mount, then run:
+```bash
+   python src/download.py
+```
+   Downloads: Qwen-2.5-3B, Phi-4 (14B-quant), and LFM-2.5 (Liquid).
+
+2. **Sync Data:** Ensure your 15-file pilot (or 1,000-file marathon) `dataset/` is available locally in the project folder.
 
 ---
 
-## Quick Start Example
+## 3. The "Clash" Benchmarking Protocol
+
+The benchmark is designed to compare **Traditional Regex** against **Semantic SLMs** across three distinct architectures (Transformer vs. Liquid).
+
+### Step A: The Pilot Test (15 Files)
+
+Run the alphabetical pilot to ensure the hardware backend (Vulkan/Metal) is stable:
+
+1. Edit `src/pneuma_bench.py` and set `FILE_LIMIT = 15`.
+2. Set `MODE = "REGEX"` and run.
+3. Set `MODE = "SLM"` and run (this will cycle through all 3 models).
+
+### Step B: The Clash Inspection
+
+Generate the Accuracy vs. Discovery report:
 ```bash
-# 1. Download and extract dataset
-wget "https://drive.google.com/file/d/1_jZObj5C1A9k-Q5u27ntGhSX2FD_VeJc/view?usp=sharing" -O dataset.zip
-unzip dataset.zip
-
-# 2. Install llama-cpp-python (example for Vulkan/AMD)
-CMAKE_ARGS="-DGGML_VULKAN=on" pip install llama-cpp-python --no-cache-dir
-
-# 3. Run benchmark
-python3 src/pneuma_extract.py
+python src/clash_inspector.py
 ```
+
+---
+
+## 4. Hardware Comparison Matrix (Research Tiers)
+
+| Tier | Unit | Memory | Backend | Status |
+|------|------|--------|---------|--------|
+| **Desktop** | AMD RX 6800 | 16 GB GDDR6 | Vulkan | ✅ Pilot Complete |
+| **Unified** | Apple M1 | 16 GB Unified | Metal | 🔄 Next Priority |
+| **Pro** | RTX 4080m | 12 GB GDDR6 | CUDA | 📅 Scheduled |
+
+---
 
 ## Troubleshooting
 
-- **GPU not detected:** Check that you installed llama-cpp-python with the correct CMAKE_ARGS for your hardware.
-- **Out of memory:** Reduce `n_ctx` in `pneuma_extract.py` or use a smaller quantization (Q4 instead of Q8).
-- **Dataset extraction fails:** Ensure you have ~3GB free disk space.
+- **"LFM-2.5 Not Found":** Verify the hyphen in the filename matches between `download.py` and `pneuma_bench.py`.
+- **`llama_decode returned -1`:** Known instability on Vulkan for Liquid architectures. This is a **primary research finding** for the "Architectural Fragility" section of the paper.
+- **Venv Path Errors:** If moving between machines, do **not** copy the `.venv`. Re-initialize it locally on the new machine.
+- **GPU Not Detected:** Verify you installed `llama-cpp-python` with the correct `CMAKE_ARGS` for your hardware.
+- **Out of Memory:** Reduce `n_ctx` in `pneuma_bench.py` or use smaller quantizations (Q4 instead of Q8).
+
+---
+
+## Research Context
+
+This benchmark directly addresses **DJLIT's Special Issue** focus on "Responsible and Ethical Use of AI" by demonstrating:
+
+1. **Privacy-Preserving Infrastructure:** All inference occurs locally without cloud dependencies
+2. **Hardware Accessibility:** Performance characterization across consumer, prosumer, and professional tiers
+3. **Architectural Diversity:** Comparative analysis of Transformer vs. Liquid Foundation Models
+4. **Quantization Trade-offs:** INT4 vs. INT8 accuracy/performance analysis
+
+---
+
+## Citation
+
+If you use this benchmark in your research, please cite:
+```
+[Your Name]. (2026). Scaling Private Intelligence: A Cross-Platform Performance 
+Analysis of Quantized Small Language Models for Secure Metadata Extraction in 
+Technical Repositories. DJLIT Special Issue on AI in Libraries.
+```
+
+---
+
+## License
+
+This project is released under the MIT License for academic and research purposes.
