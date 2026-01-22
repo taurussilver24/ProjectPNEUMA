@@ -3,8 +3,9 @@ import os
 
 # --- PATH CONFIG ---
 # Points directly to your external SSD mount
-LOCAL_DIR = "/run/media/taurus/Games/models/"
+# LOCAL_DIR = "/run/media/taurus/Games/models/"
 
+LOCAL_DIR = "../models/" #For Mac and inProject Models
 MODELS = [
     {
         "repo": "Qwen/Qwen2.5-3B-Instruct-GGUF",
