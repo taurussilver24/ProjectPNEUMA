@@ -1,126 +1,145 @@
-# Project PNEUMA: Private Intelligence Benchmark
+# Project PNEUMA: Scaling Private Intelligence
 
-**A Heterogeneous Hardware Analysis of SLM-based Metadata Extraction**
+### A Cross-Platform Analysis of Stateless vs. Stateful SLM Inference
 
-Project PNEUMA (Private Neural Metadata Analysis) evaluates the "Private Intelligence" paradigm—running local, air-gapped metadata extraction tasks on diverse hardware tiers using Small Language Models (SLMs).
+**Authors:** Rishit Arora(Kobe Institute of Computing, Osaka Metropolitan University)
+
+Project **PNEUMA** (Private Neural Metadata Analysis) validates the **"Private Intelligence"** paradigm—executing secure, air-gapped metadata extraction on heterogeneous hardware. This repository contains the benchmarking tools used to discover the **"Stateless Paradox,"** where re-initializing Liquid Foundation Models (LFMs) for every document outperforms traditional stateful Transformer inference in both speed and stability.
 
 ---
 
-## Project Structure
+## 📂 Project Structure
+
 ```
 ProjectPNEUMA/
-├── dataset/              # [GITIGNORE] Stores the 1,000 PDFs
-├── logs/                 # Stores benchmark CSVs and Clash Reports
-├── src/                  
-│   ├── download.py       # Multi-model harvester (External SSD support)
-│   ├── pneuma_bench.py   # The Master Benchmarker (Linux/Mac aware)
-│   └── clash_inspector.py # Semantic Accuracy Evaluator
-├── .gitignore            # Excludes massive .pdf and .gguf files
-└── README.md             
+├── dataset/                    # [GITIGNORE] The 1,000 PDF Corpus
+├── logs/                       # Benchmark CSVs (Raw) and Clash Reports (Verified)
+├── models/                     # Symlinks to external SSD model storage
+├── src/
+│   ├── pneuma_bench.py         # Test Benchmark
+│   ├── pneuma_extract.py       # Warm Benchmark for Transformers
+│   ├── pneuma_fetch.py         # Dataset is already provided but in case you want your own dataset
+│   ├── lfm_warm_diagnostic.py  # Warm Benchmark for LFM
+│   ├── lfm_bench_cold.py       # Cold Benchmark for LFM
+│   ├── transformer_bench_cold  # Cold Benchmark for Transformers
+│   ├── clash_inspector.py      # The "Hallucination Shield" & Verified Accuracy logic
+│   ├── regenerate_baseline.py  # Generates the Regex Ground Truth
+│   └── download.py             # Model Harvester (HuggingFace)
+├── .gitignore
+└── README.md
 ```
 
 ---
 
-## 1. Installation
+## 1. 📦 Dataset Setup
 
-### Hardware-Specific Engine
+The benchmark relies on a curated corpus of 1,000 technical PDFs (arXiv `cs.AI`).
 
-You must install `llama-cpp-python` with the correct acceleration for your current machine.
+### Option A: Manual Download (Google Drive)
 
-**For AMD RX 6800 (Linux/Vulkan):**
+1. Download the corpus: **https://drive.google.com/file/d/1_jZObj5C1A9k-Q5u27ntGhSX2FD_VeJc/view?usp=drive_link**
+2. Place the zip file in the root directory.
+3. Unzip to the `dataset/` folder:
+
 ```bash
-CMAKE_ARGS="-DGGML_VULKAN=on" pip install llama-cpp-python --upgrade --no-cache-dir
+mkdir -p dataset
+unzip pneuma_1k_v1.zip -d dataset/
 ```
 
-**For Apple M1 (macOS Metal):**
-```bash
-CMAKE_ARGS="-DGGML_METAL=on" pip install llama-cpp-python --upgrade --no-cache-dir
-```
+### Option B: Automated Harvest
 
-**For NVIDIA RTX 4080 (CUDA):**
+If you prefer to build the dataset from scratch:
+
 ```bash
-CMAKE_ARGS="-DGGML_CUDA=on" pip install llama-cpp-python --upgrade --no-cache-dir
+python src/pneuma_fetch.py --limit 1000 --category cs.AI
 ```
 
 ---
 
-## 2. Setup (The External SSD Workflow)
+## 2. ⚙️ Installation & Acceleration
 
-To support the 20GB+ model library across platforms, all `.gguf` files should be stored on an external SSD (e.g., `/run/media/taurus/Games/models/` or `/Volumes/Games/models/`).
+To replicate the "Stateless Paradox" results, you must install `llama-cpp-python` with the correct hardware backend.
 
-1. **Harvest Models:** Update the `LOCAL_DIR` in `src/download.py` to point to your SSD mount, then run:
+### Tier 1: Desktop (AMD RX 6800 - Vulkan)
+*The primary discovery platform for the Liquid LFM Paradox.*
+
 ```bash
-   python src/download.py
+CMAKE_ARGS="-DGGML_VULKAN=on" pip install llama-cpp-python --upgrade --no-cache-dir --force-reinstall
 ```
-   Downloads: Qwen-2.5-3B, Phi-4 (14B-quant), and LFM-2.5 (Liquid).
 
-2. **Sync Data:** Ensure your 15-file pilot (or 1,000-file marathon) `dataset/` is available locally in the project folder.
+### Tier 2: Unified Memory (Apple M1 - Metal)
+*Currently benchmarking for "Template Fatigue" analysis.*
+
+```bash
+CMAKE_ARGS="-DGGML_METAL=on" pip install llama-cpp-python --upgrade --no-cache-dir --force-reinstall
+```
+
+### Tier 3: Edge Mobile (Dimensity 9300+ - Android)
+*Experimental Tier: Requires MLC-LLM compilation (See `docs/android_build.md`).*
 
 ---
 
-## 3. The "Clash" Benchmarking Protocol
+## 3. 🚀 Benchmarking Protocol
 
-The benchmark is designed to compare **Traditional Regex** against **Semantic SLMs** across three distinct architectures (Transformer vs. Liquid).
+The research follows a strict **"Clash"** methodology to compare Semantic Recall vs. Regex Precision.
 
-### Step A: The Pilot Test (15 Files)
+### Step A: The Baseline
 
-Run the alphabetical pilot to ensure the hardware backend (Vulkan/Metal) is stable:
+Generate the Regex "Ground Truth" to compare SLMs against.
 
-1. Edit `src/pneuma_bench.py` and set `FILE_LIMIT = 15`.
-2. Set `MODE = "REGEX"` and run.
-3. Set `MODE = "SLM"` and run (this will cycle through all 3 models).
+```bash
+python src/regenerate_baseline.py
+```
 
-### Step B: The Clash Inspection
+### Step B: The Inference Marathon
 
-Generate the Accuracy vs. Discovery report:
+Run the benchmark. The script automatically detects your hardware backend.
+
+* **Warm Mode:** Keeps model in VRAM (Standard Transformer protocol).
+* **Cold Mode:** Re-initializes model per file (The **LFM/Phi-4** optimal protocol).
+
+```bash
+# Run 1,000 files in Cold Start mode (Stateless)
+python src/pneuma_bench.py --mode COLD --files 1000
+```
+
+### Step C: The Clash Inspection (Verified Accuracy)
+
+Run the inspector to filter hallucinations (e.g., `10.1234/example.doi`). This generates the **Verified DOI** metrics for the paper.
+
 ```bash
 python src/clash_inspector.py
 ```
 
 ---
 
-## 4. Hardware Comparison Matrix (Research Tiers)
+## 4. 📊 Hardware Comparison Matrix
 
-| Tier | Unit | Memory | Backend | Status |
-|------|------|--------|---------|--------|
-| **Desktop** | AMD RX 6800 | 16 GB GDDR6 | Vulkan | ✅ Pilot Complete |
-| **Unified** | Apple M1 | 16 GB Unified | Metal | 🔄 Next Priority |
-| **Pro** | RTX 4080m | 12 GB GDDR6 | CUDA | 📅 Scheduled |
-
----
-
-## Troubleshooting
-
-- **"LFM-2.5 Not Found":** Verify the hyphen in the filename matches between `download.py` and `pneuma_bench.py`.
-- **`llama_decode returned -1`:** Known instability on Vulkan for Liquid architectures. This is a **primary research finding** for the "Architectural Fragility" section of the paper.
-- **Venv Path Errors:** If moving between machines, do **not** copy the `.venv`. Re-initialize it locally on the new machine.
-- **GPU Not Detected:** Verify you installed `llama-cpp-python` with the correct `CMAKE_ARGS` for your hardware.
-- **Out of Memory:** Reduce `n_ctx` in `pneuma_bench.py` or use smaller quantizations (Q4 instead of Q8).
+| Tier | Hardware | Backend | Status | Key Finding |
+|------|----------|---------|--------|-------------|
+| **Desktop** | AMD RX 6800 | Vulkan | ✅ Complete | **LFM Paradox:** Cold ( TPS) > Warm ( TPS) |
+| **Unified** | Apple M1 | Metal | 🔄 Active | **Template Fatigue:** Phi-4 collapses to 2% recall |
+| **Edge** | Dimensity 9300 | MLC/Vulkan | ⏳ Pending | Building `libtvm4j` bindings |
+| **Pro** | RTX 4080 Mobile | CUDA | 📅 Feb | Control Group |
 
 ---
 
-## Research Context
+## 5. 🔬 Research Context
 
-This benchmark directly addresses **DJLIT's Special Issue** focus on "Responsible and Ethical Use of AI" by demonstrating:
+This repository accompanies the Special Issue submission to **DJLIT**.
 
-1. **Privacy-Preserving Infrastructure:** All inference occurs locally without cloud dependencies
-2. **Hardware Accessibility:** Performance characterization across consumer, prosumer, and professional tiers
-3. **Architectural Diversity:** Comparative analysis of Transformer vs. Liquid Foundation Models
-4. **Quantization Trade-offs:** INT4 vs. INT8 accuracy/performance analysis
+**Key Definitions:**
 
----
-
-## Citation
-
-If you use this benchmark in your research, please cite:
-```
-[Your Name]. (2026). Scaling Private Intelligence: A Cross-Platform Performance 
-Analysis of Quantized Small Language Models for Secure Metadata Extraction in 
-Technical Repositories. DJLIT Special Issue on AI in Libraries.
-```
+* **Stateless Paradox:** The phenomenon where 3B-class models (LFM, Phi-4) achieve higher throughput and stability when re-loaded for every document, inverting traditional "Batch Processing" wisdom.
+* **Verified DOI:** A metric that excludes model hallucinations (e.g., placeholders) to measure true semantic utility.
+* **Template Fatigue:** A failure mode observed on low-power silicon (M1) where models default to LaTeX templates instead of extracting real data.
 
 ---
 
-## License
+## ⚖️ License & Citation
 
-This project is released under the MIT License for academic and research purposes.
+**License:** MIT License.
+
+**Citation:**
+
+> Arora, R.(2026). *Scaling Private Intelligence: A Cross-Platform Performance Analysis of Quantized Small Language Models for Secure Metadata Extraction*. Osaka Metropolitan University / Kobe Institute of Computing.
