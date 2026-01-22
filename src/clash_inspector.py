@@ -69,6 +69,10 @@ def inspect():
 
             df_slm = pd.read_csv(csv_file)
 
+            # Add mode column if missing (for old warm CSVs)
+            if 'mode' not in df_slm.columns:
+                df_slm['mode'] = mode
+
             # Merge with regex baseline
             m = pd.merge(df_slm, df_reg, on="filename", suffixes=("_slm", "_reg"))
 
