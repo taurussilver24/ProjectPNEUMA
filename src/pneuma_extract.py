@@ -9,8 +9,8 @@ from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
 PLATFORM_NAME = "AMD RX 6800 (Vulkan)"  # Switch to "Apple M1 (Metal)" on Mac
-FILE_LIMIT = 15  # Set to 15 for your pilot test
-MODE = "REGEX"  # "SLM" or "REGEX"
+FILE_LIMIT = 1000  # Set to 15 for your pilot test
+MODE = "SLM"  # "SLM" or "REGEX"
 
 # --- 2. MULTI-MODEL QUEUE ---
 MODEL_QUEUE = [
