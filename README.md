@@ -2,9 +2,11 @@
 
 ### A Cross-Platform Analysis of Stateless vs. Stateful SLM Inference
 
-**Authors:** Rishit Arora(Kobe Institute of Computing, Osaka Metropolitan University)
+**Authors:** Rishit Arora (Kobe Institute of Computing, Osaka Metropolitan University)
 
 Project **PNEUMA** (Private Neural Metadata Analysis) validates the **"Private Intelligence"** paradigm—executing secure, air-gapped metadata extraction on heterogeneous hardware. This repository contains the benchmarking tools used to discover the **"Stateless Paradox,"** where re-initializing Liquid Foundation Models (LFMs) for every document outperforms traditional stateful Transformer inference in both speed and stability.
+
+> **🚨 BREAKTHROUGH (Jan 2026):** Mobile Edge hardware (Dimensity 9300+) has successfully outperformed Desktop-class Silicon (Apple M1) in sustained inference speed (31.5 TPS vs 27.0 TPS) using the **PneumaEdge** bridge.
 
 ---
 
@@ -16,15 +18,13 @@ ProjectPNEUMA/
 ├── logs/                       # Benchmark CSVs (Raw) and Clash Reports (Verified)
 ├── models/                     # Symlinks to external SSD model storage
 ├── src/
-│   ├── pneuma_bench.py         # Test Benchmark
+│   ├── pneuma_bench.py         # Main Benchmark (PC/Mac)
+│   ├── pneuma_android_bridge.py# [NEW] ADB Bridge for Mobile Edge Benchmark
 │   ├── pneuma_extract.py       # Warm Benchmark for Transformers
-│   ├── pneuma_fetch.py         # Dataset is already provided but in case you want your own dataset
-│   ├── lfm_warm_diagnostic.py  # Warm Benchmark for LFM
 │   ├── lfm_bench_cold.py       # Cold Benchmark for LFM
-│   ├── transformer_bench_cold  # Cold Benchmark for Transformers
 │   ├── clash_inspector.py      # The "Hallucination Shield" & Verified Accuracy logic
 │   ├── regenerate_baseline.py  # Generates the Regex Ground Truth
-│   └── download.py             # Model Harvester (HuggingFace)
+│   └── clean_results.py        # Post-processing for raw JSON logs
 ├── .gitignore
 └── README.md
 ```
@@ -37,7 +37,7 @@ The benchmark relies on a curated corpus of 1,000 technical PDFs (arXiv `cs.AI`)
 
 ### Option A: Manual Download (Google Drive)
 
-1. Download the corpus: **https://drive.google.com/file/d/1_jZObj5C1A9k-Q5u27ntGhSX2FD_VeJc/view?usp=drive_link**
+1. Download the corpus: **[LINK TO DATASET]**
 2. Place the zip file in the root directory.
 3. Unzip to the `dataset/` folder:
 
@@ -68,14 +68,27 @@ CMAKE_ARGS="-DGGML_VULKAN=on" pip install llama-cpp-python --upgrade --no-cache-
 ```
 
 ### Tier 2: Unified Memory (Apple M1 - Metal)
-*Currently benchmarking for "Template Fatigue" analysis.*
+*Used for comparing ARM-based Desktop vs. ARM-based Mobile performance.*
 
 ```bash
 CMAKE_ARGS="-DGGML_METAL=on" pip install llama-cpp-python --upgrade --no-cache-dir --force-reinstall
 ```
 
 ### Tier 3: Edge Mobile (Dimensity 9300+ - Android)
-*Experimental Tier: Requires MLC-LLM compilation (See `docs/android_build.md`).*
+*The Champion Tier.*
+
+This tier requires the **PneumaEdge** engine (a custom Android C++ build of `llama.cpp` optimized for Immortalis GPUs).
+
+1.  **Clone the Engine:** Go to the [PneumaEdge Repository](https://github.com/taurussilver24/PNEUMAEdge) to build the `pneuma_engine` binary.
+2.  **Bridge Connection:** Use the bridge script in *this* repo to orchestrate the benchmark over ADB.
+
+```bash
+# Verify ADB Connection
+adb devices
+
+# Run the Bridge (Orchestrates the phone to process files)
+python src/pneuma_android_bridge.py
+```
 
 ---
 
@@ -117,9 +130,9 @@ python src/clash_inspector.py
 
 | Tier | Hardware | Backend | Status | Key Finding |
 |------|----------|---------|--------|-------------|
-| **Desktop** | AMD RX 6800 | Vulkan | ✅ Complete | **LFM Paradox:** Cold ( TPS) > Warm ( TPS) |
-| **Unified** | Apple M1 | Metal | 🔄 Active | **Template Fatigue:** Phi-4 collapses to 2% recall |
-| **Edge** | Dimensity 9300 | MLC/Vulkan | ⏳ Pending | Building `libtvm4j` bindings |
+| **Desktop** | AMD RX 6800 | Vulkan | ✅ Complete | **LFM Paradox:** Cold (56 TPS) > Warm (52 TPS) |
+| **Unified** | Apple M1 | Metal | ✅ Complete | **Throttling:** Peak 27 TPS, Sustained 25 TPS |
+| **Edge** | Dimensity 9300+ | PneumaEdge | 🏆 **Winner** | **Mobile Supremacy:** Sustained **31.5 TPS** (Beats M1) |
 | **Pro** | RTX 4080 Mobile | CUDA | 📅 Feb | Control Group |
 
 ---
@@ -132,7 +145,7 @@ This repository accompanies the Special Issue submission to **DJLIT**.
 
 * **Stateless Paradox:** The phenomenon where 3B-class models (LFM, Phi-4) achieve higher throughput and stability when re-loaded for every document, inverting traditional "Batch Processing" wisdom.
 * **Verified DOI:** A metric that excludes model hallucinations (e.g., placeholders) to measure true semantic utility.
-* **Template Fatigue:** A failure mode observed on low-power silicon (M1) where models default to LaTeX templates instead of extracting real data.
+* **PneumaEdge:** The custom Android runtime environment (separate repo) that enables unprivileged, root-free execution of quantized LLMs via ADB.
 
 ---
 
@@ -142,4 +155,4 @@ This repository accompanies the Special Issue submission to **DJLIT**.
 
 **Citation:**
 
-> Arora, R.(2026). *Scaling Private Intelligence: A Cross-Platform Performance Analysis of Quantized Small Language Models for Secure Metadata Extraction*. Osaka Metropolitan University / Kobe Institute of Computing.
+> Arora, R. (2026). *Scaling Private Intelligence: A Cross-Platform Performance Analysis of Quantized Small Language Models for Secure Metadata Extraction*. Osaka Metropolitan University / Kobe Institute of Computing.

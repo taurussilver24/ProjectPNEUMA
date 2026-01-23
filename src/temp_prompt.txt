@@ -1,0 +1,63 @@
+<|im_start|>system
+You are a metadata extraction system. Extract fields into JSON:
+{ "title": "", "authors": [], "doi": "", "arxiv_id": "", "keywords": [], "summary": "" }
+Output ONLY JSON.<|im_end|>
+<|im_start|>user
+SECite: Analyzing and Summarizing Citations in
+Software Engineering Literature
+Shireesh Reddy Pyreddy, Khaja Valli Pathan
+Dept. of Computer Science
+SUNY Polytechnic Institute
+Utica, NY , USA
+pyredds@sunypoly.edu, pathank@sunypoly.edu
+Hasan Masum, Tarannum Shaila Zaman
+Dept. of Information Systems
+University of Maryland Baltimore County
+Maryland, USA
+hmasum1@umbc.edu, zamant@umbc.edu
+Abstract—Identifying the strengths and limitations of a re-
+search paper is a core component of any literature review.
+However, traditional summaries reflect only the authors’ self-
+presented perspective. Analyzing how other researchers discuss
+and cite the paper can offer a deeper, more practical under-
+standing of its contributions and shortcomings. In this research,
+we introduce SECite, a novel approach for evaluating scholarly
+impact through sentiment analysis of citation contexts. We
+develop a semi-automated pipeline to extract citations referencing
+nine research papers and apply advanced natural language
+processing (NLP) techniques with unsupervised machine learning
+to classify these citation statements as positive or negative.
+Beyond sentiment classification, we use generative AI to produce
+sentiment-specific summaries that capture the strengths and
+limitations of each target paper, derived both from clustered
+citation groups and from the full text. Our findings reveal
+meaningful patterns in how the academic community perceives
+these works, highlighting areas of alignment and divergence
+between external citation feedback and the authors’ own presen-
+tation. By integrating citation sentiment analysis with LLM-based
+summarization, this study provides a comprehensive framework
+for assessing scholarly contributions.
+Index Terms—Sentiment Analysis, LLMs, Text Summarization,
+Citations
+I. INTRODUCTION
+Feedback is the cornerstone of intellectual progress, driving
+the exchange of ideas and fostering meaningful scholarly dis-
+course [1], [2]. In academic research, understanding how one’s
+work is perceived within the larger community is essential not
+only for validation but also for shaping future contributions.
+However, traditional methods of gathering and analyzing feed-
+back are often constrained by scale and subjectivity. To address
+these limitations, our study introduces a semi-automated, data-
+driven framework, SECite that leverages unsupervised sen-
+timent analysis and LLM-driven summarization to evaluate
+citations referencing scholarly work. By uncovering patterns,
+sentiments, and opinions embedded in these references, our
+aim is to provide a deeper and more nuanced understanding
+of academic impact and engagement [3], [4].
+Our approach focuses on sentiment analysis of citations
+from research papers related to software engineering [5],
+revealing how the academic community perceives its contri-
+butions. Using Generative AI [6], we go further to generate
+sentiment-specific summaries, highlighting the positive and
+negative aspects of the referenced work. This dual-lay<|im_end|>
+<|im_start|>assistant
