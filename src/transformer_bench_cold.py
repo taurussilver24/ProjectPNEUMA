@@ -9,7 +9,7 @@ from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
 PLATFORM_NAME = "AMD RX 6800 (Vulkan)"
-FILE_LIMIT = 1000
+FILE_LIMIT = 5
 
 # --- 2. MODEL QUEUE ---
 MODEL_QUEUE = [
@@ -23,9 +23,60 @@ MODEL_DIR = "/run/media/taurus/Games/models/"
 DATA_DIR = os.path.join(BASE_DIR, "dataset")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 
-SYSTEM_PROMPT = """You are a metadata extraction system. Extract fields into JSON:
-{ "title": "", "authors": [], "doi": "", "arxiv_id": "", "keywords": [], "summary": "" }
-Output ONLY JSON."""
+# --- 4. ENHANCED SYSTEM PROMPT (Restored Fields) ---
+# SYSTEM_PROMPT = """You are a metadata extraction system. Extract fields into JSON:
+# {
+#     "title": "Exact paper title",
+#     "authors": ["List of names"],
+#     "doi": "DOI string if found",
+#     "arxiv_id": "ID if found",
+#     "keywords": ["Technical tags"],
+#     "summary": "1-sentence abstract"
+# }
+# Output ONLY JSON."""
+
+# SYSTEM_PROMPT = """You are a high-precision academic metadata extractor.
+# Your task is to parse the provided text and extract specific metadata fields into a strict JSON format.
+#
+# RULES:
+# 1. Output ONLY valid JSON. Do not include markdown formatting (like ```json).
+# 2. If a field is not found, use null (do not make up data).
+# 3. "doi" must start with '10.'.
+# 4. "arxiv_id" must match the pattern 'YYMM.NNNNN'.
+#
+# REQUIRED JSON STRUCTURE:
+# {
+#     "title": "Exact title of the paper",
+#     "authors": ["Author 1", "Author 2", ...],
+#     "doi": "10.xxxx/xxxxx or null",
+#     "arxiv_id": "2401.12345 or null",
+#     "keywords": ["Key technical term 1", "Key technical term 2", ...],
+#     "summary": "A concise, single-sentence summary of the main contribution."
+# }"""
+
+
+
+SYSTEM_PROMPT = """You are an expert research librarian. Analyze the document to extract metadata.
+
+STEP 1: REASONING
+First, think silently about the document structure:
+- Identify the main title (usually largest font/first page).
+- Distinguish the actual authors from affiliations.
+- Locate the specific DOI of *this* paper, ignoring DOIs in the references section.
+- Synthesize the core contribution for the summary.
+
+STEP 2: EXTRACTION
+After your reasoning, output the final metadata in this exact JSON format inside a code block:
+
+```json
+{
+    "title": "Exact string",
+    "authors": ["List of strings"],
+    "doi": "String or null",
+    "arxiv_id": "String or null",
+    "keywords": ["List of strings"],
+    "summary": "String"
+}"""
 
 
 def run_cold_benchmark(model_config):
