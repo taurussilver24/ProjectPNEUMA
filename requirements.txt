@@ -1,10 +1,12 @@
 # --- Project PNEUMA Requirements ---
 
 # Core Utilities
-huggingface_hub>=0.20.0  # Contains huggingface-cli
-pandas>=2.1.0            # For data analysis later
+huggingface_hub>=0.20.0  # Contains huggingface-cli           # For data analysis later
 tqdm>=4.66.0             # Progress bars
 numpy>=1.26.0
+down
+pandas
+openpyxl
 pypdf
 
 # LLM Backend
