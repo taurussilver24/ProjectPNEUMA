@@ -4,8 +4,8 @@ import re
 from Levenshtein import ratio
 
 # --- 1. INSPECTION CONFIGURATION ---
-# Toggle this between "AMD_RX_6800_(Vulkan)" and "Apple_M1(Metal)"
-PLATFORM_NAME = "Apple_M1(Metal)"
+# Toggle this between "AMD_RX_6800_(Vulkan)" and "Apple_M1(Metal)" Dimensity_9300+(Vulkan)
+PLATFORM_NAME = "Dimensity_9300+(Vulkan)"
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LOG_DIR = os.path.join(BASE_DIR, "logs")
