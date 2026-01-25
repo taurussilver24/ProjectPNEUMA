@@ -8,7 +8,7 @@ from pypdf import PdfReader
 from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
-PLATFORM_NAME = "NVIDIA RTX 5090 (CUDA 12.8)"
+PLATFORM_NAME = "NVIDIA RTX 4090 (Ada Lovelace)"
 MODEL_FILE = "lfm-2.5-1.2b.Q4_K_M.gguf"
 FILE_LIMIT = 1000 # Set for full marathon
 
@@ -45,24 +45,24 @@ def run_lfm_warm():
         return
 
     print("\n" + "=" * 70)
-    print(f"🔥 RTX 5090 LFM-2.5 REDEMPTION: WARM MODE")
+    print(f"🔥 RTX 4090 LFM-2.5 REDEMPTION: WARM MODE")
     print(f"Platform: {PLATFORM_NAME} | Models: {MODEL_FILE}")
     print("=" * 70 + "\n")
 
-    # 4. LOAD MODEL ONCE (The "Blackwell" Configuration)
-    print("Engaging Blackwell Tensor Cores (sm_120)...")
+    # 4. LOAD MODEL ONCE (Persistent Session)
+    print("Engaging Ada Lovelace Cores...")
     start_load = time.time()
     llm = Llama(
         model_path=MODEL_PATH,
-        n_gpu_layers=-1,    # Full 5090 offload
+        n_gpu_layers=-1,    # Full 4090 offload
         n_ctx=4096,         # standard context window
-        n_batch=2048,       # High batch for GDDR7 throughput
-        n_ubatch=512,       # Balanced micro-batch
+        n_batch=4096,       # Maximize GDDR6X bandwidth
+        n_ubatch=1024,      # Optimized for Ada architecture
         flash_attn=True,    # Essential for efficiency
         verbose=False
     )
     load_time = time.time() - start_load
-    print(f"✅ 5090 Warm Session Active ({load_time:.2f}s load time)\n")
+    print(f"✅ 4090 Warm Session Active ({load_time:.2f}s load time)\n")
 
     files = sorted(glob.glob(os.path.join(DATA_DIR, "*.pdf")))[:FILE_LIMIT]
     results = []
@@ -90,7 +90,7 @@ def run_lfm_warm():
             inference_time = time.time() - start_time
             tps = tokens / inference_time
 
-            # 7. KV-CACHE FLUSH (Critical for Blackwell stability)
+            # 7. KV-CACHE FLUSH
             llm.reset()
 
             results.append({
@@ -111,7 +111,7 @@ def run_lfm_warm():
             print(f"❌ Error on {fname}: {e}")
 
     # Save results
-    output_csv = os.path.join(LOG_DIR, f"clash_LFM_warm_{PLATFORM_NAME.replace(' ', '_')}.csv")
+    output_csv = os.path.join(LOG_DIR, f"clash_LFM_warm_RTX_4090.csv")
     pd.DataFrame(results).to_csv(output_csv, index=False)
     print(f"\n✅ Results saved: {output_csv}")
 

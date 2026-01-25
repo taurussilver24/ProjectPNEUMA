@@ -8,11 +8,10 @@ from pypdf import PdfReader
 from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
-PLATFORM_NAME = "NVIDIA RTX 5090 (CUDA 12.8)"
-FILE_LIMIT = 1000 # The full marathon
+PLATFORM_NAME = "NVIDIA RTX 4090 (Ada Lovelace)"
+FILE_LIMIT = 1000
 
 # --- 2. MODEL QUEUE ---
-# Filenames updated to match your setup_5090.sh naming
 MODEL_QUEUE = [
     {"name": "Qwen2.5-3B", "file": "qwen2.5-3b-instruct.Q4_K_M.gguf"},
     {"name": "Phi-4", "file": "phi-4.Q4_K_M.gguf"}
@@ -24,9 +23,7 @@ MODEL_DIR = os.path.join(BASE_DIR, "models")
 DATA_DIR = os.path.join(BASE_DIR, "data", "input")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 
-# --- 4. TRANSFORMER-OPTIMIZED PROMPT ---
-# Standard Transformers handle the "Step-by-Step" reasoning slightly differently
-# than LFMs, so we maintain the strict logical flow.
+# --- 4. SYSTEM PROMPT ---
 SYSTEM_PROMPT = """You are an expert research librarian. Analyze the document to extract metadata.
 
 STEP 1: REASONING
@@ -57,7 +54,7 @@ def run_cold_benchmark(model_config):
     results = []
 
     print("\n" + "=" * 70)
-    print(f"🚀 FIRING {model_config['name']} BLACKWELL COLD-START")
+    print(f"🚀 FIRING {model_config['name']} 4090 COLD-START")
     print(f"Platform: {PLATFORM_NAME} | Batch: 4096")
     print("=" * 70 + "\n")
 
@@ -69,15 +66,15 @@ def run_cold_benchmark(model_config):
             # 1. READ PDF
             text = PdfReader(path).pages[0].extract_text()[:3500]
 
-            # 2. COLD START: Optimized for Blackwell sm_120
+            # 2. COLD START: Reloading weights for every single document
             start_time = time.time()
             llm = Llama(
                 model_path=model_path,
-                n_gpu_layers=-1,    # Full offload
-                n_ctx=4096,         # Standard context
-                n_batch=4096,       # Maximize 5090 parallelism
-                n_ubatch=1024,      # Keep the cores saturated
-                flash_attn=True,    # Tensor core engagement
+                n_gpu_layers=-1,    # Full VRAM offload
+                n_ctx=4096,
+                n_batch=4096,       # High batch size for 4090 bandwidth
+                n_ubatch=1024,
+                flash_attn=True,    # Ada Lovelace supports this perfectly
                 verbose=False
             )
 
@@ -110,21 +107,24 @@ def run_cold_benchmark(model_config):
                 "platform": PLATFORM_NAME
             })
 
+            # Print status every 10 files
             if (i + 1) % 10 == 0 or i == 0:
-                print(f"[{i + 1}/{len(files)}] {fname} | TPS: {tps:.2f} (Cold Start)")
+                print(f"[{i + 1}/{len(files)}] {fname} | TPS: {tps:.2f}")
 
         except Exception as e:
             print(f"❌ Error on {fname}: {e}")
 
         finally:
-            # 4. MEMORY PURGE (Essential for high-VRAM models like Phi-4)
+            # 4. MEMORY PURGE
+            # Critical for 4090 Cold Start to emulate "fresh boot" latency
             if llm:
                 del llm
             gc.collect()
 
     # Save results
-    output_csv = os.path.join(LOG_DIR, f"clash_{model_config['name']}_cold_{PLATFORM_NAME.replace(' ', '_')}.csv")
+    output_csv = os.path.join(LOG_DIR, f"clash_{model_config['name']}_cold_RTX_4090.csv")
     pd.DataFrame(results).to_csv(output_csv, index=False)
+    print(f"✅ Saved results to {output_csv}")
 
 if __name__ == "__main__":
     if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)

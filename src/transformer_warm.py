@@ -2,12 +2,13 @@ import time
 import json
 import os
 import glob
+import gc
 import pandas as pd
 from pypdf import PdfReader
 from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
-PLATFORM_NAME = "NVIDIA RTX 5090 (CUDA 12.8)"
+PLATFORM_NAME = "NVIDIA RTX 4090 (Ada Lovelace)"
 FILE_LIMIT = 1000  # Full marathon execution
 
 # --- 2. MULTI-MODEL QUEUE ---
@@ -39,10 +40,10 @@ def run_warm_benchmark(model_config):
         print(f"⚠️ Skipping {model_config['name']}: Not found at {model_path}")
         return
 
-    print(f"\n🚀 ACTIVATING BLACKWELL WARM MODE: {model_config['name']}")
+    print(f"\n🚀 ACTIVATING 4090 WARM MODE: {model_config['name']}")
 
-    # LOAD MODEL ONCE (The "Veritas" Persistent Session)
-    # Using n_batch=4096 to maximize GDDR7 bandwidth utilization
+    # LOAD MODEL ONCE (Persistent Session)
+    # n_batch=4096 is optimal for Ada Lovelace's memory bandwidth
     llm = Llama(
         model_path=model_path,
         n_gpu_layers=-1,
@@ -73,7 +74,7 @@ def run_warm_benchmark(model_config):
             inference_time = time.time() - start_time
             tps = tokens / inference_time
 
-            # Clear KV cache to maintain DOI accuracy across long runs
+            # Clear KV cache to maintain context purity
             llm.reset()
 
             results.append({
@@ -96,8 +97,9 @@ def run_warm_benchmark(model_config):
 
     # Cleanup VRAM before next model in queue
     del llm
+    gc.collect()
 
-    output_csv = os.path.join(LOG_DIR, f"clash_{model_config['name']}_warm_{PLATFORM_NAME.replace(' ', '_')}.csv")
+    output_csv = os.path.join(LOG_DIR, f"clash_{model_config['name']}_warm_RTX_4090.csv")
     pd.DataFrame(results).to_csv(output_csv, index=False)
     print(f"✅ Marathon Complete. Results: {output_csv}")
 

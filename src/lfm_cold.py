@@ -8,18 +8,17 @@ from pypdf import PdfReader
 from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
-PLATFORM_NAME = "NVIDIA RTX 5090 (CUDA 12.8)"
+PLATFORM_NAME = "NVIDIA RTX 4090 (Ada Lovelace)"
 MODEL_FILE = "lfm-2.5-1.2b.Q4_K_M.gguf"
 FILE_LIMIT = 1000  # Set for the full marathon
 
 # --- 2. DYNAMIC PATH RESOLUTION ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# Adjusted for the RunPod setup.sh path
 MODEL_PATH = os.path.join(BASE_DIR, "models", MODEL_FILE)
 DATA_DIR = os.path.join(BASE_DIR, "data", "input")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 
-# Optimized Prompt: Strict JSON for 5090 throughput
+# --- 3. SYSTEM PROMPT ---
 SYSTEM_PROMPT = """You are an expert research librarian. Output metadata in strict JSON.
 {
     "title": "Exact string",
@@ -38,24 +37,25 @@ def run_lfm_marathon():
     files = sorted(glob.glob(os.path.join(DATA_DIR, "*.pdf")))[:FILE_LIMIT]
     results = []
 
-    print(f"\n--- 🚀 FIRING RTX 5090 COLD-START MARATHON ({len(files)} files) ---")
+    print(f"\n--- 🚀 FIRING RTX 4090 COLD-START MARATHON ({len(files)} files) ---")
 
     for i, path in enumerate(files):
         fname = os.path.basename(path)
         llm = None
 
         try:
-            # 1. READ PDF (Limit to first 3500 chars for speed)
+            # 1. READ PDF
             text = PdfReader(path).pages[0].extract_text()[:3500]
 
-            # 2. COLD START: Optimized for Blackwell (sm_120)
+            # 2. COLD START: Optimized for Ada Lovelace
+            # We treat every file as a fresh session to measure reload latency
             start_time = time.time()
             llm = Llama(
                 model_path=MODEL_PATH,
-                n_gpu_layers=-1,    # Force 5090 offload
+                n_gpu_layers=-1,    # Force 4090 full offload
                 n_ctx=4096,         # standard context
-                n_batch=2048,       # High batch for GDDR7
-                n_ubatch=512,       # Micro-batch for core stability
+                n_batch=4096,       # Maximize GDDR6X bandwidth
+                n_ubatch=1024,      # Optimized for Ada L2 cache
                 flash_attn=True,    # Tensor core engagement
                 verbose=False
             )
@@ -84,19 +84,19 @@ def run_lfm_marathon():
                 "platform": PLATFORM_NAME
             })
 
-            print(f"[{i + 1}/{len(files)}] {fname} | Speed: {tps:.2f} TPS | {tokens} tokens")
+            print(f"[{i + 1}/{len(files)}] {fname} | Speed: {tps:.2f} TPS (Cold)")
 
         except Exception as e:
             print(f"❌ Error on {fname}: {e}")
 
         finally:
-            # 4. HARD MEMORY PURGE: Necessary for 5090 stability in Cold Start
+            # 4. HARD MEMORY PURGE
+            # Simulates a "Serverless" environment where the container dies after every request
             if llm:
                 del llm
             gc.collect()
-            # On CUDA 12.8, this helps prevent the 'context leak' seen on earlier drivers
 
-    output_csv = os.path.join(LOG_DIR, f"clash_LFM_Cold_{PLATFORM_NAME.replace(' ', '_')}.csv")
+    output_csv = os.path.join(LOG_DIR, f"clash_LFM_Cold_RTX_4090.csv")
     pd.DataFrame(results).to_csv(output_csv, index=False)
     print(f"\n✅ LFM Cold Marathon Complete. Data saved: {output_csv}")
 
