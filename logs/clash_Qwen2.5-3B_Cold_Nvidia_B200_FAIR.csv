@@ -1,0 +1,101 @@
+filename,tps,total_time,model
+2601.07192v1_Relink Constructing Query-Driven Evidence Graph On.pdf,203.26,1.437,Qwen2.5-3B
+2601.07197v1_Beyond Variance Knowledge-Aware LLM Compression vi.pdf,228.41,1.668,Qwen2.5-3B
+2601.07199v1_Forward versus Backward Comparing Reasoning Object.pdf,223.88,1.474,Qwen2.5-3B
+2601.07200v1_Safeguarding LLM Fine-tuning via Push-Pull Distrib.pdf,209.65,1.336,Qwen2.5-3B
+2601.07201v1_CalPro Prior-Aware Evidential--Conformal Predictio.pdf,231.76,1.821,Qwen2.5-3B
+2601.07206v1_LLMRouterBench A Massive Benchmark and Unified Fra.pdf,182.54,1.6,Qwen2.5-3B
+2601.07209v1_SIRR-LMM Single-image Reflection Removal via Large.pdf,214.24,1.302,Qwen2.5-3B
+2601.07214v1_BlindU Blind Machine Unlearning without Revealing .pdf,224.04,1.62,Qwen2.5-3B
+2601.07224v1_Consolidation or Adaptation PRISM Disentangling SF.pdf,239.82,1.693,Qwen2.5-3B
+2601.07226v1_Lost in the Noise How Reasoning Models Fail with C.pdf,233.26,1.706,Qwen2.5-3B
+2601.07229v2_DiSCo Making Absence Visible in Intelligent Summar.pdf,214.65,1.332,Qwen2.5-3B
+2601.07232v1_Yes FLoReNce I Will Do Better Next Time Agentic Fe.pdf,216.91,1.346,Qwen2.5-3B
+2601.07233v1_From Thinking to Justifying Aligning High-Stakes E.pdf,224.09,1.526,Qwen2.5-3B
+2601.07238v1_Group Pattern Selection Optimization Let LRMs Pick.pdf,222.8,1.463,Qwen2.5-3B
+2601.07239v1_Stochastic CHAOS Why Deterministic Inference Kills.pdf,209.03,1.454,Qwen2.5-3B
+2601.07245v1_Learning to Trust the Crowd A Multi-Model Consensu.pdf,230.25,1.629,Qwen2.5-3B
+2601.07250v1_DDT A Dual-Masking Dual-Expert Transformer for Ene.pdf,198.94,1.146,Qwen2.5-3B
+2601.07261v1_Pseudodata-guided Invariant Representation Learnin.pdf,223.07,1.349,Qwen2.5-3B
+2601.07263v1_When Bots Take the Bait Exposing and Mitigating th.pdf,233.46,1.79,Qwen2.5-3B
+2601.07291v1_A Visual Semantic Adaptive Watermark grounded by P.pdf,197.33,2.144,Qwen2.5-3B
+2601.07292v1_Photometric Redshift Estimation Using Scaled Ensem.pdf,221.48,1.639,Qwen2.5-3B
+2601.07296v1_LRAS Advanced Legal Reasoning with Agentic Search.pdf,196.69,1.342,Qwen2.5-3B
+2601.07304v1_Heterogeneous Multi-Expert Reinforcement Learning .pdf,201.96,1.381,Qwen2.5-3B
+2601.07309v1_ARM Role-Conditioned Neuron Transplantation for Tr.pdf,222.19,1.679,Qwen2.5-3B
+2601.07313v1_Explaining Machine Learning Predictive Models thro.pdf,230.29,1.898,Qwen2.5-3B
+2601.07315v1_VLM-CAD VLM-Optimized Collaborative Agent Design W.pdf,222.99,1.641,Qwen2.5-3B
+2601.07316v1_BEAT-Net Injecting Biomimetic Spatio-Temporal Prio.pdf,232.03,1.771,Qwen2.5-3B
+2601.07320v1_Segmental Advantage Estimation Enhancing PPO for L.pdf,228.92,1.966,Qwen2.5-3B
+2601.07342v1_Agentic Diagnostic Reasoning over Telecom and Data.pdf,213.41,1.424,Qwen2.5-3B
+2601.07344v1_PulseMind A Multi-Modal Medical Model for Real-Wor.pdf,190.17,1.346,Qwen2.5-3B
+2601.07348v4_Controlled Self-Evolution for Algorithmic Code Opt.pdf,208.32,1.397,Qwen2.5-3B
+2601.07351v2_Beyond Hard Masks Progressive Token Evolution for .pdf,178.52,1.412,Qwen2.5-3B
+2601.07356v1_Efficient Convolutional Forward Model for Passive .pdf,202.21,1.459,Qwen2.5-3B
+2601.07359v1_Seeing Right but Saying Wrong Inter- and Intra-Lay.pdf,209.22,1.429,Qwen2.5-3B
+2601.07364v1_On the universal definition of intelligence.pdf,155.56,1.054,Qwen2.5-3B
+2601.07372v1_Conditional Memory via Scalable Lookup A New Axis .pdf,227.47,1.794,Qwen2.5-3B
+2601.07376v1_OpenTinker Separating Concerns in Agentic Reinforc.pdf,193.94,1.268,Qwen2.5-3B
+2601.07377v1_Learning Dynamic Collaborative Network for Semi-su.pdf,204.14,1.435,Qwen2.5-3B
+2601.07389v1_On the Non-decoupling of Supervised Fine-tuning an.pdf,222.6,1.523,Qwen2.5-3B
+2601.07392v1_OceanSAR-2 A Universal Feature Extractor for SAR O.pdf,202.49,1.412,Qwen2.5-3B
+2601.07393v1_Software-Hardware Co-optimization for Modular E2E .pdf,202.41,1.329,Qwen2.5-3B
+2601.07395v1_MCP-ITP An Automated Framework for Implicit Tool P.pdf,228.65,1.798,Qwen2.5-3B
+2601.07397v1_Layerwise goal-oriented adaptivity for neural ODEs.pdf,191.98,1.302,Qwen2.5-3B
+2601.07411v1_SCALPEL Selective Capability Ablation via Low-rank.pdf,203.95,1.334,Qwen2.5-3B
+2601.07422v1_Two Pathways to Truthfulness On the Intrinsic Enco.pdf,211.67,1.672,Qwen2.5-3B
+2601.07430v1_KALE Enhancing Knowledge Manipulation in Large Lan.pdf,217.12,1.792,Qwen2.5-3B
+2601.07449v1_RLPO Residual Listwise Preference Optimization for.pdf,209.09,1.459,Qwen2.5-3B
+2601.07463v1_Puzzle it Out Local-to-Global World Model for Offl.pdf,221.58,1.679,Qwen2.5-3B
+2601.07464v1_IFDNS An Iterative Feedback-Driven Neuro-Symbolic .pdf,220.78,1.839,Qwen2.5-3B
+2601.07468v1_Beyond Dialogue Time Temporal Semantic Memory for .pdf,226.11,1.769,Qwen2.5-3B
+2601.07469v1_Knowledge Distillation for LLM-Based Human Activit.pdf,193.64,1.399,Qwen2.5-3B
+2601.07470v1_Learning How to Remember A Meta-Cognitive Manageme.pdf,196.36,1.431,Qwen2.5-3B
+2601.07474v1_Task Prototype-Based Knowledge Retrieval for Multi.pdf,202.89,1.503,Qwen2.5-3B
+2601.07475v1_ARCQuant Boosting NVFP4 Quantization with Augmente.pdf,216.96,1.586,Qwen2.5-3B
+2601.07477v1_JudgeFlow Agentic Workflow Optimization via Block .pdf,218.61,1.624,Qwen2.5-3B
+2601.07496v1_Graph Inference Towards ICD Coding.pdf,174.33,1.205,Qwen2.5-3B
+2601.07514v1_Data-Driven Stochastic VRP Integration of Forecast.pdf,202.11,1.38,Qwen2.5-3B
+2601.07516v1_Controlling Multimodal Conversational Agents with .pdf,202.86,1.489,Qwen2.5-3B
+2601.07518v1_Mon3tr Monocular 3D Telepresence with Pre-built Ga.pdf,231.35,2.006,Qwen2.5-3B
+2601.07525v1_Thinking Before Constraining A Unified Decoding Fr.pdf,219.75,1.538,Qwen2.5-3B
+2601.07528v1_From RAG to Agentic RAG for Faithful Islamic Quest.pdf,206.46,1.594,Qwen2.5-3B
+2601.07553v1_VirtualEnv A Platform for Embodied AI Research.pdf,206.96,1.343,Qwen2.5-3B
+2601.07556v1_Backpropagation-Free Test-Time Adaptation for Ligh.pdf,213.08,1.816,Qwen2.5-3B
+2601.07565v1_A Unified Framework for Emotion Recognition and Se.pdf,211.13,1.53,Qwen2.5-3B
+2601.07568v1_d3LLM Ultra-Fast Diffusion LLM using Pseudo-Trajec.pdf,214.44,1.6,Qwen2.5-3B
+2601.07573v1_A Model of Artificial Jagged Intelligence.pdf,212.82,1.316,Qwen2.5-3B
+2601.07577v1_Beyond Entangled Planning Task-Decoupled Planning .pdf,219.22,1.806,Qwen2.5-3B
+2601.07580v1_Large Language Models for Physics Instrument Desig.pdf,202.04,1.42,Qwen2.5-3B
+2601.07582v2_ES-Mem Event Segmentation-Based Memory for Long-Te.pdf,190.01,1.542,Qwen2.5-3B
+2601.07597v1_Pheromone-Focused Ant Colony Optimization algorith.pdf,221.36,1.644,Qwen2.5-3B
+2601.07606v1_Proof of Time A Benchmark for Evaluating Scientifi.pdf,216.58,1.741,Qwen2.5-3B
+2601.07611v1_DIAGPaper Diagnosing Valid and Specific Weaknesses.pdf,199.22,1.38,Qwen2.5-3B
+2601.07618v1_Neural Architecture for Fast and Reliable Coagulat.pdf,205.09,1.663,Qwen2.5-3B
+2601.07632v2_GeoMotionGPT Geometry-Aligned Motion Understanding.pdf,225.0,1.791,Qwen2.5-3B
+2601.07635v2_Learning About Learning A Physics Path from Spin G.pdf,189.5,1.282,Qwen2.5-3B
+2601.07638v1_SALT-KG A Benchmark for Semantics-Aware Learning o.pdf,211.44,1.603,Qwen2.5-3B
+2601.07641v1_Beyond Static Tools Test-Time Tool Evolution for S.pdf,223.57,1.691,Qwen2.5-3B
+2601.07651v1_Active Evaluation of General Agents Problem Defini.pdf,198.23,1.443,Qwen2.5-3B
+2601.07654v1_Towards Automating Blockchain Consensus Verificati.pdf,182.52,1.046,Qwen2.5-3B
+2601.07663v2_Reasoning Models Will Blatantly Lie About Their Re.pdf,178.28,1.273,Qwen2.5-3B
+2601.07666v1_Variational Contrastive Learning for Skeleton-base.pdf,229.64,1.759,Qwen2.5-3B
+2601.07667v1_Adaptive Layer Selection for Layer-Wise Token Prun.pdf,187.8,1.305,Qwen2.5-3B
+2601.07685v1_Predictive Analytics for Dementia Machine Learning.pdf,213.02,1.465,Qwen2.5-3B
+2601.07701v1_Deep Whole-body Parkour.pdf,189.6,1.245,Qwen2.5-3B
+2601.07718v1_Hiking in the Wild A Scalable Perceptive Parkour F.pdf,195.93,1.266,Qwen2.5-3B
+2601.07737v1_Evaluating the encoding competence of visual langu.pdf,168.05,0.785,Qwen2.5-3B
+2601.07748v1_Improving Domain Generalization in Contrastive Lea.pdf,205.42,1.339,Qwen2.5-3B
+2601.07778v1_DT-ICU Towards Explainable Digital Twins for ICU P.pdf,227.53,1.591,Qwen2.5-3B
+2601.07779v1_OS-Symphony A Holistic Framework for Robust and Ge.pdf,212.36,1.804,Qwen2.5-3B
+2601.07782v1_Beyond Single-Shot Multi-step Tool Retrieval via Q.pdf,196.27,1.238,Qwen2.5-3B
+2601.07790v1_Benchmarking Small Language Models and Small Reaso.pdf,245.29,1.912,Qwen2.5-3B
+2601.07794v1_Kinship Data Benchmark for Multi-hop Reasoning.pdf,208.91,1.312,Qwen2.5-3B
+2601.07821v1_Failure-Aware RL Reliable Offline-to-Online Reinfo.pdf,221.62,1.457,Qwen2.5-3B
+2601.07832v2_MHLA Restoring Expressivity of Linear Attention vi.pdf,227.7,1.524,Qwen2.5-3B
+2601.07885v1_Small Symbols Big Risks Exploring Emoticon Semanti.pdf,196.74,1.459,Qwen2.5-3B
+2601.07891v1_KVzap Fast Adaptive and Faithful KV Cache Pruning.pdf,205.66,1.264,Qwen2.5-3B
+2601.07892v1_Sherry Hardware-Efficient 1.25-Bit Ternary Quantiz.pdf,296.11,10.378,Qwen2.5-3B
+2601.07894v1_Revealing the Attention Floating Mechanism in Mask.pdf,221.54,1.517,Qwen2.5-3B
+2601.07898v1_Large Language Models and Algorithm Execution Appl.pdf,175.98,0.915,Qwen2.5-3B
+2601.07901v1_Decentralized Online Convex Optimization with Unkn.pdf,203.65,1.237,Qwen2.5-3B

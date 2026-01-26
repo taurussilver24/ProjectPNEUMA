@@ -1,0 +1,101 @@
+filename,tps,total_time,model
+2601.07192v1_Relink Constructing Query-Driven Evidence Graph On.pdf,120.64,2.884,Phi-4
+2601.07197v1_Beyond Variance Knowledge-Aware LLM Compression vi.pdf,119.53,2.485,Phi-4
+2601.07199v1_Forward versus Backward Comparing Reasoning Object.pdf,120.06,2.274,Phi-4
+2601.07200v1_Safeguarding LLM Fine-tuning via Push-Pull Distrib.pdf,120.53,2.597,Phi-4
+2601.07201v1_CalPro Prior-Aware Evidential--Conformal Predictio.pdf,115.74,2.246,Phi-4
+2601.07206v1_LLMRouterBench A Massive Benchmark and Unified Fra.pdf,111.65,2.965,Phi-4
+2601.07209v1_SIRR-LMM Single-image Reflection Removal via Large.pdf,121.36,2.521,Phi-4
+2601.07214v1_BlindU Blind Machine Unlearning without Revealing .pdf,115.47,2.226,Phi-4
+2601.07224v1_Consolidation or Adaptation PRISM Disentangling SF.pdf,123.48,2.737,Phi-4
+2601.07226v1_Lost in the Noise How Reasoning Models Fail with C.pdf,117.48,2.392,Phi-4
+2601.07229v2_DiSCo Making Absence Visible in Intelligent Summar.pdf,125.85,2.678,Phi-4
+2601.07232v1_Yes FLoReNce I Will Do Better Next Time Agentic Fe.pdf,125.57,2.994,Phi-4
+2601.07233v1_From Thinking to Justifying Aligning High-Stakes E.pdf,115.26,2.394,Phi-4
+2601.07238v1_Group Pattern Selection Optimization Let LRMs Pick.pdf,118.73,2.367,Phi-4
+2601.07239v1_Stochastic CHAOS Why Deterministic Inference Kills.pdf,123.15,2.818,Phi-4
+2601.07245v1_Learning to Trust the Crowd A Multi-Model Consensu.pdf,126.85,2.996,Phi-4
+2601.07250v1_DDT A Dual-Masking Dual-Expert Transformer for Ene.pdf,124.99,2.736,Phi-4
+2601.07261v1_Pseudodata-guided Invariant Representation Learnin.pdf,129.08,2.781,Phi-4
+2601.07263v1_When Bots Take the Bait Exposing and Mitigating th.pdf,117.81,2.377,Phi-4
+2601.07291v1_A Visual Semantic Adaptive Watermark grounded by P.pdf,102.06,2.675,Phi-4
+2601.07292v1_Photometric Redshift Estimation Using Scaled Ensem.pdf,114.64,2.277,Phi-4
+2601.07296v1_LRAS Advanced Legal Reasoning with Agentic Search.pdf,117.65,2.584,Phi-4
+2601.07304v1_Heterogeneous Multi-Expert Reinforcement Learning .pdf,122.92,2.611,Phi-4
+2601.07309v1_ARM Role-Conditioned Neuron Transplantation for Tr.pdf,126.86,2.854,Phi-4
+2601.07313v1_Explaining Machine Learning Predictive Models thro.pdf,130.19,3.487,Phi-4
+2601.07315v1_VLM-CAD VLM-Optimized Collaborative Agent Design W.pdf,124.45,2.877,Phi-4
+2601.07316v1_BEAT-Net Injecting Biomimetic Spatio-Temporal Prio.pdf,123.63,2.524,Phi-4
+2601.07320v1_Segmental Advantage Estimation Enhancing PPO for L.pdf,129.51,3.598,Phi-4
+2601.07342v1_Agentic Diagnostic Reasoning over Telecom and Data.pdf,116.11,1.946,Phi-4
+2601.07344v1_PulseMind A Multi-Modal Medical Model for Real-Wor.pdf,127.09,3.462,Phi-4
+2601.07348v4_Controlled Self-Evolution for Algorithmic Code Opt.pdf,127.87,2.768,Phi-4
+2601.07351v2_Beyond Hard Masks Progressive Token Evolution for .pdf,116.58,2.702,Phi-4
+2601.07356v1_Efficient Convolutional Forward Model for Passive .pdf,115.22,2.317,Phi-4
+2601.07359v1_Seeing Right but Saying Wrong Inter- and Intra-Lay.pdf,118.42,2.314,Phi-4
+2601.07364v1_On the universal definition of intelligence.pdf,122.5,2.555,Phi-4
+2601.07372v1_Conditional Memory via Scalable Lookup A New Axis .pdf,127.74,3.147,Phi-4
+2601.07376v1_OpenTinker Separating Concerns in Agentic Reinforc.pdf,117.58,2.109,Phi-4
+2601.07377v1_Learning Dynamic Collaborative Network for Semi-su.pdf,109.45,1.891,Phi-4
+2601.07389v1_On the Non-decoupling of Supervised Fine-tuning an.pdf,119.89,2.244,Phi-4
+2601.07392v1_OceanSAR-2 A Universal Feature Extractor for SAR O.pdf,123.52,2.558,Phi-4
+2601.07393v1_Software-Hardware Co-optimization for Modular E2E .pdf,131.79,3.779,Phi-4
+2601.07395v1_MCP-ITP An Automated Framework for Implicit Tool P.pdf,118.21,2.259,Phi-4
+2601.07397v1_Layerwise goal-oriented adaptivity for neural ODEs.pdf,115.36,2.063,Phi-4
+2601.07411v1_SCALPEL Selective Capability Ablation via Low-rank.pdf,120.86,2.366,Phi-4
+2601.07422v1_Two Pathways to Truthfulness On the Intrinsic Enco.pdf,120.1,2.598,Phi-4
+2601.07430v1_KALE Enhancing Knowledge Manipulation in Large Lan.pdf,115.41,2.201,Phi-4
+2601.07449v1_RLPO Residual Listwise Preference Optimization for.pdf,119.85,2.603,Phi-4
+2601.07463v1_Puzzle it Out Local-to-Global World Model for Offl.pdf,126.51,3.083,Phi-4
+2601.07464v1_IFDNS An Iterative Feedback-Driven Neuro-Symbolic .pdf,122.55,2.799,Phi-4
+2601.07468v1_Beyond Dialogue Time Temporal Semantic Memory for .pdf,120.83,2.516,Phi-4
+2601.07469v1_Knowledge Distillation for LLM-Based Human Activit.pdf,111.97,2.251,Phi-4
+2601.07470v1_Learning How to Remember A Meta-Cognitive Manageme.pdf,119.95,2.56,Phi-4
+2601.07474v1_Task Prototype-Based Knowledge Retrieval for Multi.pdf,115.16,2.327,Phi-4
+2601.07475v1_ARCQuant Boosting NVFP4 Quantization with Augmente.pdf,121.98,2.681,Phi-4
+2601.07477v1_JudgeFlow Agentic Workflow Optimization via Block .pdf,117.46,2.29,Phi-4
+2601.07496v1_Graph Inference Towards ICD Coding.pdf,99.8,1.804,Phi-4
+2601.07514v1_Data-Driven Stochastic VRP Integration of Forecast.pdf,119.61,2.207,Phi-4
+2601.07516v1_Controlling Multimodal Conversational Agents with .pdf,116.47,2.507,Phi-4
+2601.07518v1_Mon3tr Monocular 3D Telepresence with Pre-built Ga.pdf,122.07,2.998,Phi-4
+2601.07525v1_Thinking Before Constraining A Unified Decoding Fr.pdf,118.23,2.47,Phi-4
+2601.07528v1_From RAG to Agentic RAG for Faithful Islamic Quest.pdf,120.12,2.822,Phi-4
+2601.07553v1_VirtualEnv A Platform for Embodied AI Research.pdf,124.73,3.287,Phi-4
+2601.07556v1_Backpropagation-Free Test-Time Adaptation for Ligh.pdf,115.74,2.739,Phi-4
+2601.07565v1_A Unified Framework for Emotion Recognition and Se.pdf,118.12,2.353,Phi-4
+2601.07568v1_d3LLM Ultra-Fast Diffusion LLM using Pseudo-Trajec.pdf,115.48,2.52,Phi-4
+2601.07573v1_A Model of Artificial Jagged Intelligence.pdf,124.85,2.715,Phi-4
+2601.07577v1_Beyond Entangled Planning Task-Decoupled Planning .pdf,125.97,3.31,Phi-4
+2601.07580v1_Large Language Models for Physics Instrument Desig.pdf,117.4,2.308,Phi-4
+2601.07582v2_ES-Mem Event Segmentation-Based Memory for Long-Te.pdf,107.31,2.348,Phi-4
+2601.07597v1_Pheromone-Focused Ant Colony Optimization algorith.pdf,116.23,2.34,Phi-4
+2601.07606v1_Proof of Time A Benchmark for Evaluating Scientifi.pdf,118.21,2.614,Phi-4
+2601.07611v1_DIAGPaper Diagnosing Valid and Specific Weaknesses.pdf,111.05,2.17,Phi-4
+2601.07618v1_Neural Architecture for Fast and Reliable Coagulat.pdf,110.66,2.359,Phi-4
+2601.07632v2_GeoMotionGPT Geometry-Aligned Motion Understanding.pdf,122.35,2.73,Phi-4
+2601.07635v2_Learning About Learning A Physics Path from Spin G.pdf,117.59,2.602,Phi-4
+2601.07638v1_SALT-KG A Benchmark for Semantics-Aware Learning o.pdf,122.22,2.749,Phi-4
+2601.07641v1_Beyond Static Tools Test-Time Tool Evolution for S.pdf,117.2,2.543,Phi-4
+2601.07651v1_Active Evaluation of General Agents Problem Defini.pdf,112.71,2.254,Phi-4
+2601.07654v1_Towards Automating Blockchain Consensus Verificati.pdf,111.63,1.944,Phi-4
+2601.07663v2_Reasoning Models Will Blatantly Lie About Their Re.pdf,106.96,1.982,Phi-4
+2601.07666v1_Variational Contrastive Learning for Skeleton-base.pdf,118.29,2.283,Phi-4
+2601.07667v1_Adaptive Layer Selection for Layer-Wise Token Prun.pdf,114.85,2.273,Phi-4
+2601.07685v1_Predictive Analytics for Dementia Machine Learning.pdf,122.01,2.697,Phi-4
+2601.07701v1_Deep Whole-body Parkour.pdf,110.47,1.973,Phi-4
+2601.07718v1_Hiking in the Wild A Scalable Perceptive Parkour F.pdf,120.31,2.344,Phi-4
+2601.07737v1_Evaluating the encoding competence of visual langu.pdf,108.09,1.323,Phi-4
+2601.07748v1_Improving Domain Generalization in Contrastive Lea.pdf,118.31,2.409,Phi-4
+2601.07778v1_DT-ICU Towards Explainable Digital Twins for ICU P.pdf,127.79,2.637,Phi-4
+2601.07779v1_OS-Symphony A Holistic Framework for Robust and Ge.pdf,117.35,2.983,Phi-4
+2601.07782v1_Beyond Single-Shot Multi-step Tool Retrieval via Q.pdf,116.41,2.328,Phi-4
+2601.07790v1_Benchmarking Small Language Models and Small Reaso.pdf,122.21,2.872,Phi-4
+2601.07794v1_Kinship Data Benchmark for Multi-hop Reasoning.pdf,111.4,2.172,Phi-4
+2601.07821v1_Failure-Aware RL Reliable Offline-to-Online Reinfo.pdf,119.54,2.568,Phi-4
+2601.07832v2_MHLA Restoring Expressivity of Linear Attention vi.pdf,120.14,2.58,Phi-4
+2601.07885v1_Small Symbols Big Risks Exploring Emoticon Semanti.pdf,114.41,2.587,Phi-4
+2601.07891v1_KVzap Fast Adaptive and Faithful KV Cache Pruning.pdf,109.99,1.937,Phi-4
+2601.07892v1_Sherry Hardware-Efficient 1.25-Bit Ternary Quantiz.pdf,121.07,2.627,Phi-4
+2601.07894v1_Revealing the Attention Floating Mechanism in Mask.pdf,123.27,2.701,Phi-4
+2601.07898v1_Large Language Models and Algorithm Execution Appl.pdf,115.81,2.107,Phi-4
+2601.07901v1_Decentralized Online Convex Optimization with Unkn.pdf,119.91,2.36,Phi-4
