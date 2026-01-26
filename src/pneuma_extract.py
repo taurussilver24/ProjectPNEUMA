@@ -8,7 +8,7 @@ from pypdf import PdfReader
 from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
-PLATFORM_NAME = "AMD RX 6800 (Vulkan)"  # Switch to "Apple M1 (Metal)" on Mac
+PLATFORM_NAME = "Nvidia RTX 4080M(CUDA)"  # Switch to "Apple M1 (Metal)" on Mac
 FILE_LIMIT = 5  # Set to 15 for your pilot test
 MODE = "SLM"  # "SLM" or "REGEX"
 
@@ -21,7 +21,7 @@ MODEL_QUEUE = [
 # --- 3. DYNAMIC PATH RESOLUTION ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 EXTERNAL_PATHS = [
-    "/run/media/taurus/Games/models/",  # Linux Desktop Path
+    "../models/",  # Linux/W11 Desktop Path
     "/Volumes/Games/models/"  # M1 Mac Path
 ]
 

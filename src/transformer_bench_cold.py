@@ -8,7 +8,7 @@ from pypdf import PdfReader
 from llama_cpp import Llama
 
 # --- 1. RESEARCH CONFIGURATION ---
-PLATFORM_NAME = "AMD RX 6800 (Vulkan)"
+PLATFORM_NAME = "Nvidia RTX 4080M(CUDA)"
 FILE_LIMIT = 5
 
 # --- 2. MODEL QUEUE ---
@@ -19,7 +19,7 @@ MODEL_QUEUE = [
 
 # --- 3. DYNAMIC PATH RESOLUTION ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL_DIR = "/run/media/taurus/Games/models/"
+MODEL_DIR = "../models/"
 DATA_DIR = os.path.join(BASE_DIR, "dataset")
 LOG_DIR = os.path.join(BASE_DIR, "logs")
 

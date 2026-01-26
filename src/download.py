@@ -3,7 +3,7 @@ import os
 
 # --- PATH CONFIG ---
 # Points relative to 'src' folder to land in root 'models'
-LOCAL_DIR = "../models/" 
+LOCAL_DIR = "../models/"
 
 MODELS = [
     {
