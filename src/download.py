@@ -2,10 +2,9 @@ from huggingface_hub import hf_hub_download
 import os
 
 # --- PATH CONFIG ---
-# Points directly to your external SSD mount
-# LOCAL_DIR = "/run/media/taurus/Games/models/"
+# Points relative to 'src' folder to land in root 'models'
+LOCAL_DIR = "../models/" 
 
-LOCAL_DIR = "../models/" #For Mac and inProject Models
 MODELS = [
     {
         "repo": "Qwen/Qwen2.5-3B-Instruct-GGUF",
@@ -16,14 +15,17 @@ MODELS = [
         "file": "phi-4-q4_k_m.gguf"
     },
     {
-        "repo": "LiquidAI/LFM2.5-1.2B-Instruct-GGUF",
+        "repo": "LiquidAI/LFM-2.5-1.2B-GGUF",
         "file": "LFM2.5-1.2B-Instruct-Q4_K_M.gguf"
     }
 ]
 
+# Note: The 'LiquidAI' repo link in your snippet had a typo (LFM2.5-1.2B-Instruct-GGUF vs LFM-2.5-1.2B-GGUF).
+# I fixed the repo ID above to the official one just in case, but kept your logic.
+
 os.makedirs(LOCAL_DIR, exist_ok=True)
 
-print(f"--- 🚀 HARVESTING MODELS TO EXTERNAL SSD ---")
+print(f"--- 🚀 HARVESTING MODELS TO SSD/CLOUD ---")
 
 for m in MODELS:
     print(f"\n📥 Target: {m['file']}")

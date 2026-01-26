@@ -3,52 +3,19 @@ import json
 import os
 import glob
 import pandas as pd
+import requests
 from pypdf import PdfReader
-from llama_cpp import Llama
 
-# --- CONFIGURATION ---
-PLATFORM_NAME = "AMD RX 6800 (Vulkan)"
-MODEL_FILE = "LFM2.5-1.2B-Instruct-Q4_K_M.gguf"
-FILE_LIMIT = 5
+# --- CONFIG ---
+PLATFORM_NAME = "Windows RTX 4080 (Native CUDA)"
+API_URL = "http://localhost:8080/v1/chat/completions"
+# Set this to 1000 for the full run
+FILE_LIMIT = 1000
 
 # --- PATHS ---
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MODEL_PATH = "/run/media/taurus/Games/models/" + MODEL_FILE
-DATA_DIR = os.path.join(BASE_DIR, "dataset")
-LOG_DIR = os.path.join(BASE_DIR, "logs")
-
-# --- 4. ENHANCED SYSTEM PROMPT (Restored Fields) ---
-# SYSTEM_PROMPT = """You are a metadata extraction system. Extract fields into JSON:
-# {
-#     "title": "Exact paper title",
-#     "authors": ["List of names"],
-#     "doi": "DOI string if found",
-#     "arxiv_id": "ID if found",
-#     "keywords": ["Technical tags"],
-#     "summary": "1-sentence abstract"
-# }
-# Output ONLY JSON."""
-
-# SYSTEM_PROMPT = """You are a high-precision academic metadata extractor.
-# Your task is to parse the provided text and extract specific metadata fields into a strict JSON format.
-#
-# RULES:
-# 1. Output ONLY valid JSON. Do not include markdown formatting (like ```json).
-# 2. If a field is not found, use null (do not make up data).
-# 3. "doi" must start with '10.'.
-# 4. "arxiv_id" must match the pattern 'YYMM.NNNNN'.
-#
-# REQUIRED JSON STRUCTURE:
-# {
-#     "title": "Exact title of the paper",
-#     "authors": ["Author 1", "Author 2", ...],
-#     "doi": "10.xxxx/xxxxx or null",
-#     "arxiv_id": "2401.12345 or null",
-#     "keywords": ["Key technical term 1", "Key technical term 2", ...],
-#     "summary": "A concise, single-sentence summary of the main contribution."
-# }"""
-
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.path.join(BASE_DIR, "..", "dataset",)
+LOG_DIR = os.path.join(BASE_DIR, "..", "logs")
 
 SYSTEM_PROMPT = """You are an expert research librarian. Analyze the document to extract metadata.
 
@@ -73,154 +40,106 @@ After your reasoning, output the final metadata in this exact JSON format inside
 }"""
 
 
-
-def run_lfm_warm():
-    if not os.path.exists(MODEL_PATH):
-        print(f"❌ Error: Model not found at {MODEL_PATH}")
-        return
-
-    print("\n" + "=" * 70)
+def run_standard_benchmark():
+    # 1. Setup
+    files = sorted(glob.glob(os.path.join(DATA_DIR, "*.pdf")))[:FILE_LIMIT]
+    print(f"\n" + "=" * 60)
     print(f"🔥 LFM-2.5 WARM MODE BENCHMARK")
     print(f"Platform: {PLATFORM_NAME}")
-    print(f"Files: {FILE_LIMIT}")
-    print("=" * 70 + "\n")
+    print(f"Files: {len(files)}")
+    print("=" * 60 + "\n")
 
-    # LOAD MODEL ONCE (WARM MODE)
-    print("Loading LFM-2.5 model (this happens ONCE)...")
-    start_load = time.time()
-    llm = Llama(
-        model_path=MODEL_PATH,
-        n_gpu_layers=-1,
-        n_ctx=4096,
-        n_batch=512,
-        verbose=False
-    )
-    load_time = time.time() - start_load
-    print(f"✅ Model loaded in {load_time:.2f}s\n")
+    # 2. Check Server
+    try:
+        requests.get("http://localhost:8080/health")
+    except:
+        print("❌ CRITICAL: llama-server.exe is not running!")
+        return
 
-    files = sorted(glob.glob(os.path.join(DATA_DIR, "*.pdf")))[:FILE_LIMIT]
     results = []
 
-    print(f"Processing {len(files)} files in WARM mode...\n")
-
+    # 3. Processing Loop
     for i, path in enumerate(files):
         fname = os.path.basename(path)
-
         try:
-            # Read PDF
+            # READ PDF
             text = PdfReader(path).pages[0].extract_text()[:3500]
 
-            # Inference (model stays loaded)
-            start_time = time.time()
-            resp = llm.create_chat_completion(
-                messages=[
+            # PAYLOAD
+            payload = {
+                "messages": [
                     {"role": "system", "content": SYSTEM_PROMPT},
                     {"role": "user", "content": text}
                 ],
-                response_format={"type": "json_object"},
-                temperature=0.1
-            )
+                "temperature": 0.1,
+                "response_format": {"type": "json_object"}
+            }
 
-            data = json.loads(resp['choices'][0]['message']['content'])
-            tokens = resp['usage']['completion_tokens']
-            inference_time = time.time() - start_time
-            tps = tokens / inference_time
+            # INFERENCE
+            resp = requests.post(API_URL, json=payload).json()
 
-            # CRITICAL: Clear KV cache after each file to prevent corruption
+            # --- METRIC CALCULATION (The Fair Comparison) ---
+            timings = resp.get('timings', {})
+
+            # Write Speed (Generation only)
+            g_n = timings.get('predicted_n', 0)
+            g_ms = timings.get('predicted_ms', 0)
+
+            if g_ms > 0:
+                write_tps = (g_n / g_ms) * 1000
+            else:
+                write_tps = 0
+
+            # --- PARSING ---
+            content = resp['choices'][0]['message']['content']
+
+            # Clean Markdown wrappers
+            if "```json" in content:
+                content = content.split("```json")[1].split("```")[0]
+            elif "```" in content:
+                content = content.split("```")[1]
+
             try:
-                llm.reset()  # Flush KV cache but keep model loaded
-            except AttributeError:
-                pass  # Method not available in this llama-cpp version
+                data = json.loads(content)
+            except:
+                data = {}
+
+            # Formatting
+            title = data.get("title", "N/A")
+            authors = data.get("authors", [])
+            keywords = data.get("keywords", [])
+            authors_str = ", ".join(authors) if isinstance(authors, list) else str(authors)
+            keywords_str = ", ".join(keywords) if isinstance(keywords, list) else str(keywords)
+
+            print(f"[{i + 1}/{len(files)}] {fname[:15]}... | TPS: {write_tps:.2f} | Title: {title[:30]}...")
 
             results.append({
                 "filename": fname,
-                "title": data.get("title", "N/A"),
-                "authors": ", ".join(data.get("authors", [])) if isinstance(data.get("authors"), list) else data.get(
-                    "authors", "N/A"),
+                "title": title,
+                "authors": authors_str,
                 "doi": data.get("doi", "None"),
                 "arxiv_id": data.get("arxiv_id", "None"),
-                "keywords": ", ".join(data.get("keywords", [])) if isinstance(data.get("keywords"), list) else data.get(
-                    "keywords", "None"),
+                "keywords": keywords_str,
                 "summary": data.get("summary", "N/A"),
-                "tps": round(tps, 2),
-                "inference_time": round(inference_time, 3),
-                "tokens": tokens,
-                "mode": "warm",
+                "tps": round(write_tps, 2),  # <--- THIS IS NOW PURE WRITE SPEED
                 "model": "LFM-2.5",
                 "platform": PLATFORM_NAME
             })
-
-            # Progress output
-            if (i + 1) % 10 == 0 or i == 0:
-                print(f"[{i + 1}/{len(files)}] {fname} | TPS: {tps:.2f} | Time: {inference_time:.2f}s")
 
         except Exception as e:
             print(f"❌ Error on {fname}: {e}")
-            results.append({
-                "filename": fname,
-                "title": "ERROR",
-                "authors": "ERROR",
-                "doi": "ERROR",
-                "arxiv_id": "ERROR",
-                "keywords": "ERROR",
-                "summary": str(e),
-                "tps": 0,
-                "inference_time": 0,
-                "tokens": 0,
-                "mode": "warm",
-                "model": "LFM-2.5",
-                "platform": PLATFORM_NAME
-            })
 
-    # Cleanup
-    del llm
+    # 4. SAVE (Standard Filename)
+    if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 
-    # Save results
-    output_csv = os.path.join(LOG_DIR, f"clash_LFM-2.5_warm_{PLATFORM_NAME.replace(' ', '_')}.csv")
-    df = pd.DataFrame(results)
-    df.to_csv(output_csv, index=False)
+    # Matches AMD naming convention
+    output_csv = os.path.join(LOG_DIR, "clash_LFM-2.5_warm_Nvidia_RTX_4080(CUDA).csv")
 
-    # Summary Statistics
-    successful = df[df['tps'] > 0]
+    cols = ["filename", "title", "authors", "doi", "arxiv_id", "keywords", "summary", "tps", "model", "platform"]
+    pd.DataFrame(results)[cols].to_csv(output_csv, index=False)
 
-    print("\n" + "=" * 70)
-    print("📊 WARM MODE BENCHMARK COMPLETE")
-    print("=" * 70)
-    print(f"\n✅ Results saved to: {output_csv}\n")
-
-    if len(successful) > 0:
-        print(f"Successful extractions: {len(successful)}/{len(files)}")
-        print(f"Model load time:        {load_time:.2f}s")
-        print(f"\nPerformance Metrics:")
-        print(f"  Mean TPS:             {successful['tps'].mean():.2f}")
-        print(f"  Median TPS:           {successful['tps'].median():.2f}")
-        print(f"  Min TPS:              {successful['tps'].min():.2f}")
-        print(f"  Max TPS:              {successful['tps'].max():.2f}")
-        print(f"  Std Dev:              {successful['tps'].std():.2f}")
-        print(f"\n  Mean inference time:  {successful['inference_time'].mean():.2f}s")
-        print(f"  Total runtime:        {successful['inference_time'].sum():.2f}s")
-
-        # Compare to cold start (if exists)
-        cold_csv = os.path.join(LOG_DIR, f"clash_LFM-2.5_{PLATFORM_NAME.replace(' ', '_')}.csv")
-        if os.path.exists(cold_csv):
-            cold_df = pd.read_csv(cold_csv)
-            cold_successful = cold_df[cold_df['tps'] > 0]
-            if len(cold_successful) > 0:
-                cold_tps = cold_successful['tps'].mean()
-                warm_tps = successful['tps'].mean()
-                speedup = ((warm_tps - cold_tps) / cold_tps) * 100
-                print(f"\n🔥 WARM vs COLD START COMPARISON:")
-                print(f"  Cold start TPS:       {cold_tps:.2f}")
-                print(f"  Warm mode TPS:        {warm_tps:.2f}")
-                print(f"  Speedup:              {speedup:+.1f}%")
-    else:
-        print("⚠️ No successful extractions")
-
-    print("\n" + "=" * 70 + "\n")
+    print(f"\n✅ Results saved: {output_csv}")
 
 
 if __name__ == "__main__":
-    if not os.path.exists(LOG_DIR):
-        os.makedirs(LOG_DIR)
-
-    run_lfm_warm()
+    run_standard_benchmark()
