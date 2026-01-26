@@ -4,19 +4,23 @@ import os
 import glob
 import pandas as pd
 import requests
+import subprocess
 from pypdf import PdfReader
 
 # --- CONFIG ---
-PLATFORM_NAME = "Windows RTX 4080 (Native CUDA)"
-API_URL = "http://localhost:8080/v1/chat/completions"
-# Set this to 1000 for the full run
-FILE_LIMIT = 1000
+PLATFORM_NAME = "Nvidia B200 (Cloud Native)"
+FILE_LIMIT = 1000  # Full run
 
-# --- PATHS ---
+# --- PATHS (Linux/Cloud Structure) ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "..", "dataset",)
+# Note: No '.exe' for Linux binary
+SERVER_EXE = os.path.join(BASE_DIR, "..", "llama_dist", "llama-server")
+MODEL_PATH = os.path.join(BASE_DIR, "..", "models", "LFM2.5-1.2B-Instruct-Q4_K_M.gguf")
+DATA_DIR = os.path.join(BASE_DIR, "..", "dataset")
 LOG_DIR = os.path.join(BASE_DIR, "..", "logs")
+API_URL = "http://localhost:8080/v1/chat/completions"
 
+# --- PROMPT ---
 SYSTEM_PROMPT = """You are an expert research librarian. Analyze the document to extract metadata.
 
 STEP 1: REASONING
@@ -40,32 +44,57 @@ After your reasoning, output the final metadata in this exact JSON format inside
 }"""
 
 
-def run_standard_benchmark():
-    # 1. Setup
-    files = sorted(glob.glob(os.path.join(DATA_DIR, "*.pdf")))[:FILE_LIMIT]
-    print(f"\n" + "=" * 60)
-    print(f"🔥 LFM-2.5 WARM MODE BENCHMARK")
-    print(f"Platform: {PLATFORM_NAME}")
-    print(f"Files: {len(files)}")
-    print("=" * 60 + "\n")
+def wait_for_server():
+    """Polls server until ready."""
+    print("⏳ Waiting for B200 Ignition...")
+    for _ in range(200):  # 10 seconds max
+        try:
+            if requests.get("http://localhost:8080/health", timeout=0.5).status_code == 200:
+                return True
+        except:
+            pass
+        time.sleep(0.05)
+    return False
 
-    # 2. Check Server
-    try:
-        requests.get("http://localhost:8080/health")
-    except:
-        print("❌ CRITICAL: llama-server.exe is not running!")
+
+def run_b200_warm_benchmark():
+    print(f"\n" + "=" * 60)
+    print(f"🔥 LFM-2.5 WARM MODE (B200 EDITION)")
+    print(f"Platform: {PLATFORM_NAME}")
+    print(f"=" * 60 + "\n")
+
+    if not os.path.exists(SERVER_EXE):
+        print(f"❌ CRITICAL: Could not find server binary at {SERVER_EXE}")
+        print("   Did you run ./setup_b200.sh?")
         return
 
+    # 1. KILL OLD SERVERS (Linux Command)
+    subprocess.run(["pkill", "-9", "llama-server"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    time.sleep(1)
+
+    # 2. START SERVER
+    # -ngl 99: Force all layers to GPU
+    # -c 32768: Large context window
+    print(f"🚀 Launching Engine...")
+    server_process = subprocess.Popen(
+        [SERVER_EXE, "-m", MODEL_PATH, "-ngl", "99", "-c", "32768", "--port", "8080", "--host", "0.0.0.0"],
+        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL
+    )
+
+    if not wait_for_server():
+        print("❌ Server failed to start! Check logs.")
+        server_process.terminate()
+        return
+
+    files = sorted(glob.glob(os.path.join(DATA_DIR, "*.pdf")))[:FILE_LIMIT]
     results = []
 
-    # 3. Processing Loop
+    # 3. PROCESSING LOOP
     for i, path in enumerate(files):
         fname = os.path.basename(path)
         try:
-            # READ PDF
             text = PdfReader(path).pages[0].extract_text()[:3500]
 
-            # PAYLOAD
             payload = {
                 "messages": [
                     {"role": "system", "content": SYSTEM_PROMPT},
@@ -75,25 +104,16 @@ def run_standard_benchmark():
                 "response_format": {"type": "json_object"}
             }
 
-            # INFERENCE
             resp = requests.post(API_URL, json=payload).json()
 
-            # --- METRIC CALCULATION (The Fair Comparison) ---
+            # METRICS (Write Speed)
             timings = resp.get('timings', {})
-
-            # Write Speed (Generation only)
             g_n = timings.get('predicted_n', 0)
             g_ms = timings.get('predicted_ms', 0)
+            write_tps = (g_n / g_ms * 1000) if g_ms > 0 else 0
 
-            if g_ms > 0:
-                write_tps = (g_n / g_ms) * 1000
-            else:
-                write_tps = 0
-
-            # --- PARSING ---
+            # PARSING
             content = resp['choices'][0]['message']['content']
-
-            # Clean Markdown wrappers
             if "```json" in content:
                 content = content.split("```json")[1].split("```")[0]
             elif "```" in content:
@@ -104,24 +124,15 @@ def run_standard_benchmark():
             except:
                 data = {}
 
-            # Formatting
             title = data.get("title", "N/A")
-            authors = data.get("authors", [])
-            keywords = data.get("keywords", [])
-            authors_str = ", ".join(authors) if isinstance(authors, list) else str(authors)
-            keywords_str = ", ".join(keywords) if isinstance(keywords, list) else str(keywords)
-
-            print(f"[{i + 1}/{len(files)}] {fname[:15]}... | TPS: {write_tps:.2f} | Title: {title[:30]}...")
+            print(f"[{i + 1}/{len(files)}] {fname[:10]}... | TPS: {write_tps:.2f} | Title: {title[:20]}...")
 
             results.append({
                 "filename": fname,
                 "title": title,
-                "authors": authors_str,
-                "doi": data.get("doi", "None"),
-                "arxiv_id": data.get("arxiv_id", "None"),
-                "keywords": keywords_str,
+                "authors": str(data.get("authors", [])),
                 "summary": data.get("summary", "N/A"),
-                "tps": round(write_tps, 2),  # <--- THIS IS NOW PURE WRITE SPEED
+                "tps": round(write_tps, 2),
                 "model": "LFM-2.5",
                 "platform": PLATFORM_NAME
             })
@@ -129,17 +140,20 @@ def run_standard_benchmark():
         except Exception as e:
             print(f"❌ Error on {fname}: {e}")
 
-    # 4. SAVE (Standard Filename)
+    # 4. CLEANUP & SAVE
+    server_process.terminate()
+    # Force kill just in case
+    subprocess.run(["pkill", "-9", "llama-server"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
     if not os.path.exists(LOG_DIR): os.makedirs(LOG_DIR)
 
-    # Matches AMD naming convention
-    output_csv = os.path.join(LOG_DIR, "clash_LFM-2.5_warm_Nvidia_RTX_4080(CUDA).csv")
+    # Filename matches AMD/Nvidia convention
+    output_csv = os.path.join(LOG_DIR, "clash_LFM-2.5_Warm_Nvidia_B200.csv")
 
-    cols = ["filename", "title", "authors", "doi", "arxiv_id", "keywords", "summary", "tps", "model", "platform"]
+    cols = ["filename", "title", "authors", "summary", "tps", "model", "platform"]
     pd.DataFrame(results)[cols].to_csv(output_csv, index=False)
-
     print(f"\n✅ Results saved: {output_csv}")
 
 
 if __name__ == "__main__":
-    run_standard_benchmark()
+    run_b200_warm_benchmark()
